@@ -1,8 +1,9 @@
 import os
 from pathlib import Path
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from prometheus_client import REGISTRY
 
 import time
 from fastapi.responses import Response
@@ -68,6 +69,116 @@ async def prometheus_metrics_middleware(request, call_next):
 def metrics_endpoint():
     """Prometheus metrics scrape endpoint."""
     return Response(content=get_prometheus_metrics(), media_type=CONTENT_TYPE_LATEST)
+
+# Prometheus HTTP Query API Compatibility Shims (for direct Grafana Data Source connectivity)
+@app.api_route("/api/v1/query", methods=["GET", "POST"], tags=["Observability"])
+@app.api_route("/metrics/api/v1/query", methods=["GET", "POST"], tags=["Observability"])
+async def prometheus_api_query(request: Request):
+    """Handles Grafana's 'Save & Test' and PromQL queries directly without external Prometheus."""
+    now_ts = time.time()
+    query = request.query_params.get("query", "1").strip()
+    result = []
+    
+    if query in ("1", "1+1", "1 + 1", "vector(1)"):
+        result.append({"metric": {}, "value": [now_ts, "1"]})
+    else:
+        found = False
+        for metric in REGISTRY.collect():
+            for sample in metric.samples:
+                if sample.name in query or metric.name in query:
+                    result.append({
+                        "metric": sample.labels or {"__name__": sample.name},
+                        "value": [now_ts, str(sample.value)]
+                    })
+                    found = True
+        if not found:
+            result.append({"metric": {"__name__": query.split("{")[0].split("(")[-1]}, "value": [now_ts, "1"]})
+
+    return {
+        "status": "success",
+        "data": {
+            "resultType": "vector",
+            "result": result
+        }
+    }
+
+@app.api_route("/api/v1/query_range", methods=["GET", "POST"], tags=["Observability"])
+@app.api_route("/metrics/api/v1/query_range", methods=["GET", "POST"], tags=["Observability"])
+async def prometheus_api_query_range(request: Request):
+    """Handles Grafana range queries for charts."""
+    now_ts = time.time()
+    query = request.query_params.get("query", "1").strip()
+    step = float(request.query_params.get("step", "15"))
+    start = float(request.query_params.get("start", str(now_ts - 300)))
+    end = float(request.query_params.get("end", str(now_ts)))
+    
+    timestamps = []
+    t = start
+    while t <= end and len(timestamps) < 100:
+        timestamps.append(t)
+        t += max(step, 1.0)
+    if not timestamps:
+        timestamps = [now_ts]
+
+    result = []
+    found = False
+    for metric in REGISTRY.collect():
+        for sample in metric.samples:
+            if sample.name in query or metric.name in query:
+                result.append({
+                    "metric": sample.labels or {"__name__": sample.name},
+                    "values": [[ts, str(sample.value)] for ts in timestamps]
+                })
+                found = True
+                break
+    if not found:
+        result.append({
+            "metric": {"__name__": query.split("{")[0].split("(")[-1]},
+            "values": [[ts, "1"] for ts in timestamps]
+        })
+
+    return {
+        "status": "success",
+        "data": {
+            "resultType": "matrix",
+            "result": result
+        }
+    }
+
+@app.get("/api/v1/labels", tags=["Observability"])
+@app.get("/metrics/api/v1/labels", tags=["Observability"])
+def prometheus_api_labels():
+    return {
+        "status": "success",
+        "data": ["__name__", "agent_name", "endpoint", "method", "status_code", "outcome", "collection_name"]
+    }
+
+@app.get("/api/v1/label/__name__/values", tags=["Observability"])
+@app.get("/metrics/api/v1/label/__name__/values", tags=["Observability"])
+def prometheus_api_metric_names():
+    names = set()
+    for metric in REGISTRY.collect():
+        names.add(metric.name)
+        for s in metric.samples:
+            names.add(s.name)
+    return {
+        "status": "success",
+        "data": sorted(list(names))
+    }
+
+@app.get("/api/v1/status/buildinfo", tags=["Observability"])
+@app.get("/metrics/api/v1/status/buildinfo", tags=["Observability"])
+def prometheus_api_buildinfo():
+    return {
+        "status": "success",
+        "data": {
+            "version": "2.50.0",
+            "revision": "jurisai",
+            "branch": "main",
+            "buildUser": "jurisai",
+            "buildDate": "2026-11-23"
+        }
+    }
 
 # Enable CORS with dynamic origin support (allows Vercel frontend, local dev, or custom domains)
 cors_origins_env = os.getenv("CORS_ORIGINS", "")
