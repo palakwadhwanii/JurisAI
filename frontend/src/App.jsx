@@ -38,6 +38,11 @@ export default function App() {
   const [authModalOpen, setAuthModalOpen] = useState(false);
   const [historyModalOpen, setHistoryModalOpen] = useState(false);
 
+  // Auto-warm Render backend on initial app load to minimize free-tier cold start latency
+  useEffect(() => {
+    apiFetch('/api/health').catch(() => {});
+  }, []);
+
   // Validate session on app launch
   useEffect(() => {
     const verifyToken = async () => {

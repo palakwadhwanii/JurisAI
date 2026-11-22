@@ -1,0 +1,30 @@
+name: Render Backend Keep-Alive (Zero Cold Start)
+
+on:
+  schedule:
+    # Runs every 14 minutes (Render free instances spin down after 15 minutes of inactivity)
+    - cron: '*/14 * * * *'
+  workflow_dispatch: # Allows manual trigger anytime from the Actions tab
+
+jobs:
+  keep-alive:
+    name: Ping Render Free Instance
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Keep-Alive Ping
+        run: |
+          TARGET_URL="${{ secrets.RENDER_BACKEND_URL }}"
+          if [ -z "$TARGET_URL" ]; then
+            # Default placeholder; user can set secret or update this URL
+            echo "Notice: RENDER_BACKEND_URL secret is not set yet."
+            echo "To enable automated keep-alive, add RENDER_BACKEND_URL (e.g. https://jurisai-backend.onrender.com) to your GitHub repository secrets."
+          else
+            echo "Pinging ${TARGET_URL}/api/health ..."
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -m 25 "${TARGET_URL}/api/health" || true)
+            echo "Ping response HTTP code: ${HTTP_CODE}"
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "✅ Backend is warm, active, and healthy!"
+            else
+              echo "⚠️ Backend responded with code ${HTTP_CODE} or is waking up."
+            fi
+          fi
