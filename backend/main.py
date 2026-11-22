@@ -16,15 +16,26 @@ from observability.metrics import (
     CONTENT_TYPE_LATEST
 )
 
+from contextlib import asynccontextmanager
+import threading
+from backend.services.jurisai_engine import get_engine
+
 # Initialize structured logging to logs/jurisai_app.log
 LOGS_DIR = Path(__file__).resolve().parent.parent / "logs"
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 app_logger = setup_logging(log_file=LOGS_DIR / "jurisai_app.log")
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Pre-warm singleton engine on background thread at startup
+    threading.Thread(target=get_engine, daemon=True).start()
+    yield
+
 app = FastAPI(
     title="JurisAI: Indian Family Law Multi-Agent System",
     description="Constraint-Aware Legal Reasoning & Self-Checking Multi-Agent Analysis across 12 Central Indian Acts.",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
 # HTTP Request Metrics Middleware
@@ -88,7 +99,7 @@ FRONTEND_DIST = Path(__file__).resolve().parent.parent / "frontend" / "dist"
 if FRONTEND_DIST.exists():
     app.mount("/", StaticFiles(directory=str(FRONTEND_DIST), html=True), name="frontend")
 else:
-    @app.get("/")
+    @app.api_route("/", methods=["GET", "HEAD"])
     def root():
         return {
             "project": "JurisAI: Multi-Agent Constraint-Aware Legal Reasoning",

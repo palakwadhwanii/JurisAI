@@ -138,11 +138,16 @@ class JurisAIEngine:
             }
         ]
 
-# Global singleton instance
+import threading
+
+# Global thread-safe singleton instance
 engine_instance = None
+_engine_lock = threading.Lock()
 
 def get_engine() -> JurisAIEngine:
     global engine_instance
     if engine_instance is None:
-        engine_instance = JurisAIEngine()
+        with _engine_lock:
+            if engine_instance is None:
+                engine_instance = JurisAIEngine()
     return engine_instance

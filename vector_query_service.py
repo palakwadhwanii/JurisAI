@@ -1,5 +1,6 @@
 import os
 import time
+import threading
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import chromadb
@@ -8,34 +9,43 @@ from fastembed import TextEmbedding
 BASE_DIR = Path(__file__).resolve().parent
 CHROMA_PERSIST_DIR = Path(os.getenv("CHROMA_PERSIST_DIR", str(BASE_DIR / "chroma_db")))
 
+# Shared process-level singletons to maintain a minimal RAM footprint (<150MB on Render 512MB free tier)
+_shared_client: Optional[chromadb.PersistentClient] = None
+_shared_embed_model: Optional[TextEmbedding] = None
+_init_lock = threading.Lock()
+
+def get_shared_client(persist_dir: Path) -> chromadb.PersistentClient:
+    global _shared_client
+    if _shared_client is None:
+        with _init_lock:
+            if _shared_client is None:
+                persist_dir.mkdir(parents=True, exist_ok=True)
+                _shared_client = chromadb.PersistentClient(path=str(persist_dir))
+    return _shared_client
+
+def get_shared_embed_model(model_name: str = "BAAI/bge-small-en-v1.5") -> TextEmbedding:
+    global _shared_embed_model
+    if _shared_embed_model is None:
+        with _init_lock:
+            if _shared_embed_model is None:
+                # threads=1 drastically curtails ONNX Runtime memory allocation
+                _shared_embed_model = TextEmbedding(model_name=model_name, threads=1)
+    return _shared_embed_model
+
 class LegalVectorStore:
     def __init__(self, persist_dir: Path = CHROMA_PERSIST_DIR, model_name: str = "BAAI/bge-small-en-v1.5"):
         self.persist_dir = persist_dir
-        self.persist_dir.mkdir(parents=True, exist_ok=True)
-        self.client = chromadb.PersistentClient(path=str(persist_dir))
+        self.client = get_shared_client(persist_dir)
         try:
             self.master_col = self.client.get_collection("legal_corpus")
             self.statute_col = self.client.get_collection("statute_sections")
             self.precedent_col = self.client.get_collection("precedent_chunks")
         except Exception:
-            # Auto-build vector store if collections do not exist and chunks are present
-            chunks_path = BASE_DIR / "chunks" / "all_legal_chunks.json"
-            if chunks_path.exists():
-                try:
-                    import build_vector_db
-                    build_vector_db.main()
-                    self.master_col = self.client.get_collection("legal_corpus")
-                    self.statute_col = self.client.get_collection("statute_sections")
-                    self.precedent_col = self.client.get_collection("precedent_chunks")
-                except Exception:
-                    self.master_col = self.client.get_or_create_collection("legal_corpus")
-                    self.statute_col = self.client.get_or_create_collection("statute_sections")
-                    self.precedent_col = self.client.get_or_create_collection("precedent_chunks")
-            else:
-                self.master_col = self.client.get_or_create_collection("legal_corpus")
-                self.statute_col = self.client.get_or_create_collection("statute_sections")
-                self.precedent_col = self.client.get_or_create_collection("precedent_chunks")
-        self.embed_model = TextEmbedding(model_name=model_name)
+            # Fallback if collections not yet present
+            self.master_col = self.client.get_or_create_collection("legal_corpus")
+            self.statute_col = self.client.get_or_create_collection("statute_sections")
+            self.precedent_col = self.client.get_or_create_collection("precedent_chunks")
+        self.embed_model = get_shared_embed_model(model_name)
 
     def _get_embedding(self, query: str) -> List[float]:
         return list(self.embed_model.embed([query]))[0].tolist()

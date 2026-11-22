@@ -12,25 +12,16 @@ from backend.services.jurisai_engine import get_engine, JurisAIEngine
 router = APIRouter(prefix="/api", tags=["Legal Case Analysis"])
 
 @router.get("/health")
-def health_check(engine: JurisAIEngine = Depends(get_engine)):
+def health_check():
+    """Lightweight health check that returns 200 OK immediately for Render health probes without consuming memory."""
+    from backend.services.jurisai_engine import engine_instance
+    is_ready = engine_instance is not None
     return {
         "status": "healthy",
         "service": "JurisAI Legal Reasoning Backend",
+        "engine_ready": is_ready,
         "acts_covered": 12,
-        "precedents_indexed": 91,
-        "chroma_master_chunks": engine.vector_store.master_col.count(),
-        "chroma_statute_chunks": engine.vector_store.statute_col.count(),
-        "chroma_precedent_chunks": engine.vector_store.precedent_col.count(),
-        "agents_available": [
-            "CaseManagerAgent",
-            "LawAgent",
-            "PrecedentAgent",
-            "EvidenceAgent",
-            "ConstraintHunterAgent",
-            "OppositionAgent",
-            "AuditorAgent",
-            "JudgeAgent"
-        ]
+        "precedents_indexed": 91
     }
 
 @router.get("/sample-cases", response_model=List[SampleCaseItem])
