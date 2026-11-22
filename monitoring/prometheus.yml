@@ -2,12 +2,18 @@ global:
   scrape_interval: 10s
   evaluation_interval: 10s
 
+remote_write:
+  - url: https://prometheus-prod-43-prod-ap-south-1.grafana.net/api/prom/push
+    basic_auth:
+      username: "3641293"
+      password_file: monitoring/grafana_cloud_token.txt
+
 scrape_configs:
   - job_name: 'jurisai-backend'
     scrape_interval: 5s
     metrics_path: '/metrics'
     static_configs:
-      - targets: ['127.0.0.1:8000']
+      - targets: ['127.0.0.1:8000', 'localhost:8000']
         labels:
           app: 'jurisai'
           environment: 'production'

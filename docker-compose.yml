@@ -72,6 +72,7 @@ services:
       - "${PROMETHEUS_PORT:-9090}:9090"
     volumes:
       - ./monitoring/prometheus.docker.yml:/etc/prometheus/prometheus.yml:ro
+      - ./monitoring/grafana_cloud_token.txt:/etc/prometheus/grafana_cloud_token.txt:ro
       - prometheus_data:/prometheus
     depends_on:
       - backend

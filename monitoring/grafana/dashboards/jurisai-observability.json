@@ -11,35 +11,70 @@
   "panels": [
     {
       "collapsed": false,
-      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 0 },
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
       "id": 100,
       "title": "API & Pipeline Overview",
       "type": "row"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
       "fieldConfig": {
         "defaults": {
-          "color": { "mode": "palette-classic" },
-          "custom": { "fillOpacity": 80, "gradientMode": "none" },
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "fillOpacity": 80,
+            "gradientMode": "none"
+          },
           "mappings": [],
-          "thresholds": { "mode": "absolute", "steps": [{ "color": "green", "value": null }] }
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          }
         }
       },
-      "gridPos": { "h": 5, "w": 6, "x": 0, "y": 1 },
+      "gridPos": {
+        "h": 5,
+        "w": 6,
+        "x": 0,
+        "y": 1
+      },
       "id": 1,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
-        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
         "textMode": "auto"
       },
       "pluginVersion": "10.0.0",
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum(jurisai_api_requests_total)",
           "legendFormat": "Total Requests",
@@ -51,27 +86,54 @@
       "type": "stat"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
       "fieldConfig": {
         "defaults": {
-          "color": { "mode": "palette-classic" },
+          "color": {
+            "mode": "palette-classic"
+          },
           "mappings": [],
-          "thresholds": { "mode": "absolute", "steps": [{ "color": "blue", "value": null }] }
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "blue",
+                "value": null
+              }
+            ]
+          }
         }
       },
-      "gridPos": { "h": 5, "w": 6, "x": 6, "y": 1 },
+      "gridPos": {
+        "h": 5,
+        "w": 6,
+        "x": 6,
+        "y": 1
+      },
       "id": 2,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
-        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
         "textMode": "auto"
       },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum(jurisai_case_analyses_total)",
           "legendFormat": "Analyses Completed",
@@ -83,27 +145,54 @@
       "type": "stat"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
       "fieldConfig": {
         "defaults": {
-          "color": { "mode": "palette-classic" },
+          "color": {
+            "mode": "palette-classic"
+          },
           "mappings": [],
-          "thresholds": { "mode": "absolute", "steps": [{ "color": "orange", "value": null }] }
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "orange",
+                "value": null
+              }
+            ]
+          }
         }
       },
-      "gridPos": { "h": 5, "w": 6, "x": 12, "y": 1 },
+      "gridPos": {
+        "h": 5,
+        "w": 6,
+        "x": 12,
+        "y": 1
+      },
       "id": 3,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
-        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
         "textMode": "auto"
       },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum(jurisai_reanalysis_iterations_total) or vector(0)",
           "legendFormat": "Re-analysis Loops",
@@ -115,27 +204,58 @@
       "type": "stat"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
       "fieldConfig": {
         "defaults": {
-          "color": { "mode": "palette-classic" },
+          "color": {
+            "mode": "palette-classic"
+          },
           "mappings": [],
-          "thresholds": { "mode": "absolute", "steps": [{ "color": "green", "value": 0 }, { "color": "red", "value": 1 }] }
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 1
+              }
+            ]
+          }
         }
       },
-      "gridPos": { "h": 5, "w": 6, "x": 18, "y": 1 },
+      "gridPos": {
+        "h": 5,
+        "w": 6,
+        "x": 18,
+        "y": 1
+      },
       "id": 4,
       "options": {
         "colorMode": "value",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
-        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
         "textMode": "auto"
       },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "(sum(jurisai_agent_failures_total) or vector(0)) + (sum(jurisai_rag_retrieval_failures_total) or vector(0))",
           "legendFormat": "Total Failures",
@@ -148,13 +268,21 @@
     },
     {
       "collapsed": false,
-      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 6 },
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 6
+      },
       "id": 101,
       "title": "Agent Execution & Latency",
       "type": "row"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -165,12 +293,25 @@
           "unit": "s"
         }
       },
-      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 7 },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 7
+      },
       "id": 5,
-      "options": { "legend": { "displayMode": "table", "placement": "bottom" } },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom"
+        }
+      },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum by (agent_name) (jurisai_agent_execution_duration_seconds_sum) / sum by (agent_name) (jurisai_agent_execution_duration_seconds_count)",
           "legendFormat": "{{agent_name}}",
@@ -182,7 +323,10 @@
       "type": "timeseries"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
       "fieldConfig": {
         "defaults": {
           "custom": {
@@ -193,12 +337,25 @@
           "unit": "s"
         }
       },
-      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 7 },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 7
+      },
       "id": 6,
-      "options": { "legend": { "displayMode": "table", "placement": "bottom" } },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom"
+        }
+      },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum by (collection_name) (jurisai_rag_retrieval_duration_seconds_sum) / sum by (collection_name) (jurisai_rag_retrieval_duration_seconds_count)",
           "legendFormat": "RAG: {{collection_name}}",
@@ -211,20 +368,44 @@
     },
     {
       "collapsed": false,
-      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 15 },
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 15
+      },
       "id": 102,
       "title": "Audit & Outcomes Distribution",
       "type": "row"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
-      "fieldConfig": { "defaults": {} },
-      "gridPos": { "h": 8, "w": 8, "x": 0, "y": 16 },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
+      "fieldConfig": {
+        "defaults": {}
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 0,
+        "y": 16
+      },
       "id": 7,
-      "options": { "legend": { "displayMode": "list", "placement": "right" }, "pieType": "pie" },
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "right"
+        },
+        "pieType": "pie"
+      },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum by (outcome) (jurisai_case_analyses_total)",
           "legendFormat": "{{outcome}}",
@@ -236,14 +417,33 @@
       "type": "piechart"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
-      "fieldConfig": { "defaults": {} },
-      "gridPos": { "h": 8, "w": 8, "x": 8, "y": 16 },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
+      "fieldConfig": {
+        "defaults": {}
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 8,
+        "y": 16
+      },
       "id": 8,
-      "options": { "legend": { "displayMode": "list", "placement": "right" }, "pieType": "pie" },
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "right"
+        },
+        "pieType": "pie"
+      },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum by (audit_status) (jurisai_audit_results_total)",
           "legendFormat": "{{audit_status}}",
@@ -255,19 +455,38 @@
       "type": "piechart"
     },
     {
-      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "datasource": {
+        "type": "prometheus",
+        "uid": ""
+      },
       "fieldConfig": {
         "defaults": {
-          "custom": { "fillOpacity": 60, "drawStyle": "bars" },
+          "custom": {
+            "fillOpacity": 60,
+            "drawStyle": "bars"
+          },
           "unit": "short"
         }
       },
-      "gridPos": { "h": 8, "w": 8, "x": 16, "y": 16 },
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 16,
+        "y": 16
+      },
       "id": 9,
-      "options": { "legend": { "displayMode": "list", "placement": "bottom" } },
+      "options": {
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom"
+        }
+      },
       "targets": [
         {
-          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "datasource": {
+            "type": "prometheus",
+            "uid": ""
+          },
           "editorMode": "code",
           "expr": "sum by (collection_name) (jurisai_rag_retrieved_documents_count_sum) / sum by (collection_name) (jurisai_rag_retrieved_documents_count_count)",
           "legendFormat": "Avg Chunks: {{collection_name}}",
@@ -281,11 +500,29 @@
   ],
   "schemaVersion": 38,
   "style": "dark",
-  "tags": ["jurisai", "legal-tech", "observability", "metrics"],
-  "time": { "from": "now-1h", "to": "now" },
+  "tags": [
+    "jurisai",
+    "legal-tech",
+    "observability",
+    "metrics"
+  ],
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
   "timepicker": {},
   "timezone": "browser",
   "title": "JurisAI: Legal Reasoning Multi-Agent Observability",
   "uid": "jurisai-observability-dashboard",
-  "version": 2
+  "version": 2,
+  "__inputs": [
+    {
+      "name": "DS_PROMETHEUS",
+      "label": "Prometheus",
+      "description": "Prometheus Data Source",
+      "type": "datasource",
+      "pluginId": "prometheus",
+      "pluginName": "Prometheus"
+    }
+  ]
 }
