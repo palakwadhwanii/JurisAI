@@ -29,8 +29,8 @@ logs/
 *.log
 monitoring/grafana/logs/
 
-# Generated vector database
-chroma_db/
+# Pre-indexed vector database included for zero-overhead cloud deployment
+# chroma_db/
 
 # Chunk data (keep essential legal chunks for remote builds and indexing)
 chunks/*.tmp
@@ -46,6 +46,7 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
+!chroma_db/chroma.sqlite3
 
 # Large datasets
 raw/
