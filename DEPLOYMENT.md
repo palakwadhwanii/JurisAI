@@ -221,3 +221,38 @@ If the repository owner has not added you yet:
 3. Whenever you want to contribute updates to the original project, create a Pull Request from your fork back to their original repository.
 4. Once the owner accepts your PR and/or adds you as a collaborator, future changes can be pushed directly.
 
+---
+
+## Part 6: Observability, Prometheus & Grafana in Cloud vs Local
+
+### Why Did `localhost:3000` and `127.0.0.1:9090` Not Work on the Deployed App?
+- In local development (`docker compose up`), Grafana runs on port 3000 and Prometheus runs on port 9090 on your physical computer.
+- When running in the cloud (Vercel + Render free tier), the website is hosted on the public internet (`https://juris-ai-bice.vercel.app`).
+- Clicking `localhost:3000` or `127.0.0.1:9090` from a cloud website fails because:
+  1. No Docker container is currently running on the user's local machine on those ports.
+  2. Modern web browsers block public HTTPS websites from accessing private local network IP addresses (`127.0.0.1`) due to Private Network Access (PNA) security restrictions.
+  3. Render free tier runs only the Python backend service, not secondary Grafana or Prometheus containers.
+
+### How Observability Works in JurisAI:
+JurisAI provides three flexible ways to monitor the application:
+
+1. **Native In-App Observability Center (Zero Setup)**:
+   - Clicking **Open Grafana Dashboard** or **Prometheus Targets** inside the app opens the interactive **Observability & Prometheus Center**.
+   - Displays real-time API roundtrip latency, 8-agent execution durations (p95 matrix), RAG search speed (~10-15ms), and live parsed Prometheus metric lines.
+   - Allows instant live probing of the Render scrape target (`https://<render-backend>/metrics`).
+
+2. **Running Prometheus & Grafana Locally (Connected to Cloud)**:
+   - Run the pre-configured Docker Compose stack:
+     ```bash
+     docker compose up -d grafana prometheus
+     ```
+   - Grafana will be available at `http://localhost:3000` (Default credentials: `admin` / `admin`).
+   - Prometheus web console will be available at `http://127.0.0.1:9090/targets`.
+
+3. **Connecting Free Grafana Cloud (No Local Server Needed)**:
+   - Create a free account at [grafana.com](https://grafana.com) (Forever Free tier: 10,000 metrics, 3 dashboards).
+   - In Grafana Cloud, add a Prometheus scrape job pointing to `https://<your-render-backend>.onrender.com/metrics`.
+   - In Vercel Project Settings > Environment Variables, set `VITE_GRAFANA_URL` = your Grafana dashboard public URL.
+   - The "Open Grafana Dashboard" button in the app will automatically open your live Cloud Grafana dashboard.
+
+

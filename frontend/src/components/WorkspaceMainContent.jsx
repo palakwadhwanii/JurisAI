@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { getApiUrl } from '../api/config';
 import HumanReadableLegalCard from './HumanReadableLegalCard';
 import CaseChat from './CaseChat';
+import ObservabilityModal from './ObservabilityModal';
 import { 
   FileText, 
   BookOpen, 
@@ -70,6 +71,9 @@ export default function WorkspaceMainContent({
   const { case_state, agent_outputs, outcome, final_judgment, audit_history, elapsed_seconds, total_iterations } = analysisData;
   const latestAudit = audit_history && audit_history.length > 0 ? audit_history[audit_history.length - 1] : null;
   const isAntiHallucinationPause = outcome === 'INSUFFICIENT_INFORMATION' || outcome === 'OUT_OF_SCOPE' || case_state?.is_valid_case === false;
+
+  const [observabilityModalOpen, setObservabilityModalOpen] = useState(false);
+  const [observabilityModalTab, setObservabilityModalTab] = useState('metrics');
 
   return (
     <main className="workspace-main">
@@ -967,15 +971,28 @@ export default function WorkspaceMainContent({
 
               {/* Quick Actions */}
               <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-                <a
-                  href="http://localhost:3000/d/jurisai-observability-dashboard?orgId=1"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn-legal-gold"
-                  style={{ textDecoration: 'none', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                >
-                  <BarChart3 size={14} /> Open Grafana Dashboard (Port 3000) <ExternalLink size={12} />
-                </a>
+                {import.meta.env.VITE_GRAFANA_URL ? (
+                  <a
+                    href={import.meta.env.VITE_GRAFANA_URL}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-legal-gold"
+                    style={{ textDecoration: 'none', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
+                  >
+                    <BarChart3 size={14} /> Open Grafana Dashboard <ExternalLink size={12} />
+                  </a>
+                ) : (
+                  <button
+                    onClick={() => {
+                      setObservabilityModalTab('grafana');
+                      setObservabilityModalOpen(true);
+                    }}
+                    className="btn-legal-gold"
+                    style={{ border: 'none', cursor: 'pointer', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
+                  >
+                    <BarChart3 size={14} /> Open Grafana Dashboard (Port 3000) <ExternalLink size={12} />
+                  </button>
+                )}
                 <a
                   href={getApiUrl('/metrics')}
                   target="_blank"
@@ -985,15 +1002,16 @@ export default function WorkspaceMainContent({
                 >
                   <Server size={14} /> Raw Metrics (/metrics) <ExternalLink size={12} />
                 </a>
-                <a
-                  href="http://127.0.0.1:9090/targets"
-                  target="_blank"
-                  rel="noreferrer"
+                <button
+                  onClick={() => {
+                    setObservabilityModalTab('prometheus');
+                    setObservabilityModalOpen(true);
+                  }}
                   className="btn-legal-secondary"
-                  style={{ textDecoration: 'none', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
+                  style={{ border: 'none', cursor: 'pointer', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
                 >
                   <Activity size={14} /> Prometheus Targets <ExternalLink size={12} />
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -1189,15 +1207,27 @@ export default function WorkspaceMainContent({
                       </p>
                     </div>
 
-                    <a
-                      href={grafanaUrl || getApiUrl('/metrics')}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn-legal-gold"
-                      style={{ textDecoration: 'none', fontSize: '12px', padding: '0.45rem 0.75rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                    >
-                      {grafanaUrl ? 'Open Grafana (Port 3000)' : 'Inspect Raw Metrics'} <ExternalLink size={12} />
-                    </a>
+                    <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', flexWrap: 'wrap' }}>
+                      <button
+                        onClick={() => {
+                          setObservabilityModalTab('metrics');
+                          setObservabilityModalOpen(true);
+                        }}
+                        className="btn-legal-gold"
+                        style={{ border: 'none', cursor: 'pointer', fontSize: '12px', padding: '0.45rem 0.75rem', display: 'flex', alignItems: 'center', gap: '5px' }}
+                      >
+                        <Activity size={14} /> Observability Center
+                      </button>
+                      <a
+                        href={grafanaUrl || getApiUrl('/metrics')}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="btn-legal-secondary"
+                        style={{ textDecoration: 'none', fontSize: '12px', padding: '0.45rem 0.75rem', display: 'flex', alignItems: 'center', gap: '5px' }}
+                      >
+                        {grafanaUrl ? 'Open Grafana (Port 3000)' : 'Inspect Raw Metrics'} <ExternalLink size={12} />
+                      </a>
+                    </div>
                   </div>
 
                   {grafanaUrl ? (
@@ -1308,6 +1338,13 @@ export default function WorkspaceMainContent({
           <CaseChat analysisData={analysisData} />
         </section>
       )}
+
+      <ObservabilityModal
+        isOpen={observabilityModalOpen}
+        initialTab={observabilityModalTab}
+        onClose={() => setObservabilityModalOpen(false)}
+        analysisData={analysisData}
+      />
     </main>
   );
 }
