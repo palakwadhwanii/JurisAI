@@ -1,11 +1,7 @@
 # ==============================================================================
-# Render Blueprint Specification for JurisAI
-# Full Automatic Deployment Configuration for Backend & Optional Static Frontend
+# Render Blueprint Specification for JurisAI Backend
 # ==============================================================================
 services:
-  # ----------------------------------------------------------------------------
-  # 1. FastAPI Multi-Agent Legal Reasoning Backend
-  # ----------------------------------------------------------------------------
   - type: web
     name: jurisai-backend
     runtime: python
@@ -25,24 +21,3 @@ services:
         value: "*"
       - key: HOST
         value: 0.0.0.0
-
-  # ----------------------------------------------------------------------------
-  # 2. React (Vite) Frontend (For 1-Click All-in-One Render Deployment)
-  # Note: If deploying frontend on Vercel, you can keep or ignore this service.
-  # ----------------------------------------------------------------------------
-  - type: static
-    name: jurisai-frontend
-    buildCommand: "cd frontend && npm install && npm run build"
-    staticPublishPath: "./frontend/dist"
-    branch: main
-    autoDeploy: true
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
-    envVars:
-      - key: VITE_API_URL
-        fromService:
-          type: web
-          name: jurisai-backend
-          property: host
