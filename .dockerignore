@@ -1,0 +1,27 @@
+# Git and OS metadata
+.git
+.gitignore
+.DS_Store
+*.swp
+*.swo
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Node.js dependencies and build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Application logs and local runtime monitoring data
+logs/*.log
+monitoring/data/
+monitoring/grafana/data/
+monitoring/grafana/logs/
+monitoring/grafana/plugins/

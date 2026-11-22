@@ -1,0 +1,447 @@
+:root {
+  /* Legal Theme Palette - Minimal, Professional & Trustworthy */
+  --court-navy: #0e1e33;
+  --court-navy-light: #1b2f4a;
+  --court-navy-dark: #081321;
+  --court-gold: #b38b3c;
+  --court-gold-light: #d4a959;
+  --court-gold-dark: #8c6a23;
+  --court-parchment: #f9f9f7;
+  --court-parchment-card: #ffffff;
+  --court-parchment-subtle: #f2f2ee;
+  --court-parchment-border: #e0ded6;
+  
+  --ink-primary: #1a202c;
+  --ink-secondary: #4a5568;
+  --ink-muted: #718096;
+  --ink-faint: #a0aec0;
+  
+  --status-pass: #1b6946;
+  --status-pass-bg: #edf7f2;
+  --status-pass-border: #c3e6d5;
+  
+  --status-warn: #9e6400;
+  --status-warn-bg: #fffbf2;
+  --status-warn-border: #fae1b3;
+  
+  --status-alert: #9b2c2c;
+  --status-alert-bg: #fdf2f2;
+  --status-alert-border: #fecaca;
+  
+  /* Single Universal Typography System: Calibri with clean modern fallbacks */
+  --font-family-base: Calibri, 'Segoe UI', Candara, Optima, Arial, sans-serif;
+  --serif-font: Calibri, 'Segoe UI', Candara, Optima, Arial, sans-serif;
+  --sans-font: Calibri, 'Segoe UI', Candara, Optima, Arial, sans-serif;
+  --mono-font: Calibri, 'Segoe UI', Candara, Optima, Arial, sans-serif;
+  
+  --shadow-sm: 0 1px 3px rgba(14, 30, 51, 0.05);
+  --shadow-md: 0 3px 10px rgba(14, 30, 51, 0.07);
+  --shadow-lg: 0 8px 24px rgba(14, 30, 51, 0.1);
+  --transition-fast: 0.15s ease;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-base);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--court-parchment);
+  color: var(--ink-primary);
+  font-family: var(--font-family-base);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography across all headings and text */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-base);
+  color: var(--court-navy);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+p {
+  color: var(--ink-secondary);
+  line-height: 1.65;
+  font-family: var(--font-family-base);
+}
+
+code, pre, .mono {
+  font-family: var(--font-family-base);
+}
+
+/* Buttons */
+.btn-legal-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--court-navy);
+  color: #ffffff;
+  border: 1px solid var(--court-navy);
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-family-base);
+  font-weight: 600;
+  font-size: 14.5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-legal-primary:hover {
+  background-color: var(--court-navy-light);
+  border-color: var(--court-navy-light);
+}
+
+.btn-legal-primary:disabled {
+  background-color: var(--ink-faint);
+  border-color: var(--ink-faint);
+  cursor: not-allowed;
+}
+
+.btn-legal-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--court-gold);
+  color: #ffffff;
+  border: 1px solid var(--court-gold-dark);
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-family-base);
+  font-weight: 600;
+  font-size: 14.5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-legal-gold:hover {
+  background-color: var(--court-gold-light);
+}
+
+.btn-legal-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #ffffff;
+  color: var(--court-navy);
+  border: 1px solid var(--court-parchment-border);
+  padding: 0.65rem 1.25rem;
+  font-family: var(--font-family-base);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-legal-secondary:hover {
+  background-color: var(--court-parchment-subtle);
+  border-color: var(--ink-muted);
+}
+
+/* Badges & Pills */
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-family-base);
+  font-size: 11.5px;
+  letter-spacing: 0.03em;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.badge-gold {
+  background-color: #fcf7ed;
+  color: var(--court-gold-dark);
+  border: 1px solid #ebd7af;
+}
+
+.badge-navy {
+  background-color: #eef2f7;
+  color: var(--court-navy);
+  border: 1px solid #cbd5e1;
+}
+
+.badge-pass {
+  background-color: var(--status-pass-bg);
+  color: var(--status-pass);
+  border: 1px solid var(--status-pass-border);
+}
+
+.badge-warn {
+  background-color: var(--status-warn-bg);
+  color: var(--status-warn);
+  border: 1px solid var(--status-warn-border);
+}
+
+.badge-alert {
+  background-color: var(--status-alert-bg);
+  color: var(--status-alert);
+  border: 1px solid var(--status-alert-border);
+}
+
+/* Legal Cards */
+.legal-card {
+  background-color: #ffffff;
+  border: 1px solid var(--court-parchment-border);
+  border-radius: 6px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-fast);
+}
+
+.legal-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: #ccc8be;
+}
+
+/* Human-Readable Legal Item Box */
+.legal-item-box {
+  background: #ffffff;
+  border: 1px solid var(--court-parchment-border);
+  border-radius: 6px;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.legal-item-box-header {
+  background: var(--court-parchment-subtle);
+  border-bottom: 1px solid var(--court-parchment-border);
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.legal-item-box-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.what-it-means-block {
+  background: #ffffff;
+  border-left: 3px solid var(--court-gold);
+  padding: 0.75rem 1rem;
+}
+
+.what-it-means-label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--court-gold-dark);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.what-it-means-text {
+  font-size: 14.5px;
+  color: var(--ink-primary);
+  line-height: 1.6;
+}
+
+.legal-source-block {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid var(--court-navy);
+  padding: 0.75rem 1rem;
+}
+
+.legal-source-label {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--court-navy);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.legal-source-content {
+  font-size: 13.5px;
+  color: var(--court-navy-dark);
+  line-height: 1.5;
+}
+
+/* Numbered Section Card for Final Assessment */
+.numbered-section-card {
+  background: #ffffff;
+  border: 1px solid var(--court-parchment-border);
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.numbered-section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+  border-bottom: 1px solid var(--court-parchment-subtle);
+  padding-bottom: 0.5rem;
+}
+
+.section-num-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  background-color: var(--court-navy);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.numbered-section-title {
+  font-size: 1.25rem;
+  color: var(--court-navy);
+  font-weight: 700;
+}
+
+/* Workspace Layout */
+.workspace-container {
+  display: flex;
+  min-height: calc(100vh - 65px);
+  background: var(--court-parchment);
+}
+
+.workspace-sidebar {
+  width: 275px;
+  flex-shrink: 0;
+  background: #ffffff;
+  border-right: 1px solid var(--court-parchment-border);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 65px;
+  height: calc(100vh - 65px);
+  overflow-y: auto;
+}
+
+.workspace-main {
+  flex: 1;
+  padding: 2.25rem 3rem;
+  max-width: 1080px;
+  overflow-y: auto;
+}
+
+@media (max-width: 960px) {
+  .workspace-container {
+    flex-direction: column;
+  }
+  .workspace-sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--court-parchment-border);
+  }
+  .workspace-main {
+    padding: 1.5rem;
+  }
+}
+
+.sidebar-tab-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  background: transparent;
+  border: none;
+  border-left: 3px solid transparent;
+  text-align: left;
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.sidebar-tab-btn:hover {
+  background: var(--court-parchment-subtle);
+  color: var(--court-navy);
+}
+
+.sidebar-tab-btn.active {
+  background: #f2f2eb;
+  border-left-color: var(--court-navy);
+  color: var(--court-navy);
+  font-weight: 700;
+}
+
+/* Modal and Agent Progress */
+.agent-progress-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(14, 30, 51, 0.65);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1.5rem;
+}
+
+.agent-progress-modal {
+  background: #ffffff;
+  border: 1px solid var(--court-parchment-border);
+  border-radius: 6px;
+  width: 100%;
+  max-width: 650px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Print styling for PDF export */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt;
+    font-family: Calibri, sans-serif !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .legal-card, .legal-item-box, .numbered-section-card {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+    page-break-inside: avoid;
+  }
+  .workspace-sidebar {
+    display: none !important;
+  }
+  .workspace-main {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,125 @@
+# ==============================================================================
+# JurisAI Multi-Service Docker Compose Architecture
+# Multi-Agent Constraint-Aware Legal Reasoning & Observability Platform
+# ==============================================================================
+services:
+  # ----------------------------------------------------------------------------
+  # 1. Backend: FastAPI Multi-Agent Reasoning Engine
+  # ----------------------------------------------------------------------------
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jurisai-backend
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - CHROMA_PERSIST_DIR=/app/chroma_db
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-qwen2.5:0.5b}
+    volumes:
+      # Persistent vector store (916 chunks indexed across 12 Acts + 91 Precedents)
+      - ./chroma_db:/app/chroma_db
+      # Application logs for structured auditability
+      - ./logs:/app/logs
+      # Optional external data directory
+      - ./data:/app/data
+    depends_on:
+      - ollama
+    networks:
+      - jurisai-net
+    restart: unless-stopped
+
+  # ----------------------------------------------------------------------------
+  # 2. Frontend: React / Vite Web Client with Nginx Reverse Proxy
+  # ----------------------------------------------------------------------------
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: jurisai-frontend
+    ports:
+      - "${FRONTEND_PORT:-5173}:80"
+    depends_on:
+      - backend
+    networks:
+      - jurisai-net
+    restart: unless-stopped
+
+  # ----------------------------------------------------------------------------
+  # 3. Ollama: Local Large Language Model Inference Server
+  # ----------------------------------------------------------------------------
+  ollama:
+    image: ollama/ollama:latest
+    container_name: jurisai-ollama
+    ports:
+      - "${OLLAMA_PORT:-11434}:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - jurisai-net
+    restart: unless-stopped
+
+  # ----------------------------------------------------------------------------
+  # 4. Prometheus: Time-Series Metrics Scraper & Storage
+  # ----------------------------------------------------------------------------
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: jurisai-prometheus
+    ports:
+      - "${PROMETHEUS_PORT:-9090}:9090"
+    volumes:
+      - ./monitoring/prometheus.docker.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    depends_on:
+      - backend
+    networks:
+      - jurisai-net
+    restart: unless-stopped
+
+  # ----------------------------------------------------------------------------
+  # 5. Grafana: Visual Observability & Multi-Agent Telemetry Dashboards
+  # ----------------------------------------------------------------------------
+  grafana:
+    image: grafana/grafana:latest
+    container_name: jurisai-grafana
+    ports:
+      - "${GRAFANA_PORT:-3000}:3000"
+    environment:
+      - GF_SECURITY_ALLOW_EMBEDDING=true
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
+      - GF_SECURITY_LOGIN_ATTEMPT_LIMIT=0
+      - GF_USERS_DEFAULT_THEME=dark
+    volumes:
+      - ./monitoring/grafana/provisioning/datasources/datasources.docker.yml:/etc/grafana/provisioning/datasources/datasources.yml:ro
+      - ./monitoring/grafana/provisioning/dashboards/dashboards.docker.yml:/etc/grafana/provisioning/dashboards/dashboards.yml:ro
+      - ./monitoring/grafana/dashboards:/etc/grafana/dashboards:ro
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+    networks:
+      - jurisai-net
+    restart: unless-stopped
+
+# ==============================================================================
+# Persistent Volumes (Persists models, scraped metrics, and Grafana state)
+# Note: chroma_db is persisted directly via host bind mount ./chroma_db
+# ==============================================================================
+volumes:
+  ollama_data:
+    name: jurisai_ollama_data
+  prometheus_data:
+    name: jurisai_prometheus_data
+  grafana_data:
+    name: jurisai_grafana_data
+
+# ==============================================================================
+# Dedicated Isolated Bridge Network
+# ==============================================================================
+networks:
+  jurisai-net:
+    name: jurisai-network
+    driver: bridge

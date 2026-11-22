@@ -1,0 +1,58 @@
+{
+  "evaluation_name": "JurisAI Phase 19 Testing + Evaluation",
+  "timestamp": "2026-11-02T10:52:13.338787+00:00",
+  "pytest_exit_code": 0,
+  "pytest_suite_passed": true,
+  "scores": {
+    "rag_evaluation": {
+      "total_queries": 5,
+      "hit_rate_at_1": 100.0,
+      "hit_rate_at_3": 100.0,
+      "hit_rate_at_5": 100.0,
+      "mrr": 1.0,
+      "mean_latency_ms": 211.49,
+      "corpus_total_chunks": 916,
+      "status": "PASS"
+    },
+    "agent_evaluation": {
+      "agents_evaluated": 8,
+      "agents_passed": 8,
+      "agent_details": {
+        "CaseManagerAgent": "PASS",
+        "LawAgent": "PASS",
+        "PrecedentAgent": "PASS",
+        "EvidenceAgent": "PASS",
+        "ConstraintHunterAgent": "PASS",
+        "OppositionAgent": "PASS",
+        "AuditorAgent": "PASS",
+        "JudgeAgent": "PASS"
+      },
+      "status": "PASS"
+    },
+    "citation_accuracy": {
+      "statute_citations_checked": 10,
+      "statute_accuracy_pct": 100.0,
+      "precedent_citations_checked": 8,
+      "precedent_accuracy_pct": 100.0,
+      "false_citation_rate_pct": 0.0,
+      "status": "PASS"
+    },
+    "hallucination_testing": {
+      "trivial_inputs_tested": 5,
+      "trivial_rejection_rate_pct": 100.0,
+      "fault_injection_recovered": true,
+      "unresolved_fault_safely_halted": true,
+      "status": "PASS"
+    },
+    "end_to_end_testing": {
+      "health_endpoint_status": 200,
+      "health_latency_ms": 156.23,
+      "sample_cases_count": 3,
+      "analysis_endpoint_status": 200,
+      "analysis_duration_seconds": 0.031,
+      "metrics_endpoint_status": 200,
+      "status": "PASS"
+    }
+  },
+  "overall_status": "PASSED"
+}

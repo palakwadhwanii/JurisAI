@@ -1,0 +1,3282 @@
+[
+  {
+    "judgment_id": "2023_INSC_1004",
+    "case_name": "MOTURU NALINI KANTH v. GAINEDI KALIPRASAD (DEAD, THROUGH LRS.)",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "NOVEMBER 20, 2023",
+    "appeal_number": "Civil Appeal No. 2435 of 2010",
+    "scr_citation": "[2023] 16 S.C.R. 644",
+    "insc_citation": "2023 INSC 1004",
+    "bench": [
+      "C.T. RAVIKUMAR AND SANJAY KUMAR"
+    ],
+    "candidate_laws": [
+      "Hindu Adoptions and Maintenance Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Adoptions and Maintenance Act, 1956": [
+        "16"
+      ],
+      "Indian Evidence Act, 1872": [
+        "68",
+        "69"
+      ]
+    },
+    "facts_summary": "Appellant (then a minor) through his guardian filed a civil suit claiming title and possession over properties of late Venkayamma under an alleged registered Will and registered adoption deed executed in his favour, asserting that Venkayamma had canceled her earlier registered Will in favour of her grandson 'GK'. Trial Court decreed the suit, but the High Court reversed the decree holding that the Will propounded by the appellant was not proved in accordance with Section 69 of the Evidence Act.",
+    "legal_issues": [
+      "Whether the registered Will in favour of the adopted son was proved under Section 69 of the Evidence Act when neither attesting witness was examined.",
+      "Whether a registered adoption deed under Section 16 of the Hindu Adoptions and Maintenance Act, 1956 establishes ownership of property absent valid proof of the testamentary bequest."
+    ],
+    "decision_holding": "Appeal dismissed. The Supreme Court confirmed the High Court's judgment holding that the appellant failed to prove the execution and attestation of the Will in terms of Section 69 of the Evidence Act.",
+    "legal_principles": "For the purposes of Section 69 of the Evidence Act, when no attesting witness can be found, it is not sufficient to examine a stray witness who merely states he saw an attesting witness sign; the witness must be familiar with the handwriting/signature of the attesting witness. Statutory presumption of adoption under Section 16 HAMA does not dispense with the mandatory legal proof of a Will under which property rights are claimed.",
+    "sub_case_type": "Adoption & Succession / Will",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively examines adoption claims under Section 16 of the Hindu Adoptions and Maintenance Act, 1956 in relation to testamentary succession and title to properties.",
+    "file_path": "text/2023_INSC_1004.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_1008",
+    "case_name": "PRIYA INDORIA v. STATE OF KARNATAKA AND ORS. ETC.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "NOVEMBER 20, 2023",
+    "appeal_number": "Criminal Appeal No. 003549-003552/2023 of 2023",
+    "scr_citation": "[2023] 15 S.C.R. 525",
+    "insc_citation": "2023 INSC 1008",
+    "bench": [
+      "B. V. NAGARATHNA AND UJJAL BHUYAN"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "438"
+      ],
+      "Indian Penal Code, 1860": [
+        "406",
+        "498A",
+        "323"
+      ],
+      "Constitution of India": [
+        "14",
+        "21",
+        "39A"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Following matrimonial discord, the appellant-wife registered an FIR in Rajasthan against her husband and in-laws for offences under Sections 498A, 406, and 323 IPC. The husband and in-laws approached the High Court of Karnataka and obtained extra-territorial transit anticipatory bail under Section 438 CrPC. The wife challenged the jurisdiction of the Karnataka High Court to grant anticipatory bail for an FIR lodged in another State.",
+    "legal_issues": [
+      "Whether a High Court or Court of Session has jurisdiction to grant transit anticipatory bail under Section 438 CrPC with respect to an FIR registered outside its territorial limits.",
+      "What conditions and safeguards must be imposed when granting extra-territorial interim protection in matrimonial criminal proceedings."
+    ],
+    "decision_holding": "Appeals disposed of. The Supreme Court recognized limited jurisdiction of High Courts and Sessions Courts to grant interim transit anticipatory bail in exceptional circumstances, subject to strict procedural safeguards including notice to the investigating agency and a strict time limit to enable the accused to approach the jurisdictional court.",
+    "legal_principles": "Extra-territorial anticipatory bail or transit interim protection can be granted under Section 438 CrPC to prevent imminent threat of wrongful arrest violating Article 21, but it must be exercised sparingly and with caution so as not to undermine the territorial jurisdiction of the State where the offence was committed.",
+    "sub_case_type": "Matrimonial Criminal Procedure / Transit Bail",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Concerns procedural and jurisdictional rules for transit anticipatory bail in criminal prosecutions arising out of matrimonial discord (Section 498A IPC), though the primary legal question is Section 438 CrPC.",
+    "file_path": "text/2023_INSC_1008.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_1058",
+    "case_name": "IN RE: ARTICLE 370 OF THE CONSTITUTION",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "DECEMBER 11, 2023",
+    "appeal_number": "Writ Petition (Civil",
+    "scr_citation": "[2023] 16 S.C.R. 1",
+    "insc_citation": "2023 INSC 1058",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955",
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Constitution of India": [
+        "370",
+        "356",
+        "367",
+        "3"
+      ],
+      "Jammu and Kashmir Reorganisation Act, 2019": [],
+      "Hindu Marriage Act, 1955": [],
+      "Hindu Succession Act, 1956": []
+    },
+    "facts_summary": "Constitutional challenges brought by multiple petitioners against Constitutional Orders (C.O. 272 and C.O. 273) issued by the President abrogating the special status of Jammu and Kashmir under Article 370 of the Constitution, and against the enactment of the Jammu and Kashmir Reorganisation Act, 2019 bifurcating the State into two Union Territories.",
+    "legal_issues": [
+      "Whether the abrogation of Article 370 and issuance of C.O. 272 and 273 during President's rule were constitutionally valid.",
+      "Whether Parliament had the competence under Article 3 to extinguish the statehood of Jammu and Kashmir."
+    ],
+    "decision_holding": "Writ petitions and SLPs disposed of. The Constitution Bench unanimously upheld the constitutional validity of the abrogation of Article 370, holding that Jammu and Kashmir held no internal sovereignty upon joining the Union of India; directed restoration of statehood as soon as possible.",
+    "legal_principles": "Article 370 was an asymmetric, interim federal arrangement that could be rendered inoperative by the President under Article 370(3); parliamentary authority during President's rule under Article 356 extends to constitutional governance changes.",
+    "sub_case_type": "Constitutional Law",
+    "relevance_tier": "MENTION_ONLY",
+    "relevance_reason": "Constitutional Bench decision on Article 370 and federalism; personal law statutes (HMA, HSA) were mentioned merely in passing regarding the historical non-extension of central civil laws to the State of J&K.",
+    "file_path": "text/2023_INSC_1058.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_1076",
+    "case_name": "SHAKTI YEZDANI & ANR. v. JAYANAND JAYANT SALGAONKAR & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "DECEMBER 14, 2023",
+    "appeal_number": "Civil Appeal No. 7107 of 2017",
+    "scr_citation": "[2023] 16 S.C.R. 695",
+    "insc_citation": "2023 INSC 1076",
+    "bench": [
+      "HRISHIKESH ROY AND PANKAJ MITHAL"
+    ],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Companies Act, 1956": [
+        "109A",
+        "109B"
+      ],
+      "Depositories Act, 1996": [],
+      "Hindu Succession Act, 1956": [
+        "8",
+        "10"
+      ],
+      "Indian Succession Act, 1925": [
+        "211"
+      ]
+    },
+    "facts_summary": "Deceased Jayant Shivram Salgaonkar executed a Will in 2011 bequeathing his extensive estate among his legal heirs, but had previously nominated the appellants for certain mutual funds and company shares under Section 109A of the Companies Act, 1956. The nominees claimed absolute beneficial ownership over the shares to the exclusion of the legal heirs named in the Will.",
+    "legal_issues": [
+      "Whether a nomination made under Section 109A of the Companies Act, 1956 vests absolute beneficial ownership of shares/securities in the nominee, overriding the laws of succession.",
+      "Whether corporate nomination operates as a 'third line of succession' displacing legal heirs under the Hindu Succession Act, 1956 or Indian Succession Act, 1925."
+    ],
+    "decision_holding": "Appeal dismissed. The Supreme Court held that nomination does not confer beneficial ownership or title on the nominee; the nominee holds the securities merely as a trustee/fiduciary for the legal heirs of the deceased.",
+    "legal_principles": "Nomination under Section 109A of the Companies Act does not supersede the general laws of succession under the Hindu Succession Act or a testamentary Will. The nominee is merely authorized to receive the shares to discharge the company from liability, but the beneficial rights devolve exclusively onto legal heirs or legatees under succession law.",
+    "sub_case_type": "Succession & Inheritance / Corporate Securities",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates the interrelation between statutory corporate nomination and the succession rights of legal heirs under the Hindu Succession Act, 1956.",
+    "file_path": "text/2023_INSC_1076.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_146",
+    "case_name": "APARNA AJINKYA FIRODIA v. AJINKYA ARUN FIRODIA",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "FEBRUARY 20, 2023",
+    "appeal_number": "Civil Appeal No.1308 of 2023",
+    "scr_citation": "[2023] 4 S.C.R. 680",
+    "insc_citation": "2023 INSC 146",
+    "bench": [
+      "V. RAMASUBRAMANIAN AND B.V. NAGARATHNA"
+    ],
+    "candidate_laws": [
+      "Family Courts Act, 1984",
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(i)"
+      ],
+      "Indian Evidence Act, 1872": [
+        "112",
+        "114"
+      ],
+      "Family Courts Act, 1984": [],
+      "Constitution of India": [
+        "21"
+      ]
+    },
+    "facts_summary": "Husband filed a petition for divorce under Section 13(1)(i) of the Hindu Marriage Act alleging adultery against his wife, and filed an interim application before the Family Court seeking a direction for their second minor child to undergo a DNA paternity test to establish the wife's alleged infidelity. The Family Court allowed the application, and the High Court affirmed the order.",
+    "legal_issues": [
+      "Whether Family Courts can routinely direct DNA paternity testing of a child born during wedlock to substantiate allegations of adultery in divorce proceedings.",
+      "Whether an adverse inference under Section 114 illustration (h) of the Evidence Act can be drawn against a mother for refusing to submit her child to DNA testing when non-access is not established."
+    ],
+    "decision_holding": "Appeal allowed. The High Court judgment and Family Court order directing DNA paternity testing were set aside.",
+    "legal_principles": "Section 112 of the Evidence Act establishes a conclusive presumption of legitimacy that can only be displaced by strong and cogent proof of non-access during conception. DNA testing touches upon the child's constitutional right to privacy, dignity, and legitimacy and cannot be ordered as a matter of course or as a shortcut to prove adultery. Refusal to submit a child to DNA testing does not invite adverse inference under Section 114(h) where access is admitted.",
+    "sub_case_type": "Divorce / Paternity & DNA Testing",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core matrimonial proceeding under Section 13(1)(i) HMA and Family Courts Act laying down governing principles for ordering DNA paternity tests in divorce proceedings.",
+    "file_path": "text/2023_INSC_146.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_176",
+    "case_name": "SHAH NEWAZ KHAN & ORS. v. STATE OF NAGALAND & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "FEBRUARY 28, 2023",
+    "appeal_number": "Civil appeal no. 1497 of 2023",
+    "scr_citation": "[2023] 3 S.C.R. 985",
+    "insc_citation": "2023 INSC 176",
+    "bench": [
+      "HRISHIKESH ROY AND DIPANKAR DATTA"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Civil Procedure, 1908": [
+        "24",
+        "25"
+      ],
+      "Constitution of India": [
+        "214",
+        "231"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "A civil suit was filed before the District Court at Dimapur in Nagaland. The appellants filed a petition under Section 24 CPC before the Gauhati High Court Principal Seat in Assam seeking transfer of the suit from Nagaland to Assam. The High Court rejected the petition holding Section 24 CPC did not permit inter-state transfer within a common High Court's jurisdiction, and that Section 25 CPC before the Supreme Court was the sole remedy.",
+    "legal_issues": [
+      "Whether Section 24 CPC empowers a common High Court exercising jurisdiction over multiple States to transfer a civil suit from a subordinate court in one State to a subordinate court in another State within its jurisdiction.",
+      "Whether Section 25 CPC before the Supreme Court is the exclusive mechanism for any transfer across State borders even within a single High Court."
+    ],
+    "decision_holding": "Appeal allowed. The Gauhati High Court judgment was set aside; held that Section 24 CPC empowers a common High Court to transfer cases between courts subordinate to it, regardless of State boundaries within its territory.",
+    "legal_principles": "A common High Court established under Article 231 has unified superintendence and transfer powers under Section 24 CPC over all subordinate courts in the States comprising its jurisdiction. Section 25 CPC applies when transfer is sought between courts subordinate to two different High Courts.",
+    "sub_case_type": "Civil Procedure / Court Jurisdiction",
+    "relevance_tier": "MENTION_ONLY",
+    "relevance_reason": "Deals with general civil procedure and transfer powers under Section 24 CPC of a common High Court; Hindu Marriage Act matrimonial transfer cases were only cited as comparative jurisprudence.",
+    "file_path": "text/2023_INSC_176.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_259",
+    "case_name": "GOVT. OF NCT OF DELHI THROUGH THE SECRETARY, LAND AND BUILDING DEPARTMENT & ANOTHER v. M/S. K.L. RATHI STEELS LIMITED AND OTHERS Miscellaneous Application No. 414 of 2023 In",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "MARCH 17, 2023",
+    "appeal_number": "Civil Appeal No. 11857 of 2016",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 259",
+    "bench": [
+      "M. R. SHAH AND B. V. NAGARATHNA"
+    ],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013": [
+        "24(2)"
+      ],
+      "Land Acquisition Act, 1894": [],
+      "Hindu Succession Act, 1956": []
+    },
+    "facts_summary": "Review petitions arising from land acquisition proceedings in Delhi where earlier judgments declared lapse under Section 24(2) of the 2013 Act, reconsidered after the Constitution Bench judgment in Indore Development Authority (2020).",
+    "legal_issues": [
+      "Whether review petitions against orders declaring lapse of land acquisition under Section 24(2) of the 2013 Act are maintainable in light of the Constitution Bench principles in Indore Development Authority.",
+      "Whether lapse occurred where possession was taken or compensation tendered."
+    ],
+    "decision_holding": "Review petitions disposed of/allowed in accordance with the Indore Development Authority principles.",
+    "legal_principles": "Lapse of land acquisition under Section 24(2) of the 2013 Act takes place only if both twin conditions are satisfied: possession has not been taken AND compensation has not been paid. If either condition is fulfilled, the acquisition does not lapse.",
+    "sub_case_type": "Land Acquisition",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Pure land acquisition review petition under Section 24(2) of the 2013 Act; Hindu Succession Act was a passing incidental citation with no relevance to family law.",
+    "file_path": "text/2023_INSC_259.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_29",
+    "case_name": "ASSOCIATION OF OLD SETTLERS OF SIKKIM AND ORS. v. UNION OF INDIA AND ANR.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "JANUARY 13, 2023",
+    "appeal_number": "Writ Petition (C",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 29",
+    "bench": [
+      "M. R. SHAH AND B. V. NAGARATHNA"
+    ],
+    "candidate_laws": [
+      "Hindu Minority and Guardianship Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Income Tax Act, 1961": [
+        "10(26AAA)"
+      ],
+      "Sikkim Subjects Regulations, 1961": [
+        "3",
+        "4"
+      ],
+      "Constitution of India": [
+        "14",
+        "15",
+        "21",
+        "371F"
+      ],
+      "Hindu Minority and Guardianship Act, 1956": []
+    },
+    "facts_summary": "Old Indian settlers who had settled in Sikkim prior to its merger with India on April 26, 1975, but whose names were not recorded in the Sikkim Subjects Register, challenged Section 10(26AAA) of the Income Tax Act for excluding them from income-tax exemption granted to 'Sikkimese'. Additionally, Sikkimese women who married non-Sikkimese men challenged the proviso excluding them from exemption.",
+    "legal_issues": [
+      "Whether Section 10(26AAA) of the Income Tax Act discriminates against old Indian settlers in Sikkim violating Article 14.",
+      "Whether excluding Sikkimese women who marry non-Sikkimese men from tax exemption constitutes unconstitutional gender discrimination under Articles 14 and 15."
+    ],
+    "decision_holding": "Writ petitions allowed. Section 10(26AAA) was held unconstitutional to the extent it excluded old Indian settlers settled in Sikkim prior to April 26, 1975; the discriminatory proviso against Sikkimese women marrying non-Sikkimese men was struck down as ultra vires.",
+    "legal_principles": "Excluding long-term Indian settlers of Sikkim from tax exemptions violates equality under Article 14. Terminating statutory rights or exemptions of a woman solely on the basis of her marriage to an out-group individual while men face no such disqualification violates Article 15.",
+    "sub_case_type": "Constitutional Law / Gender Equality & Taxation",
+    "relevance_tier": "MENTION_ONLY",
+    "relevance_reason": "Constitutional taxation and gender equality judgment; HMGA was only cited by way of historical analogy on marital status and domicile.",
+    "file_path": "text/2023_INSC_29.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_319",
+    "case_name": "PRASANTA KUMAR SAHOO & ORS. v. CHARULATA SAHU & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "MARCH 29, 2023",
+    "appeal_number": "Civil Appeal No. 2913-2915 of 2018",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 319",
+    "bench": [
+      "A. S. BOPANNA AND J. B. PARDIWALA"
+    ],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "6"
+      ],
+      "Code of Civil Procedure, 1908": [
+        "Order XXIII Rule 3",
+        "Order XX Rule 18"
+      ],
+      "Registration Act, 1908": [
+        "17"
+      ]
+    },
+    "facts_summary": "A daughter filed a partition suit in 1980 claiming a 1/3rd share in coparcenary properties. Trial Court passed a preliminary decree in 1986. During the appeal, the brothers entered into a compromise excluding the daughter and later argued that the preliminary decree crystallized shares prior to the Hindu Succession (Amendment) Act, 2005.",
+    "legal_issues": [
+      "Whether amended Section 6 of the Hindu Succession Act, 1956 applies to pending partition suits where a preliminary decree was passed prior to December 20, 2004, but no final decree has been executed.",
+      "Whether an unregistered family settlement/compromise entered into during appellate proceedings can defeat the statutory coparcenary rights of a daughter."
+    ],
+    "decision_holding": "Appeals dismissed. The daughter was held entitled to an equal 1/3rd share as coparcener under amended Section 6 HSA; preliminary decree modified accordingly.",
+    "legal_principles": "A partition suit remains pending until a final decree is drawn up and executed. The statutory benefit of amended Section 6 HSA conferring coparcenary status on daughters applies to all pending suits where final partition by registered deed or court decree was not completed before December 20, 2004. An unregistered, non-decreed compromise cannot extinguish coparcenary entitlements.",
+    "sub_case_type": "Succession & Partition / Coparcenary Rights",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly applies amended Section 6 of the Hindu Succession Act, 1956 to grant daughters equal coparcenary rights in pending partition proceedings.",
+    "file_path": "text/2023_INSC_319.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_4",
+    "case_name": "KAUSHAL KISHOR v. STATE OF UTTAR PRADESH & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "JANUARY 03, 2023",
+    "appeal_number": "Writ Petition (Criminal",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 4",
+    "bench": [],
+    "candidate_laws": [
+      "Guardians and Wards Act, 1890",
+      "Hindu Minority and Guardianship Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Constitution of India": [
+        "19(1)(a)",
+        "19(2)",
+        "21",
+        "32"
+      ],
+      "Guardians and Wards Act, 1890": [],
+      "Hindu Minority and Guardianship Act, 1956": []
+    },
+    "facts_summary": "Constitution Bench reference arising from derogatory and insensitive public statements by Ministers regarding gang-rape victims in UP and Kerala, raising questions regarding horizontal enforcement of fundamental rights and restrictions on free speech.",
+    "legal_issues": [
+      "Whether the grounds of reasonable restriction on free speech under Article 19(2) are exhaustive.",
+      "Whether fundamental rights under Articles 19 and 21 can be enforced horizontally against private non-state actors.",
+      "Whether statements made by Ministers can be vicariously attributed to the State."
+    ],
+    "decision_holding": "Reference answered. Restrictions under Article 19(2) are exhaustive and cannot be expanded by judicial interpretation; fundamental rights under Articles 19 and 21 can be enforced against persons other than the State; a Minister's statement cannot be vicariously attributed to the State unless it represents official government policy.",
+    "legal_principles": "Articles 19 and 21 have horizontal application against private parties and non-state entities. No extra restrictions beyond Article 19(2) can be imposed on the freedom of speech of public functionaries.",
+    "sub_case_type": "Constitutional Law / Free Speech",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Landmark Constitution Bench judgment on free speech and horizontal application of fundamental rights; family law guardianship acts were merely referenced in academic passing.",
+    "file_path": "text/2023_INSC_4.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_433",
+    "case_name": "SH. RAKESH RAMAN v. SMT. KAVITA",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "APRIL 26, 2023",
+    "appeal_number": "Civil Appeal No. 2012 of 2013",
+    "scr_citation": "[2023] 3 S.C.R. 552",
+    "insc_citation": "2023 INSC 433",
+    "bench": [
+      "SUDHANSHU DHULIA AND J. B. PARDIWALA"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)",
+        "13(1)(ib)",
+        "25"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Parties married in 1994 and separated in 1998 after severe discord. The husband filed for divorce on grounds of cruelty and desertion under Section 13(1)(ia) and (ib) HMA. The parties lived separately for over 25 years with continuous bitter litigation and multiple criminal complaints by the wife that resulted in no conviction. Trial Court granted divorce; High Court reversed the decree.",
+    "legal_issues": [
+      "Whether continuous separation for more than two decades, coupled with bitter recriminations and unsubstantiated criminal complaints, constitutes mental cruelty under Section 13(1)(ia) of the Hindu Marriage Act, 1955."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside; decree of divorce granted dissolving the marriage; husband directed to pay Rs. 30 Lakhs as permanent alimony to the wife under Section 25 HMA.",
+    "legal_principles": "A marriage that is dead for all practical purposes with decades of separation and hostile litigation amounts to mental cruelty under Section 13(1)(ia) HMA. Compelling parties to continue a matrimonial relationship that has broken down irretrievably itself constitutes mental cruelty.",
+    "sub_case_type": "Divorce / Mental Cruelty & Irretrievable Breakdown",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core matrimonial adjudication under Section 13(1)(ia) of the Hindu Marriage Act, 1955 establishing mental cruelty arising from protracted separation and litigation.",
+    "file_path": "text/2023_INSC_433.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_468",
+    "case_name": "SHILPA SAILESH v. VARUN SREENIVASAN",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "MAY 01, 2023",
+    "appeal_number": "Transfer Petition (Civil",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 468",
+    "bench": [],
+    "candidate_laws": [
+      "Family Courts Act, 1984",
+      "Hindu Marriage Act, 1955",
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Constitution of India": [
+        "142"
+      ],
+      "Hindu Marriage Act, 1955": [
+        "13(1)",
+        "13-B(1)",
+        "13-B(2)"
+      ],
+      "Family Courts Act, 1984": [],
+      "Protection of Women from Domestic Violence Act, 2005": []
+    },
+    "facts_summary": "A 5-Judge Constitution Bench reference concerning whether the Supreme Court can grant a divorce by mutual consent under Article 142 dispensing with the mandatory 6-month statutory waiting period under Section 13-B(2) HMA; and whether it can dissolve a marriage on the ground of irretrievable breakdown of marriage despite opposition from one spouse.",
+    "legal_issues": [
+      "Whether the Supreme Court can exercise its power under Article 142 to waive the statutory 6-month cooling-off period under Section 13-B(2) of the Hindu Marriage Act.",
+      "Whether the Supreme Court can grant divorce under Article 142 on the ground of irretrievable breakdown of marriage when the marriage is completely dead, even if one party resists.",
+      "What factors and safeguards should guide the court in exercising Article 142 in matrimonial disputes."
+    ],
+    "decision_holding": "Reference answered. The Supreme Court has the power under Article 142 to waive the 6-month cooling-off period under Section 13-B(2) HMA and to dissolve a marriage on the ground of irretrievable breakdown to achieve complete justice, as well as quash connected matrimonial proceedings.",
+    "legal_principles": "Article 142 confers plenary equitable jurisdiction to do complete justice in matrimonial disputes. The statutory cooling-off period in Section 13-B(2) HMA is directory, not mandatory. Irretrievable breakdown of marriage is recognized as a valid factual ground for dissolution under Article 142, with parameters established regarding maintenance, alimony, child welfare, and duration of separation.",
+    "sub_case_type": "Divorce / Mutual Consent & Irretrievable Breakdown / Article 142",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark Constitution Bench decision establishing the framework for divorce by mutual consent under Section 13-B HMA and dissolution for irretrievable breakdown under Article 142.",
+    "file_path": "text/2023_INSC_468.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_49",
+    "case_name": "SHRI RAM SHRIDHAR CHIMURKAR v. UNION OF INDIA & ANR.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "JANUARY 17, 2023",
+    "appeal_number": "Civil Appeal No. 386 of 2023",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 49",
+    "bench": [
+      "K. M. JOSEPH AND B. V. NAGARATHNA"
+    ],
+    "candidate_laws": [
+      "Hindu Adoptions and Maintenance Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Central Civil Services (Pension) Rules, 1972": [
+        "54(14)(b)"
+      ],
+      "Hindu Adoptions and Maintenance Act, 1956": [
+        "7",
+        "8",
+        "12"
+      ]
+    },
+    "facts_summary": "A government servant died while in service without leaving any children. Two years after his death, his surviving widow adopted the appellant. Upon the death of the widow, the adopted son claimed entitlement to family pension under Rule 54 of CCS (Pension) Rules, 1972 as the 'son' of the deceased government employee. CAT and High Court rejected his claim.",
+    "legal_issues": [
+      "Whether a child adopted by a Hindu widow after the death of her husband is entitled to family pension under Rule 54(14)(b) of CCS (Pension) Rules, 1972 as a child of the deceased employee, in light of Section 12 of the Hindu Adoptions and Maintenance Act, 1956."
+    ],
+    "decision_holding": "Appeal dismissed. High Court decision affirmed. The adopted son was held not entitled to family pension under the CCS (Pension) Rules.",
+    "legal_principles": "Under Section 12 HAMA, an adopted child is deemed to be the child of the adoptive parents only from the date of adoption; the old shastric doctrine of relation back does not apply post-1956. For service pension purposes under CCS Rules, 'child' means a child born or adopted during the lifetime of the employee or during the subsistence of the marriage before death.",
+    "sub_case_type": "Adoption / Service Pension Entitlement",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Interprets Section 12 of the Hindu Adoptions and Maintenance Act, 1956 regarding the legal status and effective date of adoption by a widow post-husband's demise in relation to family pension rules.",
+    "file_path": "text/2023_INSC_49.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_558",
+    "case_name": "GOVERNMENT OF NCT OF DELHI v. RAVINDER KUMAR JAIN & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "MAY 18, 2023",
+    "appeal_number": "Civil Appeal No. 3621 of 2023",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 558",
+    "bench": [
+      "ABHAY S. OKA AND RAJESH BINDAL"
+    ],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013": [
+        "24(2)"
+      ],
+      "Hindu Succession Act, 1956": []
+    },
+    "facts_summary": "Appeal against High Court judgment declaring that land acquisition proceedings in Delhi had lapsed under Section 24(2) of the 2013 Act.",
+    "legal_issues": [
+      "Whether land acquisition proceedings lapsed under Section 24(2) of the 2013 Act where physical possession could not be taken due to pending litigation / interim orders."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside; writ petition dismissed.",
+    "legal_principles": "Applying the Constitution Bench decision in Indore Development Authority, land acquisition does not lapse under Section 24(2) if the acquiring authority was restrained from taking possession due to court stay orders or if compensation was tendered.",
+    "sub_case_type": "Land Acquisition",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Dispute on land acquisition under Section 24(2) of the 2013 Act; no family law issues involved; Hindu Succession Act was an incidental citation.",
+    "file_path": "text/2023_INSC_558.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_676",
+    "case_name": "P. YUVAPRAKASH v. STATE REP. BY INSPECTOR OF POLICE",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "JULY 18, 2023",
+    "appeal_number": "Criminal Appeal No(s",
+    "scr_citation": "[2023] 10 S.C.R.\n478",
+    "insc_citation": "2023 INSC 676",
+    "bench": [
+      "S. RAVINDRA BHAT AND ARAVIND KUMAR"
+    ],
+    "candidate_laws": [
+      "Prohibition of Child Marriage Act, 2006"
+    ],
+    "acts_and_sections_invoked": {
+      "Protection of Children from Sexual Offences Act, 2012": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "Juvenile Justice (Care and Protection of Children) Act, 2015": [
+        "94"
+      ],
+      "Prohibition of Child Marriage Act, 2006": [
+        "2(a)"
+      ],
+      "Indian Penal Code, 1860": [
+        "363",
+        "366"
+      ]
+    },
+    "facts_summary": "Appellant was convicted under POCSO Act and IPC for marrying and cohabiting with a girl alleged to be minor. The prosecution relied on a transfer certificate and oral testimony to establish her minority without producing a birth certificate from the school first attended or municipal records, or an ossification test.",
+    "legal_issues": [
+      "How minority must be proved in offences involving marriage and sexual relations under POCSO Act.",
+      "Whether Section 94 of the Juvenile Justice Act, 2015 provides the mandatory procedure for age determination in POCSO cases."
+    ],
+    "decision_holding": "Appeal allowed. Conviction set aside and appellant acquitted due to the prosecution's failure to establish minority in accordance with Section 94 JJ Act.",
+    "legal_principles": "Age determination of a victim in sexual offence and child marriage prosecutions must strictly follow the statutory hierarchy in Section 94 of the JJ Act. A transfer certificate from a subsequently attended school cannot be treated as conclusive proof of age.",
+    "sub_case_type": "Child Marriage & POCSO / Age Determination",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Addresses age determination principles intersecting child marriage under PCMA, POCSO, and Section 94 JJ Act.",
+    "file_path": "text/2023_INSC_676.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_744",
+    "case_name": "SMT. SHIRAMABAI W/O PUNDALIK BHAVE AND OTHERS v. THE CAPTAIN, RECORD OFFICER FOR O.I.C. RECORDS, SENA CORPS ABHILEKH, GAYA, BIHAR STATE AND ANR.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "AUGUST 18, 2023",
+    "appeal_number": "Civil Appeal No. 5262 of 2023",
+    "scr_citation": "[2023] 11 S.C.R. 130",
+    "insc_citation": "2023 INSC 744",
+    "bench": [
+      "HIMA KOHLI AND RAJESH BINDAL"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "5(i)",
+        "11",
+        "16"
+      ],
+      "Pension Regulations for the Army, 1961": [],
+      "Armed Forces Tribunal Act, 2007": []
+    },
+    "facts_summary": "A deceased soldier contracted a second marriage during the subsistence of his first marriage (which was void under Sections 5(i) and 11 HMA). Following his demise, the second wife and her children claimed family pension. The Armed Forces Tribunal and High Court denied pension to both the second wife and the children.",
+    "legal_issues": [
+      "Whether the second wife and children of a void Hindu marriage are entitled to family pension upon the death of the military personnel.",
+      "Whether children born of a void marriage are protected under Section 16 of the Hindu Marriage Act, 1955 for the purpose of receiving family pension."
+    ],
+    "decision_holding": "Appeal allowed in part. The second wife was held not entitled to family pension because the marriage was void, but the children of the second marriage were held legitimate under Section 16 HMA and entitled to their proportionate share of family pension.",
+    "legal_principles": "Children born of a void marriage are conferred statutory legitimacy under Section 16 of the Hindu Marriage Act, 1955 and cannot be denied the benefits, maintenance, or pension rights available to legitimate children of the deceased father, even though the second wife cannot claim pension.",
+    "sub_case_type": "Marriage Validity / Children's Legitimacy & Pension (s.16 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively applies Sections 5(i), 11, and 16 of the Hindu Marriage Act, 1955 to determine legitimacy of children from void marriages and their entitlement to service pension.",
+    "file_path": "text/2023_INSC_744.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_783",
+    "case_name": "REVANASIDDAPPA & ANR. v. MALLIKARJUN & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "SEPTEMBER 01, 2023",
+    "appeal_number": "Civil Appeal No. 2844 of 2011",
+    "scr_citation": "[2023] 14 S.C.R. 320",
+    "insc_citation": "2023 INSC 783",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955",
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "16(1)",
+        "16(2)",
+        "16(3)"
+      ],
+      "Hindu Succession Act, 1956": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ]
+    },
+    "facts_summary": "A 3-Judge Bench reference on whether children conferred legislative legitimacy under Section 16(1) or 16(2) of HMA are entitled to a share in the ancestral/coparcenary property of their parents under Section 16(3) HMA, or whether their rights are confined solely to the self-acquired or separate property of the parents.",
+    "legal_issues": [
+      "What is the true scope of Section 16(3) of the Hindu Marriage Act, 1955 in relation to inheritance rights of children of void or voidable marriages?",
+      "Whether such children can inherit their parent's share in Hindu joint family coparcenary property ascertained upon notional partition under Section 6 of the Hindu Succession Act, 1956."
+    ],
+    "decision_holding": "Reference answered. Children born of void or voidable marriages who are legitimate under Section 16 HMA are entitled to inherit the share that would have fallen to their parent in the coparcenary property upon notional partition immediately preceding the parent's death, along with the parent's separate property.",
+    "legal_principles": "Section 16(3) HMA restricts children's rights to the property of their parents, barring direct coparcenary rights in the larger joint family. However, under Section 6 HSA, upon the death of a coparcener, the parent's share is ascertained through a notional partition, and that share devolves upon all Class-I legal heirs, including children recognized as legitimate under Section 16 HMA.",
+    "sub_case_type": "Legitimacy, Coparcenary & Inheritance (s.16 HMA & s.6 HSA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark 3-Judge Bench judgment directly interpreting the property and coparcenary inheritance rights of children of void and voidable marriages under Section 16 HMA and Section 6 HSA.",
+    "file_path": "text/2023_INSC_783.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_785",
+    "case_name": "DERHA v. VISHAL & ANR.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "SEPTEMBER 01, 2023",
+    "appeal_number": "Civil Appeal No. 4494 of 2010",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 785",
+    "bench": [
+      "C. T. RAVIKUMAR AND SANJAY KUMAR"
+    ],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "6",
+        "8"
+      ],
+      "Code of Civil Procedure, 1908": [
+        "100"
+      ]
+    },
+    "facts_summary": "Common ancestor 'P' died in 1959 leaving behind sons, daughters, and a widow. A partition suit was filed regarding agricultural coparcenary properties. High Court held in second appeal that 'P' having died in 1959 before the 2005 amendment, his interest in coparcenary property devolved by notional partition under unamended Section 6 HSA, reducing the appellant's share to 1/6th.",
+    "legal_issues": [
+      "How does the interest of a male Hindu dying in 1959 leaving surviving female Class-I heirs devolve under Section 6 of the Hindu Succession Act, 1956?",
+      "Calculation of shares upon notional partition in ancestral coparcenary property."
+    ],
+    "decision_holding": "Appeal dismissed. High Court's determination of 1/6th share was confirmed.",
+    "legal_principles": "Under unamended Section 6 of HSA 1956, when a male Hindu died possessing an undivided coparcenary interest leaving female Class-I relatives, his interest devolved by intestate succession under Section 8 rather than survivorship. To determine the share, a notional partition is deemed immediately before his death, allocating shares to the coparceners and widow, and the deceased's share is then distributed equally among all Class-I heirs.",
+    "sub_case_type": "Succession & Partition / Mitakshara Coparcenary",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly interprets devolution of coparcenary interest and notional partition under Section 6 and Section 8 of the Hindu Succession Act, 1956.",
+    "file_path": "text/2023_INSC_785.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_813",
+    "case_name": "ILAVARASAN v. THE SUPERITENDENT OF POLICE & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "AUGUST 28, 2023",
+    "appeal_number": "Criminal Appeal No(s",
+    "scr_citation": "[2023] 15 S.C.R. 325",
+    "insc_citation": "2023 INSC 813",
+    "bench": [
+      "S. RAVINDRA BHAT AND ARAVIND KUMAR"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "7-A"
+      ],
+      "Advocates Act, 1961": []
+    },
+    "facts_summary": "A habeas corpus petition was filed by a husband seeking production of his wife following their 'Suyammariyathai' (Self-Respect) marriage solemnized under Section 7-A of HMA in the presence of advocates. The Madras High Court had doubted the marriage relying on an earlier ruling (S. Balakrishnan) that held advocates could not solemnize or certify self-respect marriages.",
+    "legal_issues": [
+      "Whether advocates in their personal capacity can witness, solemnize, or certify Suyammariyathai (Self-Respect) marriages under Section 7-A of the Hindu Marriage Act, 1955 (Tamil Nadu Amendment).",
+      "Whether self-respect marriages require public ceremonies or can be solemnized in private without religious rites."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside; Madras High Court's earlier ruling in S. Balakrishnan was overruled.",
+    "legal_principles": "Section 7-A HMA authorizes Self-Respect marriages without traditional religious ceremonies, requiring only that the parties declare each other husband and wife in the presence of relatives, friends, or other persons. Advocates acting in their personal capacity or as friends are not disqualified from witnessing or certifying such marriages.",
+    "sub_case_type": "Marriage Validity / Self-Respect Marriages (s.7-A HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly interprets Section 7-A of the Hindu Marriage Act, 1955 governing the solemnization and validity of Self-Respect marriages.",
+    "file_path": "text/2023_INSC_813.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_814",
+    "case_name": "SMT. ROOPA SONI v. KAMALNARAYAN SONI",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "SEPTEMBER 06, 2023",
+    "appeal_number": "Civil Appeal No. 5700 of 2023",
+    "scr_citation": "[2023] 14 S.C.R. 871",
+    "insc_citation": "2023 INSC 814",
+    "bench": [
+      "SANJIV KHANNA AND M. M. SUNDRESH"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)",
+        "13(1)(ib)"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "The parties married in 2002 and separated in 2007. The wife filed for divorce on grounds of cruelty under Section 13(1)(ia) HMA. Both spouses leveled serious character allegations and criminal cases against each other and lived separately for over 15 years. Trial Court and High Court dismissed the divorce petition citing lack of independent corroboration.",
+    "legal_issues": [
+      "Whether the lower courts adopted an erroneous hyper-technical standard of proof in declining divorce on grounds of mental cruelty under Section 13(1)(ia) HMA.",
+      "Whether protracted separation and unsubstantiated character allegations constitute mental cruelty."
+    ],
+    "decision_holding": "Appeal allowed. Judgments of trial court and High Court set aside; decree of divorce granted dissolving the marriage.",
+    "legal_principles": "Matrimonial cruelty must be assessed on a preponderance of probabilities rather than proof beyond reasonable doubt. When parties have lived apart for over a decade with severe mutual accusations destroying the emotional substratum, forcing them to remain tied in marriage constitutes mental cruelty under Section 13(1)(ia) HMA.",
+    "sub_case_type": "Divorce / Mental Cruelty",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core matrimonial case under Section 13(1)(ia) HMA clarifying standard of proof for mental cruelty and granting decree of divorce.",
+    "file_path": "text/2023_INSC_814.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_83",
+    "case_name": "ELUMALAI @ VENKATESAN & ANR v. M. KAMALA AND ORS. & ETC.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "JANUARY 25, 2023",
+    "appeal_number": "Civil Appeal Nos. 521-522 of 2023",
+    "scr_citation": null,
+    "insc_citation": "2023 INSC 83",
+    "bench": [
+      "K. M. JOSEPH AND HRISHIKESH ROY"
+    ],
+    "candidate_laws": [
+      "Hindu Minority and Guardianship Act, 1956",
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "6",
+        "8"
+      ],
+      "Transfer of Property Act, 1882": [
+        "6(a)"
+      ],
+      "Indian Evidence Act, 1872": [
+        "115"
+      ],
+      "Hindu Minority and Guardianship Act, 1956": []
+    },
+    "facts_summary": "Deceased 'S' married twice. From his first marriage, his son 'C' executed a registered release deed in 1975 relinquishing all future claims in his father's self-acquired property upon receiving consideration. Later, 'C's sons (appellants) filed a partition suit claiming that 'C's relinquishment was a void transfer of spes successionis under Section 6(a) TPA and did not bind them as coparceners.",
+    "legal_issues": [
+      "Whether a registered release deed relinquishing prospective inheritance rights in a father's separate property creates an estoppel under Section 115 Evidence Act binding the heir and his descendants.",
+      "Whether sons can maintain a partition suit under Hindu Succession Act after their father relinquished inheritance rights for valuable consideration."
+    ],
+    "decision_holding": "Appeals dismissed. The Supreme Court held that the release deed accompanied by consideration gave rise to an equitable estoppel against the son and his legal heirs, disentitling them to partition.",
+    "legal_principles": "Although transfer of spes successionis is void under Section 6(a) TPA, an heir who relinquishes future succession rights for consideration is precluded by estoppel under Section 115 Evidence Act from asserting title upon succession opening. This estoppel operates effectively against his legal heirs claiming under him.",
+    "sub_case_type": "Succession & Partition / Relinquishment & Estoppel",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates partition and succession rights under the Hindu Succession Act, 1956 and the doctrine of estoppel governing relinquishment of inheritance.",
+    "file_path": "text/2023_INSC_83.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_857",
+    "case_name": "CPL ASHISH KUMAR CHAUHAN (RETD.) v. COMMANDING OFFICER & ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "SEPTEMBER 26, 2023",
+    "appeal_number": "Civil Appeal No. 7175 of 2021",
+    "scr_citation": "[2023] 14 S.C.R. 601",
+    "insc_citation": "2023 INSC 857",
+    "bench": [
+      "S. RAVINDRA BHAT AND DIPANKAR DATTA"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Consumer Protection Act, 1986": [],
+      "Human Immunodeficiency Virus and Acquired Immune Deficiency Syndrome (Prevention and Control) Act, 2017": [],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "An Indian Air Force corporal received HIV-contaminated blood transfusion during treatment at a military hospital during Operation Parakram in 2002. Later diagnosed with HIV, he was discharged from military service. NCDRC dismissed his consumer complaint for medical negligence.",
+    "legal_issues": [
+      "Medical negligence by military hospital staff in blood transfusions.",
+      "Assessment of compensation for medical negligence and social stigma under the HIV Act, 2017."
+    ],
+    "decision_holding": "Appeal allowed. Supreme Court awarded approximately Rs. 1.55 Crores in compensation against the Indian Army/Air Force for gross medical negligence.",
+    "legal_principles": "Hospitals owe a high duty of care in screening donor blood; institutional medical negligence leading to debilitating infection warrants substantial restitution and compensation.",
+    "sub_case_type": "Consumer Protection / Medical Negligence",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Medical negligence claim under Consumer Protection Act; Hindu Marriage Act was an incidental citation regarding medical grounds for divorce.",
+    "file_path": "text/2023_INSC_857.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_896",
+    "case_name": "DR. NIRMAL SINGH PANESAR v. MRS. PARAMJIT KAUR PANESAR @ AJINDER KAUR PANESAR",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "OCTOBER 10, 2023",
+    "appeal_number": "Civil Appeal No.2045 of 2011",
+    "scr_citation": "[2023] 13 S.C.R. 832",
+    "insc_citation": "2023 INSC 896",
+    "bench": [
+      "ANIRUDDHA BOSE AND BELA M. TRIVEDI"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)",
+        "13(1)(ib)"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Husband (aged 89) and wife (aged 82) married in 1963 and lived separately since 1984. Husband filed for divorce on grounds of cruelty and desertion under Section 13(1)(ia) and (ib) HMA. High Court dismissed the petition. Husband appealed seeking dissolution under Article 142 on the ground of irretrievable breakdown of marriage. The elderly wife opposed, stating she had cared for the children, remained faithful, and refused to carry the social stigma of being a divorcee in her final years.",
+    "legal_issues": [
+      "Whether irretrievable breakdown of marriage must automatically result in divorce under Article 142 of the Constitution.",
+      "Whether the court can decline divorce under Article 142 when dissolution would work substantial injustice to an elderly, blameless wife."
+    ],
+    "decision_holding": "Appeal dismissed. Divorce refused. Supreme Court declined to exercise its power under Article 142 to dissolve the marriage.",
+    "legal_principles": "Irretrievable breakdown of marriage is not a strait-jacket formula for granting divorce under Article 142. Marriage carries sacred institutional value; court will refuse divorce if exercising Article 142 would cause injustice to a blameless spouse, particularly an elderly wife who has upheld the matrimonial bond and opposes the stigma of divorce.",
+    "sub_case_type": "Divorce / Irretrievable Breakdown & Article 142 Discretion",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Significant matrimonial precedent defining the equitable limits of Article 142 powers and refusal of divorce for irretrievable breakdown under HMA.",
+    "file_path": "text/2023_INSC_896.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_920",
+    "case_name": "SUPRIYO @ SUPRIYA CHAKRABORTY & ANR. v. UNION OF INDIA",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "OCTOBER 17, 2023",
+    "appeal_number": "Writ Petition (Civil",
+    "scr_citation": "[2023] 16 S.C.R. 1209",
+    "insc_citation": "2023 INSC 920",
+    "bench": [],
+    "candidate_laws": [
+      "Dissolution of Muslim Marriages Act, 1939",
+      "Divorce Act, 1869",
+      "Hindu Adoptions and Maintenance Act, 1956",
+      "Hindu Marriage Act, 1955",
+      "Hindu Minority and Guardianship Act, 1956",
+      "Hindu Succession Act, 1956",
+      "Indian Christian Marriage Act, 1872",
+      "Prohibition of Child Marriage Act, 2006",
+      "Protection of Women from Domestic Violence Act, 2005",
+      "Special Marriage Act, 1954"
+    ],
+    "acts_and_sections_invoked": {
+      "Special Marriage Act, 1954": [
+        "4",
+        "5",
+        "15",
+        "19",
+        "21",
+        "27"
+      ],
+      "Hindu Marriage Act, 1955": [],
+      "Indian Christian Marriage Act, 1872": [],
+      "Divorce Act, 1869": [],
+      "Dissolution of Muslim Marriages Act, 1939": [],
+      "Guardians and Wards Act, 1890": [],
+      "Hindu Adoptions and Maintenance Act, 1956": [],
+      "Hindu Minority and Guardianship Act, 1956": [],
+      "Hindu Succession Act, 1956": [],
+      "Protection of Women from Domestic Violence Act, 2005": [],
+      "Prohibition of Child Marriage Act, 2006": [],
+      "Juvenile Justice Act, 2015": [],
+      "Constitution of India": [
+        "14",
+        "15",
+        "19",
+        "21",
+        "32"
+      ]
+    },
+    "facts_summary": "Queer and same-sex couples filed writ petitions seeking legal recognition of same-sex marriage under the Special Marriage Act, 1954 through gender-neutral interpretation or striking down exclusionary provisions, as well as joint adoption rights under CARA Regulations.",
+    "legal_issues": [
+      "Whether there is a fundamental right to marry under the Constitution of India.",
+      "Whether the Special Marriage Act, 1954 can be read gender-neutrally by judicial interpretation to accommodate same-sex unions.",
+      "Whether unmarried and same-sex couples have a legal right to adopt under the Juvenile Justice Act and CARA Regulations."
+    ],
+    "decision_holding": "Writ petitions disposed of. The 5-Judge Constitution Bench unanimously held that there is no fundamental right to marry; unanimously held that the Special Marriage Act cannot be judicially re-written to include same-sex couples; by majority (3-2) held that unmarried queer couples cannot claim adoption under CARA guidelines without statutory amendment; recorded Union's undertaking to establish a committee to examine queer social rights.",
+    "legal_principles": "The right to marry is a statutory and social institution governed by personal and statutory laws, not an unqualified fundamental right. Courts cannot rewrite the Special Marriage Act, 1954 because altering its gendered architecture would disrupt intertwined succession, maintenance, and divorce laws. Legislative action is necessary to recognize queer unions.",
+    "sub_case_type": "Constitutional Family Law / Marriage Equality & Adoption",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark 5-Judge Constitution Bench judgment directly analyzing the Special Marriage Act, 1954, adoption laws (HAMA/CARA), and statutory marriage equality.",
+    "file_path": "text/2023_INSC_920.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_953",
+    "case_name": "MANMOHAN GOPAL v. THE STATE OF CHHATTISGARH & ANR.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "OCTOBER 20, 2023",
+    "appeal_number": "Criminal Appeal No(s",
+    "scr_citation": "[2023] 14 S.C.R. 1073",
+    "insc_citation": "2023 INSC 953",
+    "bench": [
+      "S. RAVINDRA BHAT AND ARAVIND KUMAR"
+    ],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "125"
+      ],
+      "Constitution of India": [
+        "142"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Applications filed by daughter-in-law for recovery of arrears of maintenance (over Rs. 42 Lakhs) and ongoing monthly maintenance in a bitter matrimonial dispute. Husband and father-in-law persistently defied Supreme Court compliance orders despite earlier undertakings.",
+    "legal_issues": [
+      "Enforcement of maintenance orders against contumacious husband and family members under Article 142.",
+      "Directing auction and sale of properties of judgment-debtor relatives to satisfy maintenance arrears."
+    ],
+    "decision_holding": "Applications disposed of. Supreme Court directed the auction and sale of commercial shops belonging to the husband/father-in-law to clear all maintenance arrears of the wife.",
+    "legal_principles": "Under Article 142, the Supreme Court possesses extraordinary coercive powers to enforce matrimonial maintenance decrees and defeat fraudulent evasion by ordering attachment and public sale of commercial properties.",
+    "sub_case_type": "Maintenance Enforcement / Contempt & Article 142",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Directly concerns realization and coercive execution of maintenance awarded in matrimonial discord through property auction under Article 142.",
+    "file_path": "text/2023_INSC_953.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_981",
+    "case_name": "ADITI ALIAS MITHI v. JITESH SHARMA",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "NOVEMBER 06, 2023",
+    "appeal_number": "Criminal Appeal No(S",
+    "scr_citation": "[2023] 14 S.C.R. 247",
+    "insc_citation": "2023 INSC 981",
+    "bench": [
+      "VIKRAM NATH AND RAJESH BINDAL"
+    ],
+    "candidate_laws": [
+      "Hindu Adoptions and Maintenance Act, 1956",
+      "Hindu Marriage Act, 1955",
+      "Protection of Women from Domestic Violence Act, 2005",
+      "Special Marriage Act, 1954"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "125"
+      ],
+      "Hindu Marriage Act, 1955": [
+        "24"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": [
+        "12",
+        "20"
+      ],
+      "Hindu Adoptions and Maintenance Act, 1956": [
+        "20"
+      ],
+      "Special Marriage Act, 1954": []
+    },
+    "facts_summary": "Minor daughter filed for maintenance under Section 125 CrPC against her father. Family Court awarded Rs. 20,000/- per month. High Court reduced it to Rs. 7,500/- per month without examining the father's affidavit of assets and liabilities. Minor appealed to the Supreme Court.",
+    "legal_issues": [
+      "Quantum and assessment of maintenance for minor child.",
+      "Mandatory adherence to Rajnesh v. Neha guidelines requiring comprehensive Affidavits of Assets and Liabilities across all maintenance proceedings under CrPC, HMA, HAMA, and PWDVA."
+    ],
+    "decision_holding": "Appeal disposed of. High Court order set aside; matter remitted to High Court to redetermine maintenance based on mandatory asset and liability disclosures as laid down in Rajnesh v. Neha; directed Judicial Academies to ensure trial judges follow disclosure rules.",
+    "legal_principles": "In maintenance claims under any statute (s.125 CrPC, s.24 HMA, s.20 HAMA, or PWDVA), the guidelines in Rajnesh v. Neha mandating filing of Affidavits of Assets and Liabilities must be strictly and invariably followed before determining quantum.",
+    "sub_case_type": "Maintenance & Child Support / Procedure & Asset Disclosure",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Authoritative ruling governing maintenance determination procedure across all family law statutes (HMA, HAMA, PWDVA, CrPC) reaffirming Rajnesh v. Neha.",
+    "file_path": "text/2023_INSC_981.txt"
+  },
+  {
+    "judgment_id": "2023_INSC_984",
+    "case_name": "SACHIDHANANDAM SINCE DEAD THROUGH HIS LRS. v. E. VANAJA AND ORS.",
+    "court": "Supreme Court of India",
+    "year": 2023,
+    "date": "NOVEMBER 06, 2023",
+    "appeal_number": "Civil Appeal No. 3667 of 2018",
+    "scr_citation": "[2023] 14 S.C.R. 240",
+    "insc_citation": "2023 INSC 984",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "15(1)(a)",
+        "15(2)",
+        "16"
+      ],
+      "Code of Civil Procedure, 1908": []
+    },
+    "facts_summary": "In a partition suit concerning the estate of a deceased female Hindu, the widow of a pre-deceased son claimed an equal share in the mother-in-law's estate alongside the surviving sons. First Appellate Court and High Court held that the widow of the pre-deceased son inherits a share under Section 15(1)(a) read with Rule 1 of Section 16 HSA.",
+    "legal_issues": [
+      "Whether under Section 15(1)(a) and Section 16 of the Hindu Succession Act, 1956, the widow of a pre-deceased son is entitled to inherit a share in the estate of her deceased mother-in-law dying intestate."
+    ],
+    "decision_holding": "Appeals disposed of. Supreme Court affirmed that the widow of a pre-deceased son inherits the branch share of her deceased husband in the mother-in-law's estate under Section 15(1)(a) read with Section 16 Rule 1.",
+    "legal_principles": "Under Section 15(1)(a) read with Section 16 (Rule 1) of HSA 1956, the heirs of a female Hindu dying intestate include the sons, daughters, and children of any pre-deceased son or daughter. By virtue of the branch representation rule, the widow of a pre-deceased son steps into her husband's shoes to inherit the share that would have fallen to the pre-deceased son.",
+    "sub_case_type": "Succession & Partition / Female Hindu Intestate Succession",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly interprets Section 15(1)(a) and Section 16 of the Hindu Succession Act, 1956 regarding inheritance rights of the widow of a pre-deceased son.",
+    "file_path": "text/2023_INSC_984.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_1014",
+    "case_name": "Rinku Baheti v. Sandesh Sharda",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "19 December 2024",
+    "appeal_number": "Transfer Petition (Civil",
+    "scr_citation": "[2024] 12 S.C.R. 1355",
+    "insc_citation": "2024 INSC 1014",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)",
+        "25"
+      ],
+      "Constitution of India": [
+        "142"
+      ],
+      "Code of Civil Procedure, 1908": [
+        "25"
+      ]
+    },
+    "facts_summary": "Wife filed a transfer petition under Section 25 CPC seeking transfer of divorce proceedings initiated by the husband. The parties had married in 2018 and separated within months, leading to multiple criminal complaints and bitter matrimonial litigation with zero possibility of reconciliation.",
+    "legal_issues": [
+      "Whether the Supreme Court should exercise its plenary powers under Article 142 to grant a decree of divorce on ground of irretrievable breakdown of marriage in a pending transfer petition.",
+      "Settlement of permanent alimony and quashing of collateral matrimonial criminal complaints."
+    ],
+    "decision_holding": "Transfer petition disposed of. Supreme Court exercised Article 142 to dissolve the marriage on the ground of irretrievable breakdown, awarded permanent alimony to the wife, and quashed all pending criminal cases between the parties.",
+    "legal_principles": "When a marriage is dead and parties are engaged in protracted recriminatory litigation, the Supreme Court in exercise of Article 142 can grant a decree of divorce in a transfer petition and quash all ancillary proceedings to put an end to the agony of both parties.",
+    "sub_case_type": "Divorce / Irretrievable Breakdown & Transfer Petition",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly dissolves marriage under HMA and Article 142, awarding permanent alimony and closing all matrimonial proceedings.",
+    "file_path": "text/2024_INSC_1014.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_1020",
+    "case_name": "Prakash and Others v. The State of Maharashtra and Another",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "20 December 2024",
+    "appeal_number": "Criminal Appeal No. 5543 of 2024",
+    "scr_citation": "[2024] 12 S.C.R. 1160",
+    "insc_citation": "2024 INSC 1020",
+    "bench": [],
+    "candidate_laws": [
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Indian Penal Code, 1860": [
+        "306",
+        "107"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": [],
+      "Code of Criminal Procedure, 1973": []
+    },
+    "facts_summary": "Appellants were convicted under Section 306 IPC for abetment of suicide of a woman who committed suicide over a month after harsh words were allegedly exchanged during a Mahalokadalat conciliation session in a domestic violence / maintenance dispute.",
+    "legal_issues": [
+      "Whether harsh words uttered during a Lok Adalat matrimonial conciliation session over a month prior to suicide can constitute 'instigation' or abetment under Section 306 read with Section 107 IPC."
+    ],
+    "decision_holding": "Appeal allowed. Conviction and sentence under Section 306 IPC set aside; appellants acquitted.",
+    "legal_principles": "To sustain a conviction under Section 306 IPC, there must be proximate, direct instigation and mens rea driving the deceased to suicide. Distant verbal altercations during settlement efforts in matrimonial/DV disputes do not constitute abetment.",
+    "sub_case_type": "Matrimonial Criminal / Abetment of Suicide",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Arises from a fatal dispute during Mahalokadalat proceedings connected with domestic violence complaints, defining criminal liability in matrimonial settlements.",
+    "file_path": "text/2024_INSC_1020.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_1036",
+    "case_name": "Sugirtha v. Gowtham",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "20 December 2024",
+    "appeal_number": "Civil Appeal No. 14833 of 2024",
+    "scr_citation": "[2024] 12 S.C.R. 2089",
+    "insc_citation": "2024 INSC 1036",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "26"
+      ],
+      "Guardians and Wards Act, 1890": []
+    },
+    "facts_summary": "In a matrimonial dispute between estranged parents, the High Court directed the custodial mother to travel a distance of over 300 kilometres along with the minor daughter every alternate weekend to enable the respondent-father to exercise visitation rights.",
+    "legal_issues": [
+      "Whether a child and custodial parent can be compelled to travel long distances (300 km) repeatedly to facilitate parental visitation.",
+      "Balancing parental visitation rights against the paramount welfare, comfort, and schooling of the minor child."
+    ],
+    "decision_holding": "Appeal partly allowed. The High Court direction compelling the mother and child to travel 300 km was set aside; directed instead that the father shall travel to the child's place of residence to exercise visitation.",
+    "legal_principles": "In child visitation orders under Section 26 HMA, the convenience, education, physical comfort, and emotional stability of the child are paramount. Visitation rights cannot be organized in a manner that causes physical distress or disruption to the child's routine.",
+    "sub_case_type": "Custody & Child Visitation (s.26 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates child visitation rights and parental access parameters under Section 26 of the Hindu Marriage Act, 1955.",
+    "file_path": "text/2024_INSC_1036.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_1100",
+    "case_name": "Yagwati @ Poonam v. Ghanshyam",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "29 January 2024",
+    "appeal_number": "Civil Appeal Nos.1318-1319 of 2024",
+    "scr_citation": "[2024] 1 S.C.R. 1100",
+    "insc_citation": "2024 INSC 76",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Adoptions and Maintenance Act, 1956": [
+        "18"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Wife and children living separately from the husband sought maintenance under Section 18 of HAMA. The Family Court granted Rs. 10,000/- per month, which was enhanced by the High Court to Rs. 20,000/- per month. The wife appealed to the Supreme Court seeking further enhancement in view of husband's substantial income as an Executive Engineer.",
+    "legal_issues": [
+      "Adequacy and quantum of maintenance awarded to a Hindu wife under Section 18 of the Hindu Adoptions and Maintenance Act, 1956 commensurate with husband's financial status and inflation."
+    ],
+    "decision_holding": "Appeals allowed. Supreme Court enhanced the maintenance to Rs. 40,000/- per month from the date of the Family Court application.",
+    "legal_principles": "Under Section 18 HAMA, the quantum of maintenance must ensure that the wife enjoys a standard of living reasonably comparable to what she would have enjoyed in the matrimonial home, considering husband's status, real earning capacity, and escalating cost of living.",
+    "sub_case_type": "Maintenance & Alimony (s.18 HAMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly determines the principles and quantum of spousal maintenance under Section 18 of the Hindu Adoptions and Maintenance Act, 1956.",
+    "file_path": "text/2024_INSC_1100.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_150",
+    "case_name": "High Court Bar Association, Allahabad v. State of U.P. & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "29 February 2024",
+    "appeal_number": "Criminal Appeal No. 3589 of 2023",
+    "scr_citation": "[2024] 2 S.C.R. 946",
+    "insc_citation": "2024 INSC 150",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955",
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Constitution of India": [
+        "142",
+        "226",
+        "227"
+      ],
+      "Hindu Marriage Act, 1955": [],
+      "Protection of Women from Domestic Violence Act, 2005": []
+    },
+    "facts_summary": "5-Judge Constitution Bench reference examining the correctness of the earlier 3-Judge Bench ruling in Asian Resurfacing (2018), which had directed that interim stay orders granted by High Courts in civil and criminal proceedings would automatically vacate after six months unless specifically extended.",
+    "legal_issues": [
+      "Whether the Supreme Court under Article 142 can order automatic vacation of interim stay orders granted by High Courts upon the expiry of a fixed time limit.",
+      "Whether Constitutional Courts should issue blanket procedural directives fixing timelines for disposal of cases."
+    ],
+    "decision_holding": "Reference answered. Asian Resurfacing was overruled; held that interim orders do not automatically lapse by efflux of time without judicial application of mind, and Article 142 cannot be used to issue blanket procedural directives curtailing High Court jurisdiction under Article 226.",
+    "legal_principles": "Interim orders once granted remain operative until vacated or modified by a judicial order. Automatic vacation of stay creates chaos and violates judicial discretion. Article 142 cannot be invoked to legislate judicial timelines.",
+    "sub_case_type": "Constitutional Law / Civil & Criminal Procedure",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Landmark Constitution Bench overruling Asian Resurfacing regarding automatic vacation of stay orders; family law acts were only mentioned as examples of proceedings affected by stay.",
+    "file_path": "text/2024_INSC_150.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_274",
+    "case_name": "Deep Mukerjee v. Sreyashi Banerjee",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "05 April 2024",
+    "appeal_number": "Civil Appeal No(s",
+    "scr_citation": "[2024] 4 S.C.R. 72",
+    "insc_citation": "2024 INSC 274",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "12(1)(a)",
+        "13"
+      ],
+      "Indian Evidence Act, 1872": [],
+      "Code of Civil Procedure, 1908": []
+    },
+    "facts_summary": "Wife filed for divorce alleging non-consummation of marriage due to husband's impotency. The husband filed an interim application before the trial court expressing willingness to undergo a medical potentiality test, and seeking fertility/psychological tests for both parties. Trial court allowed the husband's potentiality test; High Court set it aside.",
+    "legal_issues": [
+      "Whether the High Court was justified in setting aside an order directing medical examination/potentiality test of a husband who voluntarily consented to undergo the test to disprove allegations of impotency in a divorce proceeding."
+    ],
+    "decision_holding": "Appeals partly allowed. The High Court order was modified, and the trial court order directing the husband to undergo a medical potentiality test was restored.",
+    "legal_principles": "Where non-consummation due to impotency is a statutory ground for nullity/divorce under HMA and the husband willingly volunteers to submit himself to a medical potentiality test, courts should permit such examination as relevant scientific evidence to adjudicate matrimonial allegations.",
+    "sub_case_type": "Marriage Validity & Divorce / Impotency & Medical Test",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates matrimonial proceedings under HMA concerning medical examination and potentiality testing to determine allegations of impotency.",
+    "file_path": "text/2024_INSC_274.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_287",
+    "case_name": "Kizhakke Vattakandiyil Madhavan (Dead) Thr. Lrs. v. Thiyyurkunnath Meethal Janaki and Ors",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "09 April 2024",
+    "appeal_number": "Civil Appeal No. 8616 of 2017",
+    "scr_citation": "[2024] 4 S.C.R. 383",
+    "insc_citation": "2024 INSC 287",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Widows' Remarriage Act, 1856": [
+        "2"
+      ],
+      "Hindu Succession Act, 1956": [
+        "14(1)"
+      ],
+      "Transfer of Property Act, 1882": [
+        "41"
+      ]
+    },
+    "facts_summary": "A Hindu widow remarried in 1953 prior to the enactment of the Hindu Succession Act, 1956. Her son from her second husband claimed title to property derived from her first husband through a series of transactions, asserting her limited right had blossomed into absolute ownership under Section 14(1) HSA.",
+    "legal_issues": [
+      "Whether a Hindu widow who remarried prior to the Hindu Succession Act, 1956 forfeited her limited interest in her deceased husband's estate by virtue of Section 2 of the Hindu Widows' Remarriage Act, 1856.",
+      "Whether Section 14(1) of the Hindu Succession Act, 1956 can revive or enlarge an interest that stood forfeited prior to the commencement of the Act."
+    ],
+    "decision_holding": "Appeal allowed. Supreme Court held that the widow had forfeited all rights to her first husband's property upon her remarriage in 1953 under Section 2 of the 1856 Act, and Section 14(1) HSA could not revive an extinguished title.",
+    "legal_principles": "Section 14(1) of the Hindu Succession Act, 1956 applies only to property 'possessed' by a female Hindu at the time the Act came into force. If a widow forfeited her estate by remarriage prior to 1956 under Section 2 of the Hindu Widows' Remarriage Act, 1856, she retained no right capable of blossoming into absolute ownership.",
+    "sub_case_type": "Succession & Inheritance / Widow's Remarriage & s.14 HSA",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly interprets the interplay between Section 2 of the Hindu Widows' Remarriage Act, 1856 and Section 14(1) of the Hindu Succession Act, 1956 regarding property devolution.",
+    "file_path": "text/2024_INSC_287.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_342",
+    "case_name": "Aniruddha Khanwalkar v. Sharmila Das & Others",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "26 April 2024",
+    "appeal_number": "Criminal Appeal No. 2272 of 2024",
+    "scr_citation": "[2024] 5 S.C.R. 537",
+    "insc_citation": "2024 INSC 342",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "204",
+        "482"
+      ],
+      "Indian Penal Code, 1860": [
+        "498A",
+        "406",
+        "384",
+        "506"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Husband filed a criminal complaint against his estranged wife and her parents for offences of criminal breach of trust, extortion, and criminal intimidation arising from matrimonial breakdown. Magistrate summoned the accused; Sessions Court and High Court quashed the summoning order holding no prima facie case was made out.",
+    "legal_issues": [
+      "Standard of prima facie satisfaction required for a Magistrate to issue process under Section 204 CrPC.",
+      "Whether High Court in revision/quashing can embark on a meticulous appreciation of evidence at the pre-trial summoning stage in matrimonial cross-complaints."
+    ],
+    "decision_holding": "Appeal allowed. Orders of Sessions Court and High Court quashed; summoning order issued by the Magistrate restored.",
+    "legal_principles": "At the stage of issuing process under Section 204 CrPC, the Magistrate is only required to see if a prima facie case exists. The revisional court cannot conduct a mini-trial or weigh defense evidence to scuttle criminal complaints arising from matrimonial transactions.",
+    "sub_case_type": "Matrimonial Criminal / Quashing of Process",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Concerns criminal proceedings and summoning orders between spouses arising out of matrimonial conflict, interpreting Section 204 CrPC.",
+    "file_path": "text/2024_INSC_342.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_355",
+    "case_name": "Dolly Rani v. Manish Kumar Chanchal",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "19 April 2024",
+    "appeal_number": "Transfer Petition (C",
+    "scr_citation": "[2024] 5 S.C.R. 510",
+    "insc_citation": "2024 INSC 355",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955",
+      "Special Marriage Act, 1954"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "7",
+        "8"
+      ],
+      "Special Marriage Act, 1954": [],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Parties obtained a marriage certificate under Section 8 of the Hindu Marriage Act, 1955 without performing any customary or religious ceremonies under Section 7 HMA, intending to formalize their union later. Differences arose before ceremonies were performed, and the wife filed a transfer petition while seeking a declaration that no valid marriage existed.",
+    "legal_issues": [
+      "Whether registration of marriage under Section 8 of the Hindu Marriage Act, 1955 confers validity or legitimacy when customary rites and ceremonies under Section 7 HMA were never performed.",
+      "What constitutes valid solemnization of a Hindu marriage under statutory law."
+    ],
+    "decision_holding": "Transfer petition disposed of. Declared that no valid marriage subsisted between the parties due to absence of ceremonies under Section 7 HMA; certificate of registration quashed.",
+    "legal_principles": "A Hindu marriage is a sacrament and not a mere civil contract. Under Section 7 HMA, a Hindu marriage must be solemnized in accordance with customary rites and ceremonies (including Saptapadi where applicable). Registration under Section 8 HMA is merely evidentiary and cannot cure the total absence of solemnization ceremonies.",
+    "sub_case_type": "Marriage Validity & Solemnization (ss.7 & 8 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark decision authoritatively interpreting Sections 7 and 8 of the Hindu Marriage Act, 1955 regarding the mandatory necessity of ceremonies for a valid marriage.",
+    "file_path": "text/2024_INSC_355.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_369",
+    "case_name": "Achin Gupta v. State of Haryana & Anr.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "03 May 2024",
+    "appeal_number": "Criminal Appeal No. 2379 of 2024",
+    "scr_citation": "[2024] 6 S.C.R. 129",
+    "insc_citation": "2024 INSC 369",
+    "bench": [],
+    "candidate_laws": [
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "482"
+      ],
+      "Indian Penal Code, 1860": [
+        "498A",
+        "406",
+        "323",
+        "506"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": []
+    },
+    "facts_summary": "Husband was chargesheeted under Sections 498A, 406, 323, and 506 IPC pursuant to an FIR lodged by his estranged wife following marital breakdown. High Court declined to quash the criminal proceedings under Section 482 CrPC.",
+    "legal_issues": [
+      "Parameters for exercise of inherent powers under Section 482 CrPC to quash criminal proceedings under Section 498A IPC when allegations are omnibus, vague, and motivated by marital acrimony."
+    ],
+    "decision_holding": "Appeal allowed. Criminal proceedings and chargesheet against the husband were quashed.",
+    "legal_principles": "The power under Section 482 CrPC should be exercised to prevent abuse of the process of law where criminal machinery is deployed as an instrument of oppression in matrimonial disputes based on vague and general allegations without specific instances of cruelty.",
+    "sub_case_type": "Matrimonial Criminal / 498A IPC Quashing",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Directly deals with quashing of criminal prosecution under Section 498A IPC arising from marital dispute, laying down guidelines against misuse.",
+    "file_path": "text/2024_INSC_369.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_382",
+    "case_name": "Jatinder Kumar Sapra v. Anupama Sapra",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "06 May 2024",
+    "appeal_number": "Civil Appeal No. 6088 of 2024",
+    "scr_citation": "[2024] 5 S.C.R. 879",
+    "insc_citation": "2024 INSC 382",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)",
+        "25"
+      ],
+      "Constitution of India": [
+        "142(1)"
+      ]
+    },
+    "facts_summary": "Husband filed for divorce under Section 13(1)(ia) HMA on grounds of cruelty. Parties had lived separately for over two decades with multiple failed conciliations and severe acrimony. Both Family Court and High Court dismissed the divorce petition.",
+    "legal_issues": [
+      "Whether prolonged separation for over 20 years with complete emotional rupture constitutes a fit case for dissolution of marriage under Article 142(1) on the ground of irretrievable breakdown of marriage.",
+      "Determination of fair permanent alimony under Section 25 HMA upon dissolution."
+    ],
+    "decision_holding": "Appeal allowed. Decree of divorce granted dissolving the marriage under Article 142(1); husband directed to pay Rs. 50,00,000/- to the wife as permanent alimony in five monthly instalments.",
+    "legal_principles": "Where parties have been separated for decades and the marriage has broken down irretrievably beyond repair, continuing the legal bond is harmful to both spouses. Article 142(1) should be invoked to dissolve the marriage while safeguarding the wife's financial security through adequate permanent alimony.",
+    "sub_case_type": "Divorce / Irretrievable Breakdown & Alimony",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly dissolves marriage and determines permanent alimony under HMA and Article 142 on the ground of irretrievable breakdown.",
+    "file_path": "text/2024_INSC_382.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_397",
+    "case_name": "Col. Ramneesh Pal Singh v. Sugandhi Aggarwal",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "08 May 2024",
+    "appeal_number": "Civil Appeal No. 6137 of 2024",
+    "scr_citation": "[2024] 6 S.C.R. 259",
+    "insc_citation": "2024 INSC 397",
+    "bench": [],
+    "candidate_laws": [
+      "Family Courts Act, 1984",
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Guardians and Wards Act, 1890": [
+        "7",
+        "9",
+        "25"
+      ],
+      "Family Courts Act, 1984": [],
+      "Protection of Women from Domestic Violence Act, 2005": []
+    },
+    "facts_summary": "Estranged parents (husband a serving Army Colonel and wife a Judicial Officer) engaged in fierce litigation over the custody of their two minor children. Family Court granted permanent custody to the father; High Court reversed and awarded custody to the mother.",
+    "legal_issues": [
+      "Custody and guardianship of minor children under Sections 7 and 25 of the Guardians and Wards Act, 1890.",
+      "Application of the doctrine of 'Parental Alienation Syndrome' (PAS) and determination of the paramount welfare of the child in custody battles between high-functioning professional parents."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside; permanent custody of both minor children restored to the father, granting extensive visitation rights to the mother.",
+    "legal_principles": "The welfare of the child is the sole paramount consideration under the Guardians and Wards Act, 1890. Courts exercising parens patriae jurisdiction must guard against parental alienation and evaluate the genuine comfort, academic stability, and moral development of the minors rather than technical legal claims of parents.",
+    "sub_case_type": "Custody & Guardianship (GWA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core family custody adjudication under Sections 7 and 25 of the Guardians and Wards Act, 1890 and Family Courts Act.",
+    "file_path": "text/2024_INSC_397.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_428",
+    "case_name": "Mukatlal v. Kailash Chand (D) Through Lrs. and Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "16 May 2024",
+    "appeal_number": "Civil Appeal No. 6460 of 2024",
+    "scr_citation": "[2024] 6 S.C.R. 298",
+    "insc_citation": "2024 INSC 428",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "14(1)"
+      ],
+      "Code of Civil Procedure, 1908": []
+    },
+    "facts_summary": "Dispute concerning whether the legal heir of a deceased Hindu widow could enforce her right of succession in unpartitioned Joint Hindu Family property by virtue of Section 14(1) of the Hindu Succession Act, 1956.",
+    "legal_issues": [
+      "Whether a Hindu widow who was in constructive/joint possession of unpartitioned joint family property acquired an absolute estate under Section 14(1) of the Hindu Succession Act, 1956 capable of devolving upon her legal heirs."
+    ],
+    "decision_holding": "Appeal allowed. Held that the widow's limited right blossomed into an absolute ownership under Section 14(1) HSA, which her legal heirs were entitled to enforce.",
+    "legal_principles": "To attract Section 14(1) of the Hindu Succession Act, 1956, actual physical possession is not required; constructive possession or pre-existing maintenance rights in the undivided joint family property suffice for a female Hindu's limited estate to blossom into absolute ownership.",
+    "sub_case_type": "Succession & Partition / Widow's Absolute Estate (s.14(1) HSA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively interprets Section 14(1) of the Hindu Succession Act, 1956 regarding the transformation of a widow's limited interest into absolute ownership.",
+    "file_path": "text/2024_INSC_428.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_436",
+    "case_name": "Ravikumar Dhansukhlal Maheta & Anr. v. High Court of Gujarat & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "17 May 2024",
+    "appeal_number": "Writ Petition (c",
+    "scr_citation": "[2024] 5 S.C.R. 1074",
+    "insc_citation": "2024 INSC 436",
+    "bench": [],
+    "candidate_laws": [
+      "Family Courts Act, 1984",
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Constitution of India": [
+        "32",
+        "226"
+      ],
+      "Gujarat State Judicial Service Rules, 2005": [
+        "5(1)"
+      ],
+      "Family Courts Act, 1984": [],
+      "Protection of Women from Domestic Violence Act, 2005": []
+    },
+    "facts_summary": "Two Senior Civil Judges challenged the promotion of Civil Judges (Senior Division) to the cadre of District Judges in Gujarat, alleging violation of the 'Merit-cum-Seniority' principle laid down in the All India Judges' Association cases.",
+    "legal_issues": [
+      "Scope and application of the 'Merit-cum-Seniority' principle in judicial service promotions under the Gujarat Judicial Service Rules."
+    ],
+    "decision_holding": "Petition dismissed. Promotion process upheld as compliant with service rules.",
+    "legal_principles": "Merit-cum-seniority implies that merit is given primary consideration and seniority operates as a tie-breaker among candidates achieving the minimum merit benchmark.",
+    "sub_case_type": "Service Law / Judicial Appointments",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Service law dispute concerning judicial promotions; Family Courts Act and PWDVA were cited only in relation to postings of judicial officers.",
+    "file_path": "text/2024_INSC_436.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_450",
+    "case_name": "Trisha Singh v. Anurag Kumar",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "15 May 2024",
+    "appeal_number": "Transfer Petition (Civil",
+    "scr_citation": "[2024] 5 S.C.R. 567",
+    "insc_citation": "2024 INSC 450",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "9",
+        "13-B"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Husband filed a petition under Section 9 HMA for restitution of conjugal rights. In a transfer petition, parties arrived at a comprehensive settlement for divorce by mutual consent and the wife accepted Rs. 50 Lakhs from the husband as part payment of permanent alimony. The wife subsequently resiled from the settlement agreement.",
+    "legal_issues": [
+      "Whether a spouse who has accepted substantial financial benefits under a court-monitored matrimonial settlement agreement can unilaterally resile from the agreement.",
+      "Exercise of Article 142 powers to grant divorce and enforce settlement terms despite one party resiling."
+    ],
+    "decision_holding": "Petition allowed. Supreme Court invoked Article 142 to dissolve the marriage by mutual consent in terms of the settlement agreement, directing payment of the balance alimony amount.",
+    "legal_principles": "A party to a matrimonial settlement cannot take undue advantage by accepting monetary compensation and thereafter arbitrarily resiling from consenting to mutual divorce. Article 142 will be exercised to prevent breach of faith and achieve complete justice.",
+    "sub_case_type": "Divorce / Mutual Consent Settlement & Resiling",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly dissolves marriage and enforces matrimonial settlement under HMA and Article 142.",
+    "file_path": "text/2024_INSC_450.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_506",
+    "case_name": "Mohd. Abdul Samad v. The State of Telangana & Anr.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "10 July 2024",
+    "appeal_number": "Criminal Appeal No. 2842 of 2024",
+    "scr_citation": "[2024] 7 S.C.R. 1236",
+    "insc_citation": "2024 INSC 506",
+    "bench": [],
+    "candidate_laws": [
+      "Divorce Act, 1869",
+      "Family Courts Act, 1984",
+      "Hindu Marriage Act, 1955",
+      "Protection of Women from Domestic Violence Act, 2005",
+      "Special Marriage Act, 1954"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "125"
+      ],
+      "Muslim Women (Protection of Rights on Divorce) Act, 1986": [
+        "3",
+        "4",
+        "5"
+      ],
+      "Special Marriage Act, 1954": [],
+      "Family Courts Act, 1984": [],
+      "Divorce Act, 1869": [],
+      "Hindu Marriage Act, 1955": [],
+      "Protection of Women from Domestic Violence Act, 2005": []
+    },
+    "facts_summary": "A Muslim husband challenged an interim maintenance order awarded to his divorced wife under Section 125 CrPC, contending that the Muslim Women (Protection of Rights on Divorce) Act, 1986 extinguished a divorced Muslim woman's right to claim maintenance under Section 125 CrPC.",
+    "legal_issues": [
+      "Whether Section 125 CrPC is available to divorced Muslim women notwithstanding the enactment of the Muslim Women (Protection of Rights on Divorce) Act, 1986.",
+      "Whether Section 125 CrPC is a secular, universal maintenance remedy operating independently of personal laws."
+    ],
+    "decision_holding": "Appeal dismissed. Supreme Court affirmed that Section 125 CrPC applies universally to all women, including divorced Muslim women, and the 1986 Act provides an additional, not exclusionary, remedy.",
+    "legal_principles": "Section 125 CrPC is a secular measure enacted to prevent destitution and vagrancy, transcending personal religious boundaries. The Muslim Women (Protection of Rights on Divorce) Act, 1986 does not bar a divorced Muslim woman from invoking Section 125 CrPC before a Magistrate or Family Court.",
+    "sub_case_type": "Maintenance / Divorced Muslim Women (s.125 CrPC)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark ruling authoritatively establishing the secular, non-exclusionary applicability of Section 125 CrPC maintenance across all personal laws.",
+    "file_path": "text/2024_INSC_506.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_517",
+    "case_name": "Vikas Kanaujia v. Sarita",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "10 July 2024",
+    "appeal_number": "Civil Appeal No. 7380 of 2024",
+    "scr_citation": "[2024] 7 S.C.R. 933",
+    "insc_citation": "2024 INSC 517",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Spouses married in 2009 and separated in 2011 after severe matrimonial conflicts. The husband filed for divorce on grounds of mental cruelty under Section 13(1)(ia) HMA. High Court set aside the divorce decree. Husband appealed to the Supreme Court seeking divorce under Article 142 on the ground of irretrievable breakdown.",
+    "legal_issues": [
+      "Whether prolonged separation for over a decade with complete breakdown of marital consortium warrants exercise of Article 142 to grant divorce on the ground of irretrievable breakdown."
+    ],
+    "decision_holding": "Appeal allowed. High Court judgment set aside; decree of divorce granted dissolving the marriage under Article 142; husband directed to pay permanent alimony of Rs. 25 Lakhs.",
+    "legal_principles": "Where the marriage has broken down irretrievably with no cohabitation for over 12 years and mediation efforts have failed, forcing the parties to remain legally tied causes emotional cruelty; Article 142 should be invoked to dissolve the defunct union with fair alimony.",
+    "sub_case_type": "Divorce / Mental Cruelty & Irretrievable Breakdown",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly dissolves marriage under HMA and Article 142 on the ground of irretrievable breakdown and awards permanent alimony.",
+    "file_path": "text/2024_INSC_517.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_530",
+    "case_name": "Kiran Jyot Maini v. Anish Pramod Patel",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "15 July 2024",
+    "appeal_number": "Criminal Appeal Nos. 2915-2918 of 2024",
+    "scr_citation": "[2024] 7 S.C.R. 942",
+    "insc_citation": "2024 INSC 530",
+    "bench": [],
+    "candidate_laws": [
+      "Protection of Women from Domestic Violence Act, 2005",
+      "Special Marriage Act, 1954"
+    ],
+    "acts_and_sections_invoked": {
+      "Special Marriage Act, 1954": [
+        "27",
+        "37"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": [
+        "12",
+        "20",
+        "23"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Parties married under the Special Marriage Act, 1954 separated after long-standing disputes, giving rise to multiple proceedings under PWDVA and matrimonial laws. In an appeal regarding interim maintenance, both parties admitted irretrievable breakdown and sought one-time permanent settlement.",
+    "legal_issues": [
+      "Dissolution of marriage under Special Marriage Act and Article 142 on the ground of irretrievable breakdown.",
+      "Determination of lump-sum permanent alimony and settlement of all claims under PWDVA and SMA."
+    ],
+    "decision_holding": "Appeals allowed. Marriage dissolved under Article 142; husband directed to pay Rs. 2 Crores as one-time permanent alimony and all pending criminal/DV cases quashed.",
+    "legal_principles": "In marriages solemnized under the Special Marriage Act that have broken down beyond revival, Article 142 enables the court to grant dissolution and fix a clean-break permanent alimony package to terminate all ongoing litigation.",
+    "sub_case_type": "Divorce & Permanent Alimony / Special Marriage Act & PWDVA",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively dissolves marriage under Special Marriage Act and Article 142, quashing DV proceedings and fixing permanent alimony.",
+    "file_path": "text/2024_INSC_530.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_610",
+    "case_name": "Gautam Kumar Das v. NCT of Delhi and Others",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "20 August 2024",
+    "appeal_number": "Criminal Appeal No. 3447 of 2024",
+    "scr_citation": "[2024] 8 S.C.R. 451",
+    "insc_citation": "2024 INSC 610",
+    "bench": [],
+    "candidate_laws": [
+      "Guardians and Wards Act, 1890"
+    ],
+    "acts_and_sections_invoked": {
+      "Guardians and Wards Act, 1890": [
+        "7",
+        "17",
+        "25"
+      ]
+    },
+    "facts_summary": "A biological father, who was the sole surviving natural guardian following his wife's demise, sought custody of his minor daughter from the maternal aunt (sister-in-law) who had retained custody. High Court dismissed the father's habeas corpus / custody petition.",
+    "legal_issues": [
+      "Custody claim by the biological father as natural guardian against maternal relatives under the Guardians and Wards Act, 1890.",
+      "Whether the surviving biological father is entitled to custody unless demonstrated to be unfit."
+    ],
+    "decision_holding": "Appeal allowed. High Court order quashed; custody of the minor child ordered to be handed over to the father.",
+    "legal_principles": "Under the Guardians and Wards Act, 1890, the biological father as the natural guardian has the paramount right to custody unless disqualified by proof of cruelty, neglect, or unfitness. The child's long-term best interest lies in being raised by the surviving natural parent.",
+    "sub_case_type": "Custody & Guardianship (GWA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core child custody decision under the Guardians and Wards Act, 1890 establishing rights of a surviving natural father.",
+    "file_path": "text/2024_INSC_610.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_614",
+    "case_name": "In Re: Right To Privacy of Adolescents",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "20 August 2024",
+    "appeal_number": "Suo Motu Writ Petition (Civil",
+    "scr_citation": "[2024] 8 S.C.R. 575",
+    "insc_citation": "2024 INSC 614",
+    "bench": [],
+    "candidate_laws": [
+      "Prohibition of Child Marriage Act, 2006"
+    ],
+    "acts_and_sections_invoked": {
+      "Protection of Children from Sexual Offences Act, 2012": [
+        "6"
+      ],
+      "Indian Penal Code, 1860": [
+        "376"
+      ],
+      "Prohibition of Child Marriage Act, 2006": []
+    },
+    "facts_summary": "Special leave petition and suo motu consideration arising from High Court judgments acquitting or modifying convictions in POCSO offences involving consensual adolescent relationships, termed as 'romantic relationships'.",
+    "legal_issues": [
+      "Essential elements of a criminal appellate judgment under POCSO.",
+      "Whether consensual relationships involving adolescents below the statutory age of consent under POCSO and PCMA can be exempted or judicial leniency granted."
+    ],
+    "decision_holding": "Detailed guidelines issued on standard of judgments in POCSO cases, adolescent sexuality, and victim rehabilitation.",
+    "legal_principles": "Judicial officers cannot describe statutory rape of minors under POCSO as 'romantic relationships' to dilute legislative intent. PCMA and POCSO mandate strict age thresholds, while juvenile justice mechanisms must focus on restorative rehabilitation.",
+    "sub_case_type": "Child Marriage & POCSO / Adolescent Relationships",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Examines intersection between statutory age of marriage under PCMA, adolescent consent, and POCSO criminal adjudication.",
+    "file_path": "text/2024_INSC_614.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_625",
+    "case_name": "Shajan Skaria v. The State of Kerala & Anr.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "23 August 2024",
+    "appeal_number": "Criminal Appeal No. 2622 of 2024",
+    "scr_citation": "[2024] 8 S.C.R. 1086",
+    "insc_citation": "2024 INSC 625",
+    "bench": [],
+    "candidate_laws": [
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989": [
+        "3(1)(r)",
+        "3(1)(u)",
+        "18"
+      ],
+      "Code of Criminal Procedure, 1973": [
+        "438"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": []
+    },
+    "facts_summary": "Anticipatory bail petition filed by a journalist accused of offences under Section 3(1)(r) of the SC/ST Act for making derogatory statements on an online news channel.",
+    "legal_issues": [
+      "Whether Section 18 of the SC/ST Act imposes an absolute bar on anticipatory bail when allegations do not prima facie disclose an offence under the Act."
+    ],
+    "decision_holding": "Appeal allowed. Anticipatory bail granted.",
+    "legal_principles": "Section 18 of the SC/ST Act does not bar anticipatory bail where the allegations in the FIR do not prima facie establish an offence motivated by caste identity.",
+    "sub_case_type": "Criminal Law / SC/ST Act Anticipatory Bail",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Criminal anticipatory bail case under the SC/ST Act; PWDVA was cited only in passing regarding statutory bars.",
+    "file_path": "text/2024_INSC_625.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_639",
+    "case_name": "Mulakala Malleshwara Rao & Anr. v. State of Telangana & Anr.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "29 August 2024",
+    "appeal_number": "Criminal Appeal No. 3599 of 2024",
+    "scr_citation": "[2024] 8 S.C.R. 739",
+    "insc_citation": "2024 INSC 639",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "14"
+      ],
+      "Indian Penal Code, 1860": [
+        "406"
+      ],
+      "Dowry Prohibition Act, 1961": [
+        "6"
+      ]
+    },
+    "facts_summary": "A criminal complaint was lodged under Section 406 IPC and Section 6 of the Dowry Prohibition Act against former in-laws for non-return of gold ornaments gifted to the daughter at the time of marriage, following divorce and division of assets.",
+    "legal_issues": [
+      "Nature of 'Streedhan' and whether a woman is the absolute owner thereof under Section 14 of the Hindu Succession Act, 1956.",
+      "Whether in-laws holding Streedhan without returning it can be prosecuted under Section 406 IPC after settlement."
+    ],
+    "decision_holding": "Appeal allowed. Criminal proceedings quashed as ornaments had already been returned during settlement.",
+    "legal_principles": "Streedhan gifted to a woman at or during marriage is her absolute property under Section 14 HSA. When Streedhan is entrusted to in-laws and retained dishonestly, Section 406 IPC and Section 6 of DP Act apply; however, criminal proceedings cannot continue when settlement of property has occurred.",
+    "sub_case_type": "Streedhan Recovery & Criminal Breach of Trust (s.14 HSA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly interprets the absolute ownership of Streedhan under Section 14 of the Hindu Succession Act, 1956 in the context of matrimonial criminal recovery.",
+    "file_path": "text/2024_INSC_639.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_664",
+    "case_name": "Somprabha Rana & Ors. v. The State of Madhya Pradesh & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "06 September 2024",
+    "appeal_number": "Criminal Appeal No. 3821 of 2023",
+    "scr_citation": "[2024] 9 S.C.R. 64",
+    "insc_citation": "2024 INSC 664",
+    "bench": [],
+    "candidate_laws": [
+      "Guardians and Wards Act, 1890"
+    ],
+    "acts_and_sections_invoked": {
+      "Guardians and Wards Act, 1890": [
+        "7",
+        "17",
+        "25"
+      ],
+      "Constitution of India": [
+        "226"
+      ]
+    },
+    "facts_summary": "High Court in a habeas corpus petition disturbed the custody of an infant child (aged 1 year 5 months) who had lived with maternal relatives following her mother's suspicious death, handing custody to the father and paternal relatives.",
+    "legal_issues": [
+      "Whether habeas corpus can be used to disrupt custody of a tender infant without a detailed inquiry into welfare under the Guardians and Wards Act, 1890."
+    ],
+    "decision_holding": "Appeal partly allowed. High Court's custody order set aside; interim custody retained with maternal relatives pending regular inquiry by Family Court under GWA.",
+    "legal_principles": "A writ of habeas corpus for child custody is an extraordinary remedy and should not be used to abruptly uproot a child of tender age. Regular custody issues must be adjudicated by the Family Court under the Guardians and Wards Act based on comprehensive evidence of welfare.",
+    "sub_case_type": "Custody & Habeas Corpus (GWA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates child custody parameters between competing relatives under the Guardians and Wards Act, 1890.",
+    "file_path": "text/2024_INSC_664.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_732",
+    "case_name": "S. Vijikumari v. Mowneshwarachari C",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "10 September 2024",
+    "appeal_number": "Criminal Appeal No. 3989 of 2024",
+    "scr_citation": "[2024] 10 S.C.R. 45",
+    "insc_citation": "2024 INSC 732",
+    "bench": [],
+    "candidate_laws": [
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Protection of Women from Domestic Violence Act, 2005": [
+        "12",
+        "20",
+        "25"
+      ]
+    },
+    "facts_summary": "Respondent-husband filed an application under Section 25 of PWDVA seeking modification of an ex-parte maintenance order and demanding refund of the entire maintenance amount of Rs. 12,000/- per month already paid to his estranged wife.",
+    "legal_issues": [
+      "Whether Section 25 of the Protection of Women from Domestic Violence Act, 2005 empowers a Magistrate to order refund of maintenance amounts already paid to a wife."
+    ],
+    "decision_holding": "Appeal allowed. High Court order permitting refund application set aside; refund claim rejected.",
+    "legal_principles": "Section 25 of PWDVA is intended to alter, modify, or revoke ongoing protection or maintenance orders on a change of circumstances. It does not confer jurisdiction on the court to direct restitution or refund of maintenance payments already consumed by the wife.",
+    "sub_case_type": "Domestic Violence / Maintenance Modification (s.25 PWDVA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly interprets Section 25 of the Protection of Women from Domestic Violence Act, 2005 regarding alteration and refund of maintenance.",
+    "file_path": "text/2024_INSC_732.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_790",
+    "case_name": "Society for Enlightenment and Voluntary Action & Anr. v. Union of India & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "18 October 2024",
+    "appeal_number": "Writ Petition (C",
+    "scr_citation": "[2024] 10 S.C.R. 1513",
+    "insc_citation": "2024 INSC 790",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955",
+      "Prohibition of Child Marriage Act, 2006"
+    ],
+    "acts_and_sections_invoked": {
+      "Prohibition of Child Marriage Act, 2006": [
+        "2",
+        "3",
+        "9",
+        "10",
+        "11",
+        "13",
+        "16"
+      ],
+      "Hindu Marriage Act, 1955": [],
+      "Constitution of India": [
+        "14",
+        "15",
+        "21"
+      ]
+    },
+    "facts_summary": "A public interest writ petition was filed by an NGO highlighting rampant prevalence of child marriages across India and the widespread failure of statutory authorities to enforce the Prohibition of Child Marriage Act, 2006.",
+    "legal_issues": [
+      "Effectiveness and nationwide implementation of the Prohibition of Child Marriage Act, 2006.",
+      "Role of Child Marriage Prohibition Officers (CMPOs) and interface between PCMA and personal laws."
+    ],
+    "decision_holding": "Writ petition disposed of with comprehensive pan-India binding guidelines establishing Child Marriage Prevention Units, specialized training, and strict monitoring.",
+    "legal_principles": "PCMA is a special social reform statute aimed at protecting bodily integrity and constitutional rights of children. The prohibition of child marriage overrides customary practices and requires proactive administrative enforcement across all States and Union Territories.",
+    "sub_case_type": "Child Marriage / Nationwide Enforcement (PCMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark judgment issuing binding pan-India guidelines for the implementation and enforcement of the Prohibition of Child Marriage Act, 2006.",
+    "file_path": "text/2024_INSC_790.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_816",
+    "case_name": "Saroj & Ors. v. IFFCO-TOKIO General Insurance Co. & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "24 October 2024",
+    "appeal_number": "Civil Appeal Nos. 12077-12078 of 2024",
+    "scr_citation": "[2024] 10 S.C.R. 939",
+    "insc_citation": "2024 INSC 816",
+    "bench": [],
+    "candidate_laws": [
+      "Prohibition of Child Marriage Act, 2006"
+    ],
+    "acts_and_sections_invoked": {
+      "Motor Vehicles Act, 1988": [
+        "166"
+      ],
+      "Prohibition of Child Marriage Act, 2006": []
+    },
+    "facts_summary": "In a motor accident claim, a conflict arose between the date of birth recorded in the deceased's School Leaving Certificate versus the Aadhaar Card, affecting the multiplier and quantum of compensation.",
+    "legal_issues": [
+      "Whether an Aadhaar card can be treated as authoritative proof of date of birth in preference to a school certificate."
+    ],
+    "decision_holding": "Appeals allowed. School leaving certificate held authoritative; compensation restored.",
+    "legal_principles": "An Aadhaar Card is proof of identity and residence, not conclusive proof of date of birth. In case of conflict, statutory school records prevail.",
+    "sub_case_type": "Motor Accident Claim / Proof of Age",
+    "relevance_tier": "MENTION_ONLY",
+    "relevance_reason": "Motor accident claims compensation; Prohibition of Child Marriage Act was merely referenced as an example of statutes requiring age determination.",
+    "file_path": "text/2024_INSC_816.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_871",
+    "case_name": "Ganapati Bhikarao Naik v. Nuclear Power Corporation of India Limited",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "13 November 2024",
+    "appeal_number": "Civil Appeal No(s",
+    "scr_citation": "[2024] 11 S.C.R. 1628",
+    "insc_citation": "2024 INSC 871",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Industrial Disputes Act, 1947": [
+        "10",
+        "11A"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "An employee was dismissed on allegations that he fraudulently claimed employment under the land-loser rehabilitation scheme by claiming to be the son-in-law of the land-loser without proving a valid marriage.",
+    "legal_issues": [
+      "Correctness of Labour Court award reinstating employee; proof of marriage for rehabilitation benefit."
+    ],
+    "decision_holding": "Appeals allowed. Reinstatement upheld.",
+    "legal_principles": "Labour Court awards supported by evidence should not be overturned on hyper-technical disputes over family status in social welfare rehabilitation schemes.",
+    "sub_case_type": "Labour & Service Law",
+    "relevance_tier": "NOT_RELEVANT",
+    "relevance_reason": "Labour and industrial dispute regarding reinstatement; Hindu Marriage Act was an incidental citation regarding status of marriage.",
+    "file_path": "text/2024_INSC_871.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_876",
+    "case_name": "Dr. Rajiv Verghese v. Rose Chakkrammankkil Francis",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "19 November 2024",
+    "appeal_number": "Civil Appeal No(s",
+    "scr_citation": "[2024] 11 S.C.R. 1312",
+    "insc_citation": "2024 INSC 876",
+    "bench": [],
+    "candidate_laws": [
+      "Divorce Act, 1869"
+    ],
+    "acts_and_sections_invoked": {
+      "Divorce Act, 1869": [
+        "10(1)(i)",
+        "36"
+      ],
+      "Family Courts Act, 1984": []
+    },
+    "facts_summary": "In divorce proceedings initiated by the Christian husband under Section 10(1)(i) of the Divorce Act, 1869, the Family Court awarded Rs. 1,75,000/- per month as interim maintenance to the wife under Section 36. High Court reduced the interim maintenance to Rs. 80,000/- per month.",
+    "legal_issues": [
+      "Principles governing assessment of interim maintenance pendente lite under Section 36 of the Divorce Act, 1869 commensurate with husband's high income and standard of living."
+    ],
+    "decision_holding": "Wife's appeal allowed; husband's appeal dismissed. High Court order set aside and Family Court order awarding Rs. 1,75,000/- per month interim maintenance restored.",
+    "legal_principles": "Under Section 36 of the Divorce Act, 1869, interim maintenance must ensure that the wife can sustain a standard of living reasonably comparable to the matrimonial lifestyle. Reduction of maintenance without factual justification is impermissible.",
+    "sub_case_type": "Maintenance & Alimony / Divorce Act, 1869 (s.36)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly determines interim maintenance principles and quantum under Section 36 of the Divorce Act, 1869 in Christian matrimonial proceedings.",
+    "file_path": "text/2024_INSC_876.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_885",
+    "case_name": "Ramachandran & Ors. v. Vijayan & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "22 November 2024",
+    "appeal_number": "Civil Appeal No. 2161 of 2012",
+    "scr_citation": "[2024] 11 S.C.R. 1013",
+    "insc_citation": "2024 INSC 885",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "7",
+        "8"
+      ],
+      "Kerala Joint Hindu Family System (Abolition) Act, 1975": []
+    },
+    "facts_summary": "Dispute regarding devolution and partition of properties governed by Marumakkathayam Law in Kerala; whether property obtained by a female and her children after partition retained joint tavazhi character or became separate individual property.",
+    "legal_issues": [
+      "Devolution of tharwad/tavazhi property under Marumakkathayam law and Section 7 of the Hindu Succession Act, 1956.",
+      "Alienation powers over undivided tavazhi shares."
+    ],
+    "decision_holding": "Appeal dismissed. Preliminary decree for partition affirmed.",
+    "legal_principles": "Under Marumakkathayam customary law as modified by Section 7 HSA, property allotted to a tavazhi or female branch is held as joint family property with rights accruing to children by birth, and an individual female cannot alienate the entire property to the exclusion of other sharers.",
+    "sub_case_type": "Succession & Partition / Marumakkathayam Law",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively interprets devolution of property under Section 7 of the Hindu Succession Act, 1956 and customary Marumakkathayam succession.",
+    "file_path": "text/2024_INSC_885.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_900",
+    "case_name": "C. Selvarani v. The Special Secretary-Cum-District Collector and Others",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "26 November 2024",
+    "appeal_number": "Civil Appeal No. 13086 of 2024",
+    "scr_citation": "[2024] 11 S.C.R. 1504",
+    "insc_citation": "2024 INSC 900",
+    "bench": [],
+    "candidate_laws": [
+      "Indian Christian Marriage Act, 1872"
+    ],
+    "acts_and_sections_invoked": {
+      "Constitution of India": [
+        "341"
+      ],
+      "Constitution (Pondicherry) Scheduled Castes Order, 1964": [],
+      "Indian Christian Marriage Act, 1872": []
+    },
+    "facts_summary": "Candidate selected for Upper Division Clerk post under Scheduled Caste category was denied community certificate on allegations that she and her parents had converted to Christianity and solemnized marriage under the Christian Marriage Act.",
+    "legal_issues": [
+      "Whether conversion to Christianity deprives a candidate of Scheduled Caste status under the Presidential SC Order, 1964.",
+      "Proof of religious practice and solemnization of marriage under the Indian Christian Marriage Act, 1872."
+    ],
+    "decision_holding": "Appeal dismissed. Denial of SC community certificate upheld.",
+    "legal_principles": "Under the Constitution (Scheduled Castes) Order, only individuals professing Hindu, Sikh, or Buddhist faiths are recognized as Scheduled Castes. Conversion to Christianity disqualifies an applicant from claiming SC reservation benefits.",
+    "sub_case_type": "Constitutional Law / Caste Reservation & Conversion",
+    "relevance_tier": "MENTION_ONLY",
+    "relevance_reason": "Constitutional reservation dispute under Article 341; Indian Christian Marriage Act, 1872 was mentioned only as evidence regarding Christian religious practice.",
+    "file_path": "text/2024_INSC_900.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_945",
+    "case_name": "Tej Bhan (D) Through Lr. & Ors. v. Ram Kishan (D) Through Lrs. & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "09 December 2024",
+    "appeal_number": "Civil Appeal No. 6557 of 2022",
+    "scr_citation": "[2024] 12 S.C.R. 500",
+    "insc_citation": "2024 INSC 945",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "14(1)",
+        "14(2)"
+      ]
+    },
+    "facts_summary": "Reference made to a larger bench highlighting inconsistent interpretations across Supreme Court decisions regarding the interplay between Section 14(1) and Section 14(2) of the Hindu Succession Act, 1956 in cases where a Hindu woman is granted a limited estate under a Will or gift deed in recognition of a pre-existing maintenance right.",
+    "legal_issues": [
+      "Whether a limited estate granted to a Hindu female under a Will or instrument in lieu of maintenance expands into an absolute estate under Section 14(1) HSA, or remains restricted under Section 14(2) HSA.",
+      "Need to clarify discordant notes between V. Tulsamma, Masilamani Mudaliar, and other subsequent decisions."
+    ],
+    "decision_holding": "Matter referred to Chief Justice of India for constitution of an appropriate Larger Bench to restate and harmonize the law on Section 14(1) and 14(2) HSA.",
+    "legal_principles": "Highlights the crucial statutory distinction between Section 14(1) (which expands pre-existing maintenance and ownership rights into full ownership) and Section 14(2) (which preserves restricted estates created for the first time without pre-existing rights), necessitating authoritative larger bench restatement.",
+    "sub_case_type": "Succession & Inheritance / Women's Property Rights (s.14 HSA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly focuses on the foundational interpretation of Section 14(1) and Section 14(2) of the Hindu Succession Act, 1956 regarding Hindu women's property rights.",
+    "file_path": "text/2024_INSC_945.txt"
+  },
+  {
+    "judgment_id": "2024_INSC_961",
+    "case_name": "Parvin Kumar Jain v. Anju Jain",
+    "court": "Supreme Court of India",
+    "year": 2024,
+    "date": "10 December 2024",
+    "appeal_number": "Civil Appeal No(s",
+    "scr_citation": "[2024] 12 S.C.R. 543",
+    "insc_citation": "2024 INSC 961",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "24",
+        "25"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Parties separated for over two decades with a grown son engaged in protracted litigation over interim maintenance and alimony. The husband was a high-net-worth individual with multiple properties and stock market investments. High Court had enhanced interim maintenance to Rs. 1,00,000/- per month.",
+    "legal_issues": [
+      "Determination of permanent alimony under Section 25 HMA and complete closure of matrimonial litigation under Article 142 commensurate with husband's vast wealth.",
+      "Financial provision for dependent son and aged wife."
+    ],
+    "decision_holding": "Appeals disposed of. Decree of divorce granted; husband directed to pay Rs. 5 Crores towards permanent alimony to the wife and Rs. 50 Lakhs to his son, dissolving all ties.",
+    "legal_principles": "Permanent alimony under Section 25 HMA must realistically reflect the true wealth, standard of living, and assets of the earning spouse. A clean-break lump-sum settlement is ideal where matrimonial litigation has persisted for decades.",
+    "sub_case_type": "Maintenance & Permanent Alimony (ss.24, 25 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates permanent alimony and maintenance under Sections 24 and 25 of the Hindu Marriage Act, 1955 and Article 142.",
+    "file_path": "text/2024_INSC_961.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_1038",
+    "case_name": "Chowdamma (D) by LR and Another v. Venkatappa (D) by LRs and Another",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "25 August 2025",
+    "appeal_number": "Civil Appeal No. 11330 of 2011",
+    "scr_citation": "[2025] 8 S.C.R. 1532",
+    "insc_citation": "2025 INSC 1038",
+    "bench": [],
+    "candidate_laws": [
+      "Divorce Act, 1869"
+    ],
+    "acts_and_sections_invoked": {
+      "Indian Evidence Act, 1872": [
+        "50",
+        "114"
+      ],
+      "Hindu Succession Act, 1956": [],
+      "Divorce Act, 1869": []
+    },
+    "facts_summary": "Dispute over partition of suit properties between children of the deceased's first wife and his second wife. The second wife got revenue records mutated in her and her son's names and denied the first wife's children joint possession, contending that the first wife was never lawfully married to the deceased. The trial court and High Court relied on oral testimony and long continuous cohabitation to uphold the marriage and decreed partition.",
+    "legal_issues": [
+      "Whether continuous cohabitation and recognition in the community creates a strong legal presumption of marriage under Section 50 of the Evidence Act in the absence of documentary proof.",
+      "Whether children born of such union are legitimate and entitled to partition and inheritance in ancestral and separate properties."
+    ],
+    "decision_holding": "Appeal dismissed. The Supreme Court upheld the preliminary decree for partition, holding that continuous cohabitation established a valid presumption of marriage.",
+    "legal_principles": "Law strongly presumes in favor of marriage and against concubinage when a man and woman cohabit continuously as husband and wife and are treated as such by society. Such presumption can only be displaced by heavy, incontrovertible evidence. Children of such unions inherit under personal succession law.",
+    "sub_case_type": "Marriage Validity / Presumption of Marriage & Succession",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively adjudicates presumption of marriage and succession entitlements of children in partition of joint property.",
+    "file_path": "text/2025_INSC_1038.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_1102",
+    "case_name": "Geeta @ Reeta Mishra v. Ajay Kumar Mishra",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "12 September 2025",
+    "appeal_number": "Civil Appeal No(s",
+    "scr_citation": "[2025] 9 S.C.R. 640",
+    "insc_citation": "2025 INSC 1102",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955",
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13",
+        "24",
+        "25"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": [],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Matrimonial dispute involving multiple cross-petitions for divorce, restitution, maintenance under Section 24 HMA, and domestic violence complaints. The parties lived separately for over 15 years with complete breakdown of ties. High Court refused divorce.",
+    "legal_issues": [
+      "Whether protracted separation and irreconcilable differences justify dissolution of marriage under Article 142 on ground of irretrievable breakdown.",
+      "Determination of adequate permanent alimony under Section 25 HMA."
+    ],
+    "decision_holding": "Appeal allowed. Supreme Court granted a decree of divorce dissolving the marriage under Article 142, and directed the husband to pay Rs. 25 Lakhs as permanent alimony, quashing all allied proceedings.",
+    "legal_principles": "In long-standing matrimonial deadlocks where emotional connection is irretrievably lost, continuing the legal status of marriage serves no social purpose. The Court will exercise Article 142 to decree divorce while ensuring just and equitable permanent alimony.",
+    "sub_case_type": "Divorce & Permanent Alimony / Irretrievable Breakdown",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly dissolves marriage and awards permanent alimony under HMA and Article 142.",
+    "file_path": "text/2025_INSC_1102.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_1123",
+    "case_name": "Komal Krishan Arora & Ors. v. Sandeep Kumar & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "16 September 2025",
+    "appeal_number": "Criminal Appeal No. 4052 of 2025",
+    "scr_citation": "[2025] 9 S.C.R. 1085",
+    "insc_citation": "2025 INSC 1123",
+    "bench": [],
+    "candidate_laws": [
+      "Guardians and Wards Act, 1890",
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Guardians and Wards Act, 1890": [
+        "7",
+        "17",
+        "25"
+      ],
+      "Hindu Marriage Act, 1955": [
+        "26"
+      ]
+    },
+    "facts_summary": "Dispute between separated parents over the custody and guardianship of their minor daughter. The mother resided in the UK and sought permanent custody, while the father and paternal grandparents had physical custody in India. Family Court and High Court passed conflicting orders regarding custody and passport release.",
+    "legal_issues": [
+      "Custody and guardianship of a minor child under Section 26 HMA and Guardians and Wards Act, 1890.",
+      "Welfare of the minor child when custodial parent plans relocation abroad versus continuity of environment in India."
+    ],
+    "decision_holding": "Appeals disposed of. Custody arrangements structured to ensure primary custody with the mother while protecting meaningful physical visitation and video access for the father and grandparents.",
+    "legal_principles": "In child custody disputes under GWA and Section 26 HMA, neither parent possesses an absolute legal right. The paramount consideration is the comprehensive physical, psychological, educational, and emotional welfare of the minor child.",
+    "sub_case_type": "Custody & Guardianship (GWA & s.26 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core child custody and guardianship adjudication under the Guardians and Wards Act, 1890 and Section 26 of the Hindu Marriage Act, 1955.",
+    "file_path": "text/2025_INSC_1123.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_1127",
+    "case_name": "Amanjot Singh Chadha v. Union of India & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "04 September 2025",
+    "appeal_number": "Writ Petition (Civil",
+    "scr_citation": "[2025] 9 S.C.R. 1075",
+    "insc_citation": "2025 INSC 1127",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "9",
+        "13",
+        "14"
+      ],
+      "Constitution of India": [
+        "14",
+        "21"
+      ]
+    },
+    "facts_summary": "Writ petition challenging the constitutional validity of Section 9 of the Hindu Marriage Act, 1955 (Restitution of Conjugal Rights) on the ground that it violates the fundamental right to privacy, bodily autonomy, and equality under Articles 14 and 21 of the Constitution.",
+    "legal_issues": [
+      "Whether Section 9 of the Hindu Marriage Act, 1955 providing for restitution of conjugal rights infringes the fundamental right to privacy and bodily autonomy under Article 21.",
+      "Whether statutory restitution of conjugal rights is an unconstitutional state co-option of marital cohabitation."
+    ],
+    "decision_holding": "Writ petition heard and principles of constitutional scrutiny applied, upholding the statutory objective of marital reconciliation while emphasizing that courts cannot compel physical cohabitation through coercive execution.",
+    "legal_principles": "Section 9 of HMA is designed to encourage reconciliation and preservation of marriage, but a decree for restitution of conjugal rights cannot be executed by physical force or coercion against the will of a spouse, respecting constitutional privacy and dignity.",
+    "sub_case_type": "Constitutional Family Law / Restitution of Conjugal Rights (s.9 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly scrutinizes the constitutional validity and operation of Section 9 of the Hindu Marriage Act, 1955.",
+    "file_path": "text/2025_INSC_1127.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_115",
+    "case_name": "Ivan Rathinam v. Milan Joseph",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "28 January 2025",
+    "appeal_number": "Criminal Appeal No. 413 of 2025",
+    "scr_citation": "[2025] 1 S.C.R. 1009",
+    "insc_citation": "2025 INSC 115",
+    "bench": [],
+    "candidate_laws": [
+      "Family Courts Act, 1984"
+    ],
+    "acts_and_sections_invoked": {
+      "Indian Evidence Act, 1872": [
+        "112"
+      ],
+      "Code of Criminal Procedure, 1973": [
+        "125"
+      ],
+      "Family Courts Act, 1984": [],
+      "Code of Civil Procedure, 1908": [
+        "11"
+      ]
+    },
+    "facts_summary": "Respondent and his mother claimed that the appellant was the respondent's biological father, alleging an extra-marital relationship during the subsistence of the mother's valid marriage with another man ('RK'). The respondent sought maintenance and declaratory relief. The appellant denied paternity, invoking the conclusive presumption of legitimacy under Section 112 Evidence Act and res judicata.",
+    "legal_issues": [
+      "Whether the conclusive presumption of legitimacy under Section 112 of the Evidence Act determines paternity in law in the absence of proof of non-access.",
+      "Whether a Family Court can reopen a maintenance petition and entertain a second round of litigation barred by res judicata."
+    ],
+    "decision_holding": "Appeal allowed. High Court and Family Court orders reopening proceedings were set aside; held that the respondent is conclusively presumed to be the legitimate child of 'RK' and cannot claim maintenance against the appellant.",
+    "legal_principles": "Section 112 of the Evidence Act establishes that legitimacy conclusively determines paternity unless non-access between the spouses at the time of conception is proved. A child born during a valid marriage cannot claim to be the child of a third party to demand maintenance, and successive petitions are barred by res judicata.",
+    "sub_case_type": "Paternity & Maintenance / Conclusive Legitimacy (s.112 Evidence Act)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly applies Section 112 Evidence Act and Family Courts Act to determine legitimacy, paternity, and maintenance liabilities.",
+    "file_path": "text/2025_INSC_115.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_1209",
+    "case_name": "Vijaya Kumari S & Another v. Union of India",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "09 October 2025",
+    "appeal_number": "Writ Petition (Civil",
+    "scr_citation": "[2025] 11 S.C.R. 136",
+    "insc_citation": "2025 INSC 1209",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Adoptions and Maintenance Act, 1956",
+      "Hindu Marriage Act, 1955",
+      "Special Marriage Act, 1954"
+    ],
+    "acts_and_sections_invoked": {
+      "Surrogacy (Regulation) Act, 2021": [
+        "4(iii)(c)(I)"
+      ],
+      "Assisted Reproductive Technology (Regulation) Act, 2021": [],
+      "Hindu Marriage Act, 1955": [],
+      "Special Marriage Act, 1954": [],
+      "Hindu Adoptions and Maintenance Act, 1956": [],
+      "Constitution of India": [
+        "14",
+        "21"
+      ]
+    },
+    "facts_summary": "Married intending couples had commenced surrogacy procedures and frozen their embryos prior to the enforcement of the Surrogacy (Regulation) Act, 2021. The new Act imposed an upper age limit (female 50 years, male 55 years) under Section 4(iii)(c)(I), preventing the couples from completing the surrogacy process.",
+    "legal_issues": [
+      "Whether the upper age-restrictions under Section 4(iii)(c)(I) of the Surrogacy (Regulation) Act, 2021 apply retrospectively to couples who had frozen their embryos prior to the enforcement of the Act.",
+      "Protection of reproductive autonomy and legitimate expectations under Article 21."
+    ],
+    "decision_holding": "Writ petition allowed. Held that the age restrictions cannot be applied retrospectively to disqualify couples who had already commenced the medical process and frozen embryos before the Act came into force.",
+    "legal_principles": "Substantive statutory restrictions affecting reproductive rights and parenthood cannot operate retrospectively to extinguish rights where intending parents had altered their position by freezing embryos under prior medical guidelines. Article 21 encompasses reproductive autonomy.",
+    "sub_case_type": "Reproductive Rights / Surrogacy & ART Parenthood",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively determines parenthood and family formation rights under the Surrogacy Act, interacting with marriage and adoption frameworks.",
+    "file_path": "text/2025_INSC_1209.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_1286",
+    "case_name": "P. Anjanappa (D) By Lrs v. A.P. Nanjundappa & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "06 November 2025",
+    "appeal_number": "Civil Appeal No. 3934 of 2006",
+    "scr_citation": "[2025] 11 S.C.R. 423",
+    "insc_citation": "2025 INSC 1286",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "6",
+        "8"
+      ],
+      "Indian Registration Act, 1908": [
+        "17",
+        "49"
+      ],
+      "Code of Civil Procedure, 1908": []
+    },
+    "facts_summary": "Suit for partition and separate possession among coparceners and branches of a Joint Hindu Family. Issues arose regarding the validity and binding effect of registered release deeds executed by certain members, and whether an unregistered palupatti (partition memorandum) could be relied on for collateral purposes to establish severance of joint status.",
+    "legal_issues": [
+      "Legal effect of registered release deeds on coparcenary membership and share entitlements under the Hindu Succession Act.",
+      "Admissibility of an unregistered palupatti for collateral purpose of demonstrating severance of joint family status.",
+      "Ascertainment of partitionable joint family estate and inter se shares."
+    ],
+    "decision_holding": "Appeal disposed of. Shares re-determined; held that registered release deeds effectively relinquished shares, and the unregistered palupatti was admissible for the collateral purpose of establishing severance of joint status.",
+    "legal_principles": "A registered release deed executed for consideration extinguishes the coparcenary share of the releasor. An unregistered partition deed or palupatti cannot effect division of immovable property by metes and bounds, but is admissible under the proviso to Section 49 Registration Act to prove severance of joint family status and separate possession.",
+    "sub_case_type": "Succession & Partition / Joint Family Settlement & Palupatti",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively interprets coparcenary rights, devolution of shares, and effect of family settlements under the Hindu Succession Act, 1956.",
+    "file_path": "text/2025_INSC_1286.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_129",
+    "case_name": "Smt. N. Usha Rani and Anr. v. Moodudula Srinivas",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "30 January 2025",
+    "appeal_number": "Criminal Appeal No. 515 of 2025",
+    "scr_citation": "[2025] 1 S.C.R. 1442",
+    "insc_citation": "2025 INSC 129",
+    "bench": [],
+    "candidate_laws": [
+      "Family Courts Act, 1984",
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "125"
+      ],
+      "Family Courts Act, 1984": [],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Wife and minor child filed for maintenance under Section 125 CrPC. Family Court granted monthly maintenance. High Court reduced and partially denied maintenance to the wife accepting the husband's contention that she had left the matrimonial home without sufficient cause.",
+    "legal_issues": [
+      "Whether the High Court was justified in depriving a destitute wife of maintenance under Section 125 CrPC on unsubstantiated allegations of desertion.",
+      "Assessment of maintenance quantum commensurate with the earning capacity of the husband."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside and Family Court maintenance order restored in full.",
+    "legal_principles": "Under Section 125 CrPC, the husband has a non-negotiable statutory obligation to maintain his wife and child. Vague pleas of desertion cannot defeat maintenance unless deliberate refusal to live together without just cause is established by clear evidence.",
+    "sub_case_type": "Maintenance & Child Support (s.125 CrPC & Family Courts Act)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates spousal and child maintenance rights under Section 125 CrPC and the Family Courts Act, 1984.",
+    "file_path": "text/2025_INSC_129.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_135",
+    "case_name": "Sau. Jiya v. Kuldeep",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "31 January 2025",
+    "appeal_number": "Civil Appeal No. 1301 of 2025",
+    "scr_citation": "[2025] 1 S.C.R. 1398",
+    "insc_citation": "2025 INSC 135",
+    "bench": [],
+    "candidate_laws": [
+      "Family Courts Act, 1984",
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13",
+        "25"
+      ],
+      "Family Courts Act, 1984": []
+    },
+    "facts_summary": "The husband was granted a decree of divorce by the Family Court under Section 13 HMA, which was affirmed by the High Court. The appellant-wife challenged the dissolution and sought substantial enhancement of permanent alimony under Section 25 HMA.",
+    "legal_issues": [
+      "Determination of permanent alimony under Section 25 HMA upon grant of divorce decree.",
+      "Balancing the husband's financial liabilities in his new family against the maintenance rights of the divorced wife and child."
+    ],
+    "decision_holding": "Appeal partly allowed. Decree of divorce affirmed; permanent alimony enhanced from Rs. 10 Lakhs to Rs. 20 Lakhs.",
+    "legal_principles": "When awarding permanent alimony under Section 25 HMA, the court must ensure that the divorced spouse is awarded an amount sufficient to prevent destitution and maintain dignity, regardless of the husband's remarriage or secondary liabilities.",
+    "sub_case_type": "Divorce & Permanent Alimony Enhancement (s.25 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates permanent alimony and divorce under Sections 13 and 25 of the Hindu Marriage Act, 1955.",
+    "file_path": "text/2025_INSC_135.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_137",
+    "case_name": "Kuldeep Singh v. The State of Punjab & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "31 January 2025",
+    "appeal_number": "Criminal Appeal No. 520 of 2025",
+    "scr_citation": "[2025] 1 S.C.R. 1392",
+    "insc_citation": "2025 INSC 137",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "482"
+      ],
+      "Indian Penal Code, 1860": [
+        "366",
+        "376",
+        "506"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Appellant sought quashing of an FIR lodged by the complainant's family alleging kidnapping, rape, and intimidation. In reality, the appellant and the prosecutrix were majors who had solemnized a Hindu marriage, resided as husband and wife, and the prosecutrix affirmed the marriage in judicial proceedings.",
+    "legal_issues": [
+      "Whether criminal prosecution for rape and kidnapping under IPC can continue when the parties entered into a consensual marriage solemnized under Hindu personal law."
+    ],
+    "decision_holding": "Appeal allowed. Criminal proceedings and FIR quashed.",
+    "legal_principles": "Criminal law cannot be used by disgruntled families to weaponize rape charges against a husband when two consenting adults have solemnized a lawful marriage and lived as husband and wife.",
+    "sub_case_type": "Matrimonial Criminal / Marriage & Rape FIR Quashing",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Quashing of criminal proceedings intersecting proof of lawful marriage under Hindu Marriage Act and consensual marital relations.",
+    "file_path": "text/2025_INSC_137.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_14",
+    "case_name": "Sri Mahesh v. Sangram & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "02 January 2025",
+    "appeal_number": "Civil Appeal No(s",
+    "scr_citation": "[2025] 1 S.C.R. 62",
+    "insc_citation": "2025 INSC 14",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Adoptions and Maintenance Act, 1956",
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Adoptions and Maintenance Act, 1956": [
+        "12",
+        "16"
+      ],
+      "Hindu Succession Act, 1956": [
+        "13",
+        "14"
+      ],
+      "Transfer of Property Act, 1882": [
+        "41"
+      ]
+    },
+    "facts_summary": "Dispute concerning whether an adoption made by a Hindu widow in 1969 related back to the death of her husband who died in 1952, so as to divest properties that had already vested absolutely in the widow under Section 14(1) of the Hindu Succession Act, 1956.",
+    "legal_issues": [
+      "Whether the Shastric doctrine of 'Relation Back' applies to adoptions made after the commencement of the Hindu Adoptions and Maintenance Act, 1956.",
+      "Whether a post-1956 adopted son can divest properties vested absolutely in an adoptive mother under Section 14(1) HSA or in third-party alienees."
+    ],
+    "decision_holding": "Appeal dismissed. Held that the doctrine of relation back stands abrogated by Section 12 of HAMA; the adopted son takes rights only from the date of adoption and cannot divest properties vested prior thereto.",
+    "legal_principles": "Section 12 of the Hindu Adoptions and Maintenance Act, 1956 completely abolished the old Hindu law doctrine of 'Relation Back'. An adoption takes effect only from the date of adoption, and the adopted child cannot divest any person (including the adoptive mother) of any estate that vested prior to the adoption.",
+    "sub_case_type": "Adoption & Succession / Doctrine of Relation Back",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark decision authoritatively interpreting Section 12 of HAMA and Section 14 HSA regarding the abolition of the doctrine of relation back.",
+    "file_path": "text/2025_INSC_14.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_160",
+    "case_name": "Geddam Jhansi & Anr. v. The State of Telangana & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "07 February 2025",
+    "appeal_number": "Criminal Appeal No. 609 of 2025",
+    "scr_citation": "[2025] 3 S.C.R. 1",
+    "insc_citation": "2025 INSC 160",
+    "bench": [],
+    "candidate_laws": [
+      "Divorce Act, 1869",
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "482"
+      ],
+      "Indian Penal Code, 1860": [
+        "498A",
+        "406",
+        "323",
+        "506"
+      ],
+      "Dowry Prohibition Act, 1961": [
+        "3",
+        "4"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": [],
+      "Divorce Act, 1869": []
+    },
+    "facts_summary": "Following matrimonial rupture, the wife lodged criminal cases under Section 498A IPC, Dowry Prohibition Act, and domestic violence proceedings roping in the married sister-in-law and brother-in-law who resided separately. High Court dismissed their Section 482 CrPC quashing petition.",
+    "legal_issues": [
+      "Whether criminal prosecution and DV proceedings against distant in-laws residing separately can be quashed under Section 482 CrPC when allegations are omnibus and devoid of specific overt acts."
+    ],
+    "decision_holding": "Appeal allowed. Criminal proceedings and charges against the appellants (distant in-laws) were quashed.",
+    "legal_principles": "Courts must prevent the roping in of distant relatives and in-laws residing in separate households on general and omnibus allegations of dowry harassment in matrimonial breakdowns.",
+    "sub_case_type": "Matrimonial Criminal & DV / Quashing Against In-Laws",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Deals with quashing of criminal prosecution and domestic violence complaints against in-laws under Section 482 CrPC.",
+    "file_path": "text/2025_INSC_160.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_197",
+    "case_name": "Sukhdev Singh v. Sukhbir Kaur",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "12 February 2025",
+    "appeal_number": "Civil Appeal No. 2536 of 2019",
+    "scr_citation": "[2025] 2 S.C.R. 1569",
+    "insc_citation": "2025 INSC 197",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Adoptions and Maintenance Act, 1956",
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "5",
+        "11",
+        "25"
+      ],
+      "Hindu Adoptions and Maintenance Act, 1956": []
+    },
+    "facts_summary": "Husband filed a petition under Section 11 of the Hindu Marriage Act, 1955 seeking a declaration that the marriage was null and void due to a pre-existing subsistence of marriage under Section 5(i). The wife applied for permanent alimony and maintenance under Section 25 HMA, which the husband resisted claiming Section 25 does not apply to a void marriage.",
+    "legal_issues": [
+      "Whether a spouse of a marriage declared null and void under Section 11 of the Hindu Marriage Act, 1955 is entitled to claim permanent alimony and maintenance under Section 25 of the Act.",
+      "Whether Section 25 HMA applies to decrees of nullity passed under Section 11."
+    ],
+    "decision_holding": "Appeal dismissed. Supreme Court held that Section 25 HMA empowers the court to grant permanent alimony even in proceedings where the marriage is declared null and void under Section 11.",
+    "legal_principles": "Section 25 of the Hindu Marriage Act, 1955 uses the term 'any decree' and applies to decrees of nullity under Section 11 as well as divorce under Section 13. A woman who was misled into or entered a void marriage is not stripped of her statutory entitlement to permanent alimony and maintenance.",
+    "sub_case_type": "Marriage Validity & Permanent Alimony (ss.11 & 25 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark decision authoritatively establishing the statutory right to permanent alimony under Section 25 HMA even where marriage is declared void under Section 11.",
+    "file_path": "text/2025_INSC_197.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_203",
+    "case_name": "Suman Mishra & Ors. v. The State of Uttar Pradesh & Anr.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "12 February 2025",
+    "appeal_number": "Criminal Appeal No. 731 of 2025",
+    "scr_citation": "[2025] 2 S.C.R. 534",
+    "insc_citation": "2025 INSC 203",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "482"
+      ],
+      "Indian Penal Code, 1860": [
+        "498A",
+        "376",
+        "511",
+        "323",
+        "506"
+      ],
+      "Dowry Prohibition Act, 1961": [
+        "3",
+        "4"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Wife registered an FIR roping in her husband and multiple in-laws with allegations of dowry harassment under Section 498A IPC, and subsequently leveled grave allegations of attempted rape against family members. High Court refused to quash proceedings under Section 482 CrPC.",
+    "legal_issues": [
+      "Abuse of process through escalating malicious allegations (attempted rape) in matrimonial disputes to harass in-laws.",
+      "Quashing of false matrimonial prosecutions under Section 482 CrPC."
+    ],
+    "decision_holding": "Appeal allowed. Criminal proceedings against the in-laws quashed.",
+    "legal_principles": "When matrimonial discord leads to retaliatory and wildly improbable allegations of sexual offences against family members, the High Court must exercise its inherent jurisdiction under Section 482 CrPC to quash malicious prosecution.",
+    "sub_case_type": "Matrimonial Criminal / Malicious Prosecution Quashing",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Quashing of malicious matrimonial criminal complaints under Section 482 CrPC arising from marital breakdown.",
+    "file_path": "text/2025_INSC_203.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_358",
+    "case_name": "Kiran Raju Penumacha v. Tejuswini Chowdhury",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "17 March 2025",
+    "appeal_number": "Civil Appeal No. 3842 of 2025",
+    "scr_citation": "[2025] 3 S.C.R. 802",
+    "insc_citation": "2025 INSC 358",
+    "bench": [],
+    "candidate_laws": [
+      "Guardians and Wards Act, 1890",
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13-B",
+        "26"
+      ],
+      "Guardians and Wards Act, 1890": []
+    },
+    "facts_summary": "Parties dissolved their marriage by mutual consent under Section 13-B HMA and incorporated terms regarding joint parenting and custody of their minor daughter. Subsequent disputes arose regarding international travel, schooling, and custody enforcement.",
+    "legal_issues": [
+      "Enforceability and modification of custody arrangements agreed upon during mutual consent divorce under Section 13-B HMA.",
+      "Paramount welfare of child under Section 26 HMA over contractual terms in consent decrees."
+    ],
+    "decision_holding": "Appeal allowed in part; matter remitted to the Family Court for fresh consideration of custody and schooling based on updated child welfare evaluation.",
+    "legal_principles": "Terms agreed by parents in a consent divorce decree regarding child custody are not immutable. The welfare of the minor under Section 26 HMA is of overriding importance and can be re-evaluated whenever circumstances change.",
+    "sub_case_type": "Custody & Mutual Consent Divorce (s.26 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates child custody modification under Section 26 of the Hindu Marriage Act, 1955 post-mutual consent divorce.",
+    "file_path": "text/2025_INSC_358.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_388",
+    "case_name": "N.P. Saseendran v. N.P. Ponnamma & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "24 March 2025",
+    "appeal_number": "Civil Appeal No. 4312 of 2025",
+    "scr_citation": "[2025] 3 S.C.R. 957",
+    "insc_citation": "2025 INSC 388",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Transfer of Property Act, 1882": [
+        "122",
+        "123",
+        "126"
+      ],
+      "Hindu Succession Act, 1956": [],
+      "Registration Act, 1908": [
+        "17"
+      ]
+    },
+    "facts_summary": "Dispute among family members regarding the validity and revocation of a registered gift deed executed within the family, and subsequent suit for partition of joint family properties.",
+    "legal_issues": [
+      "Whether an unconditional registered gift deed of property can be unilaterally canceled or revoked by the donor.",
+      "Maintainability of partition suit regarding gifted properties."
+    ],
+    "decision_holding": "Appeal dismissed. Revocation of gift deed held invalid; partition disallowed as to validly gifted property.",
+    "legal_principles": "A valid gift of immovable property executed and registered under Section 123 TPA, once accepted, cannot be unilaterally revoked under Section 126 TPA without mutual agreement or fraud.",
+    "sub_case_type": "Succession & Partition / Gift Settlement",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Substantively determines partition rights and validity of family property transfers under succession and transfer laws.",
+    "file_path": "text/2025_INSC_388.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_543",
+    "case_name": "Ramanuj Kumar v. Priyanka",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "22 April 2025",
+    "appeal_number": "Civil Appeal No. 14276 of 2024",
+    "scr_citation": "[2025] 4 S.C.R. 1502",
+    "insc_citation": "2025 INSC 543",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)",
+        "13(1)(iii)",
+        "25"
+      ],
+      "Constitution of India": [
+        "142"
+      ],
+      "Dowry Prohibition Act, 1961": []
+    },
+    "facts_summary": "Husband filed for divorce on grounds of mental cruelty and mental disorder under Section 13(1)(ia) and (iii) HMA. The parties lived together for less than a month in 2011 and remained separated for over 13 years with multiple criminal cases. High Court dismissed the divorce petition.",
+    "legal_issues": [
+      "Whether continuous separation for 13 years with multiple criminal complaints constitutes mental cruelty under Section 13(1)(ia) HMA.",
+      "Exercise of Article 142 to grant divorce on irretrievable breakdown with permanent alimony."
+    ],
+    "decision_holding": "Appeal allowed. Decree of divorce granted dissolving the marriage under Article 142; husband directed to pay Rs. 35 Lakhs as permanent alimony to the wife.",
+    "legal_principles": "Where spouses have stayed apart for more than a decade and all mediation attempts have failed, retaining the empty shell of marriage constitutes mental cruelty. Article 142 enables the court to dissolve the union with comprehensive financial security.",
+    "sub_case_type": "Divorce / Mental Cruelty & Irretrievable Breakdown",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly dissolves marriage under HMA and Article 142 on grounds of cruelty and irretrievable breakdown and awards permanent alimony.",
+    "file_path": "text/2025_INSC_543.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_55",
+    "case_name": "Rina Kumari @ Rina Devi @ Reena v. Dinesh Kumar Mahto @ Dinesh Kumar Mahato and another",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "10 January 2025",
+    "appeal_number": "Criminal Appeal No. 161 of 2025",
+    "scr_citation": "[2025] 1 S.C.R. 462",
+    "insc_citation": "2025 INSC 55",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "125",
+        "125(4)"
+      ],
+      "Hindu Marriage Act, 1955": [
+        "9"
+      ]
+    },
+    "facts_summary": "Husband obtained an ex-parte decree for restitution of conjugal rights under Section 9 HMA against his wife. When the wife sought maintenance under Section 125 CrPC, the husband contended that the restitution decree conclusively proved that she was living separately without sufficient cause, disentitling her to maintenance under Section 125(4) CrPC. High Court accepted husband's plea.",
+    "legal_issues": [
+      "Whether an ex-parte decree for restitution of conjugal rights under Section 9 HMA operates as an automatic disqualification barring a wife from claiming maintenance under Section 125(4) CrPC.",
+      "Interplay between Section 9 HMA and Section 125 CrPC."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside; maintenance under Section 125 CrPC restored.",
+    "legal_principles": "A decree for restitution of conjugal rights under Section 9 HMA, especially an ex-parte decree, does not operate as an absolute legal bar against the wife claiming maintenance under Section 125 CrPC. The magistrate must independently determine whether the wife has just and sufficient reasons for living separately (such as neglect, ill-treatment, or cruelty).",
+    "sub_case_type": "Maintenance & Restitution of Conjugal Rights (s.125 CrPC & s.9 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark decision harmonizing Section 9 HMA and Section 125(4) CrPC regarding maintenance rights despite a decree of restitution of conjugal rights.",
+    "file_path": "text/2025_INSC_55.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_587",
+    "case_name": "Arathy Ramachandran v. Bijay Raj Menon",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "29 April 2025",
+    "appeal_number": "Civil Appeal No. 5680 of 2025",
+    "scr_citation": "[2025] 4 S.C.R. 2063",
+    "insc_citation": "2025 INSC 587",
+    "bench": [],
+    "candidate_laws": [
+      "Guardians and Wards Act, 1890"
+    ],
+    "acts_and_sections_invoked": {
+      "Guardians and Wards Act, 1890": [
+        "7",
+        "12",
+        "25"
+      ],
+      "Constitution of India": [
+        "226"
+      ]
+    },
+    "facts_summary": "In a bitter child custody dispute, the High Court granted 15 days interim custody of minor school-going children to the father during term time. The mother appealed, contending that the order seriously disrupted the children's schooling and emotional stability.",
+    "legal_issues": [
+      "Sustainability of interim custody orders under Guardians and Wards Act disrupting schooling and psychological stability of minor children."
+    ],
+    "decision_holding": "Appeal allowed. High Court's 15-day interim custody order set aside; visitation structured without disrupting school routine.",
+    "legal_principles": "Interim custody under GWA must be tailored to ensure minimum upheaval in the child's academic and emotional routine. Extended physical transfers during term time should be avoided.",
+    "sub_case_type": "Custody & Guardianship / Interim Custody (GWA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core child custody decision under the Guardians and Wards Act, 1890 regarding parameters for interim custody.",
+    "file_path": "text/2025_INSC_587.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_632",
+    "case_name": "Saroj Salkan v. Huma Singh & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "06 May 2025",
+    "appeal_number": "Civil Appeal No. 6389 of 2025",
+    "scr_citation": "[2025] 6 S.C.R. 210",
+    "insc_citation": "2025 INSC 632",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "6"
+      ],
+      "Code of Civil Procedure, 1908": [
+        "Order XII Rule 6"
+      ]
+    },
+    "facts_summary": "Appellant-daughter filed a partition suit under Section 6 of the Hindu Succession Act, 1956 claiming coparcenary share in ancestral family properties. Single Judge of High Court dismissed the partition suit on admissions under Order XII Rule 6 CPC on its own motion without formal application.",
+    "legal_issues": [
+      "Whether a partition suit claiming coparcenary rights under Section 6 HSA can be dismissed suo motu under Order XII Rule 6 CPC without full trial on disputed questions of joint family nucleus and partition."
+    ],
+    "decision_holding": "Appeal dismissed on merits upholding the finding that properties had ceased to be coparcenary assets.",
+    "legal_principles": "Judgment on admissions under Order XII Rule 6 CPC can be exercised where clear and unambiguous admissions demonstrate that properties are not joint family assets capable of partition under Section 6 HSA.",
+    "sub_case_type": "Succession & Partition / Coparcenary & Admissions (s.6 HSA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates partition claims and coparcenary status under Section 6 of the Hindu Succession Act, 1956.",
+    "file_path": "text/2025_INSC_632.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_671",
+    "case_name": "Rajesh Chaddha v. State of Uttar Pradesh",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "13 May 2025",
+    "appeal_number": "Criminal Appeal No(s",
+    "scr_citation": "[2025] 6 S.C.R. 382",
+    "insc_citation": "2025 INSC 671",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Indian Penal Code, 1860": [
+        "498A"
+      ],
+      "Dowry Prohibition Act, 1961": [
+        "4"
+      ],
+      "Hindu Marriage Act, 1955": []
+    },
+    "facts_summary": "Husband was convicted under Section 498A IPC and Section 4 of the Dowry Prohibition Act based on allegations of mental cruelty and dowry demands. High Court upheld conviction in revision.",
+    "legal_issues": [
+      "What constitutes 'cruelty' under Section 498A IPC vis-à-vis ordinary domestic discord and incompatibility.",
+      "Whether vague and uncorroborated allegations of dowry demand justify criminal conviction under Section 498A."
+    ],
+    "decision_holding": "Appeals allowed. Conviction under Section 498A IPC and Section 4 DP Act set aside; appellant acquitted.",
+    "legal_principles": "Cruelty under Section 498A IPC requires conduct of such gravity as is likely to drive the woman to commit suicide or cause grave injury. Normal domestic friction, wear-and-tear of married life, or incompatibility do not attract criminal penal liability under Section 498A.",
+    "sub_case_type": "Matrimonial Criminal / Cruelty under 498A IPC",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Directly interprets the concept of matrimonial cruelty under Section 498A IPC in contrast to ordinary marital discord.",
+    "file_path": "text/2025_INSC_671.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_734",
+    "case_name": "Shaurabh Kumar Tripathi v. Vidhi Rawal",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "19 May 2025",
+    "appeal_number": "Criminal Appeal No. 2688 of 2025",
+    "scr_citation": "[2025] 6 S.C.R. 545",
+    "insc_citation": "2025 INSC 734",
+    "bench": [],
+    "candidate_laws": [
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Protection of Women from Domestic Violence Act, 2005": [
+        "12",
+        "18",
+        "19",
+        "20",
+        "22",
+        "31"
+      ],
+      "Code of Criminal Procedure, 1973": [
+        "482"
+      ],
+      "Bharatiya Nagarik Suraksha Sanhita, 2023": [
+        "528"
+      ]
+    },
+    "facts_summary": "Reference on whether High Courts have inherent jurisdiction under Section 482 CrPC (or Section 528 BNSS) to quash complaints and proceedings initiated under Section 12 of the Protection of Women from Domestic Violence Act, 2005.",
+    "legal_issues": [
+      "Whether proceedings under Section 12 of the PWDVA are civil or quasi-criminal in nature.",
+      "Whether High Courts can invoke inherent powers under Section 482 CrPC to quash Section 12 PWDVA applications to prevent abuse of the process of court."
+    ],
+    "decision_holding": "Appeals allowed. Supreme Court held that High Courts have full inherent jurisdiction under Section 482 CrPC / Section 528 BNSS to quash proceedings under Section 12 PWDVA.",
+    "legal_principles": "Although PWDVA provides civil reliefs, the procedure before the Magistrate is governed by the CrPC and penal consequences arise under Section 31. Therefore, High Courts possess inherent jurisdiction under Section 482 CrPC to quash frivolous or malicious applications under Section 12 PWDVA to prevent abuse of judicial process.",
+    "sub_case_type": "Domestic Violence / Quashing under Section 482 CrPC (s.12 PWDVA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark decision authoritatively resolving the maintainability of Section 482 CrPC quashing petitions against applications under Section 12 of PWDVA.",
+    "file_path": "text/2025_INSC_734.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_739",
+    "case_name": "Smt. Shaifali Gupta v. Smt. Vidya Devi Gupta & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "20 May 2025",
+    "appeal_number": "Special Leave Petition (Civil",
+    "scr_citation": "[2025] 7 S.C.R. 69",
+    "insc_citation": "2025 INSC 739",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [],
+      "Prohibition of Benami Property Transactions Act, 1988": [
+        "2(8)",
+        "2(9)",
+        "4"
+      ],
+      "Code of Civil Procedure, 1908": [
+        "Order VII Rule 11"
+      ]
+    },
+    "facts_summary": "In a family partition suit claiming shares in family properties, an application under Order VII Rule 11 CPC was filed seeking rejection of the plaint on the ground that the suit was barred under Section 4 of the Benami Transactions Act.",
+    "legal_issues": [
+      "Whether a family partition suit can be rejected at the threshold under Order VII Rule 11 CPC on the ground that properties were purchased benami in the name of female family members."
+    ],
+    "decision_holding": "Special Leave Petitions dismissed. Rejection of plaint refused; suit directed to proceed to trial.",
+    "legal_principles": "Whether a property held in the name of a coparcener or female family member is joint family property or barred by the Benami Act is a mixed question of fact and law requiring trial, and cannot be summarily rejected under Order VII Rule 11 CPC.",
+    "sub_case_type": "Succession & Partition / Benami Property Defense",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Deals with rejection of plaint in a family partition suit involving Hindu succession and joint family property claims.",
+    "file_path": "text/2025_INSC_739.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_778",
+    "case_name": "In Re: Right To Privacy of Adolescents",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "23 May 2025",
+    "appeal_number": "Suo Motu Writ Petition (C",
+    "scr_citation": "[2025] 7 S.C.R. 216",
+    "insc_citation": "2025 INSC 778",
+    "bench": [],
+    "candidate_laws": [
+      "Prohibition of Child Marriage Act, 2006"
+    ],
+    "acts_and_sections_invoked": {
+      "Protection of Children from Sexual Offences Act, 2012": [
+        "6"
+      ],
+      "Indian Penal Code, 1860": [
+        "363",
+        "366"
+      ],
+      "Prohibition of Child Marriage Act, 2006": []
+    },
+    "facts_summary": "Follow-up proceedings in In Re: Right to Privacy of Adolescents examining comprehensive policy and sentencing guidelines for cases of adolescent consensual sexual relationships and early marriages under POCSO and PCMA.",
+    "legal_issues": [
+      "Sentencing discretion in POCSO cases involving adolescent consensual relationships.",
+      "Rehabilitation of minor victims and institutional safeguards under child protection and child marriage prevention laws."
+    ],
+    "decision_holding": "Directions issued for victim rehabilitation, adolescent health education, and restorative sentencing approaches.",
+    "legal_principles": "While the statutory mandate of POCSO and PCMA cannot be compromised, criminal sentencing must adopt restorative principles to safeguard the future of adolescents in consensual relationships without traumatizing victims.",
+    "sub_case_type": "Child Marriage & POCSO / Adolescent Protection",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Examines intersection between child marriage prohibition under PCMA, adolescent sexuality, and POCSO sentencing.",
+    "file_path": "text/2025_INSC_778.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_789",
+    "case_name": "Rakhi Sadhukhan v. Raja Sadhukhan",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "29 May 2025",
+    "appeal_number": "Civil Appeal No. 10209 of 2024",
+    "scr_citation": "[2025] 5 S.C.R. 782",
+    "insc_citation": "2025 INSC 789",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955",
+      "Special Marriage Act, 1954"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "25"
+      ],
+      "Special Marriage Act, 1954": []
+    },
+    "facts_summary": "Wife challenged the quantum of permanent alimony fixed by the High Court at Rs. 20,000/- per month (with a 5% increase every three years) upon dissolution of marriage, pointing out husband's undisclosed high business income and luxury assets.",
+    "legal_issues": [
+      "Quantum and enhancement of permanent alimony under Section 25 HMA.",
+      "Duty of full financial disclosure and assessing maintenance based on lifestyle and standard of living."
+    ],
+    "decision_holding": "Appeal allowed. Permanent alimony enhanced to Rs. 50,000/- per month with 5% increase every three years.",
+    "legal_principles": "Under Section 25 HMA, permanent alimony must reflect the husband's real earning capacity and assets. Where income disclosures are suppressed, the court must draw realistic inferences from spending patterns and assets to secure dignity for the wife.",
+    "sub_case_type": "Maintenance & Permanent Alimony Enhancement (s.25 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates permanent alimony enhancement under Section 25 of the Hindu Marriage Act, 1955.",
+    "file_path": "text/2025_INSC_789.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_829",
+    "case_name": "Vibhor Garg v. Neha",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "14 July 2025",
+    "appeal_number": "Civil Appeal No. 9489 of 2025",
+    "scr_citation": "[2025] 7 S.C.R. 611",
+    "insc_citation": "2025 INSC 829",
+    "bench": [],
+    "candidate_laws": [
+      "Family Courts Act, 1984",
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Family Courts Act, 1984": [
+        "14"
+      ],
+      "Indian Evidence Act, 1872": [
+        "122"
+      ],
+      "Hindu Marriage Act, 1955": [
+        "13"
+      ],
+      "Constitution of India": [
+        "21"
+      ]
+    },
+    "facts_summary": "In divorce proceedings under Section 13 HMA, the husband sought to produce secretly recorded telephonic conversations with his wife as evidence to substantiate cruelty. High Court held the recordings admissible under Section 14 of the Family Courts Act.",
+    "legal_issues": [
+      "Whether secretly recorded telephonic conversations between spouses can be admitted into evidence in divorce proceedings before the Family Court.",
+      "Whether admission of secretly recorded spousal conversations violates marital communication privilege under Section 122 Evidence Act and the fundamental right to privacy under Article 21."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside; secretly recorded telephonic conversations held inadmissible in evidence.",
+    "legal_principles": "Section 14 of the Family Courts Act does not permit reception of evidence obtained in flagrant violation of the fundamental right to privacy under Article 21 and privileged spousal communications under Section 122 Evidence Act. Secretly wiretapping a spouse's conversations without consent is an invasion of privacy and cannot be admitted to prove matrimonial cruelty.",
+    "sub_case_type": "Divorce / Spousal Privilege & Wiretapping Evidence (Family Courts Act)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark decision on evidentiary admissibility, privacy, and spousal privilege under the Family Courts Act, 1984 and Section 122 Evidence Act in divorce proceedings.",
+    "file_path": "text/2025_INSC_829.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_852",
+    "case_name": "Pradeep Bhardwaj v. Priya",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "15 July 2025",
+    "appeal_number": "Civil Appeal No. 9502 of 2025",
+    "scr_citation": "[2025] 7 S.C.R. 534",
+    "insc_citation": "2025 INSC 852",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)",
+        "25"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Husband filed for divorce under Section 13(1)(ia) HMA. Spouses lived apart for nearly a decade with intense bitterness and failed conciliations. High Court dismissed the divorce appeal. Husband appealed to the Supreme Court seeking divorce under Article 142.",
+    "legal_issues": [
+      "Whether the Supreme Court should dissolve a dead marriage under Article 142 on the ground of irretrievable breakdown of marriage.",
+      "Provision of enhanced maintenance and permanent alimony for the wife and minor child."
+    ],
+    "decision_holding": "Appeal allowed. Decree of divorce granted under Article 142; child maintenance enhanced to Rs. 15,000/- per month and permanent alimony secured.",
+    "legal_principles": "When emotional ties are shattered beyond redemption and living together is impossible, granting divorce under Article 142 is in the best interest of both parties and their minor child, provided full financial security is awarded.",
+    "sub_case_type": "Divorce / Irretrievable Breakdown & Child Support",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly dissolves marriage and enhances maintenance under HMA and Article 142 on the ground of irretrievable breakdown.",
+    "file_path": "text/2025_INSC_852.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_865",
+    "case_name": "Ram Charan & Ors. v. Sukhram & Ors.",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "17 July 2025",
+    "appeal_number": "Civil Appeal No. 9537 of 2025",
+    "scr_citation": "[2025] 8 S.C.R. 272",
+    "insc_citation": "2025 INSC 865",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Succession Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Succession Act, 1956": [
+        "2(2)"
+      ],
+      "Constitution of India": [
+        "14",
+        "15",
+        "21"
+      ]
+    },
+    "facts_summary": "Legal heirs of a deceased tribal woman filed a suit for declaration of title and equal share in ancestral agricultural property. The claim was resisted on the ground that under Section 2(2) of the Hindu Succession Act, 1956, members of Scheduled Tribes are excluded from the Act, and customary tribal law denies inheritance rights to females.",
+    "legal_issues": [
+      "Whether tribal women and their legal heirs are entitled to equal inheritance in ancestral properties despite the statutory exclusion in Section 2(2) of the Hindu Succession Act, 1956.",
+      "Application of constitutional principles of justice, equity, and good conscience to eliminate gender discrimination in tribal succession."
+    ],
+    "decision_holding": "Appeal allowed. The Supreme Court held that tribal women are entitled to equal shares in ancestral property on principles of justice, equity, and good conscience.",
+    "legal_principles": "Although Section 2(2) HSA excludes Scheduled Tribes from the statutory scheme, customary laws that disentitle women from inheritance solely based on gender violate Articles 14 and 21. Courts must apply the principles of justice, equity, and good conscience to grant equal succession rights to female tribal heirs.",
+    "sub_case_type": "Succession & Inheritance / Tribal Women's Rights (s.2(2) HSA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Landmark judgment interpreting Section 2(2) of the Hindu Succession Act, 1956 and granting equal inheritance rights to tribal women.",
+    "file_path": "text/2025_INSC_865.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_972",
+    "case_name": "Dasari Anil Kumar & Another v. The Child Welfare Project Director & Others",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "12 August 2025",
+    "appeal_number": "Civil Appeal No. 10544 of 2025",
+    "scr_citation": "[2025] 8 S.C.R. 777",
+    "insc_citation": "2025 INSC 972",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Adoptions and Maintenance Act, 1956"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Adoptions and Maintenance Act, 1956": [],
+      "Juvenile Justice (Care and Protection of Children) Act, 2015": [
+        "3",
+        "56",
+        "61"
+      ],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Appellants had taken minor children in informal adoption and nurtured them as their own children for years. Child Welfare authorities intervened to remove the children alleging lack of compliance with CARA / JJ Act adoption formalities, placing them in childcare institutions.",
+    "legal_issues": [
+      "Whether custody of minor children should be retained with de facto adoptive parents who have raised them lovingly, or handed over to state institutions for technical procedural non-compliance.",
+      "Paramountcy of the 'best interest of the child' principle under Section 3 JJ Act and Article 142."
+    ],
+    "decision_holding": "Appeals disposed of. Supreme Court directed custody to be returned to the adoptive parents, exercising Article 142 to regularize the adoption under JJ Act and HAMA principles.",
+    "legal_principles": "Procedural formalities under adoption laws cannot override the paramount principle of the best interest of the child. Uprooting children from adoptive parents with whom strong psychological bonds exist causes irreparable harm.",
+    "sub_case_type": "Adoption & Custody / Best Interest of Child (JJ Act & HAMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates child adoption and custody rights under HAMA, JJ Act, and Article 142.",
+    "file_path": "text/2025_INSC_972.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_978",
+    "case_name": "A. Ranjithkumar v. E. Kavitha",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "14 August 2025",
+    "appeal_number": "Civil Appeal No. 10654 of 2025",
+    "scr_citation": "[2025] 9 S.C.R. 151",
+    "insc_citation": "2025 INSC 978",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13(1)(ia)",
+        "13(1)(ib)"
+      ],
+      "Constitution of India": []
+    },
+    "facts_summary": "Husband filed for divorce on grounds of mental cruelty and desertion under Section 13(1)(ia) and (ib) HMA. The Family Court granted divorce noting false police complaints and deliberate abandonment. High Court reversed the decree.",
+    "legal_issues": [
+      "Whether leveling unfounded, defamatory criminal complaints and refusing cohabitation for over a decade amounts to mental cruelty under Section 13(1)(ia) HMA.",
+      "Correctness of High Court reversing Family Court findings."
+    ],
+    "decision_holding": "Appeal allowed. High Court order set aside; decree of divorce granted by the Family Court restored.",
+    "legal_principles": "Unfounded criminal complaints that cause public humiliation, combined with long years of desertion, constitute grave mental cruelty under Section 13(1)(ia) HMA. An appellate court should not overturn findings of cruelty where matrimonial trust is completely destroyed.",
+    "sub_case_type": "Divorce / Mental Cruelty (s.13(1)(ia) HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Core matrimonial adjudication under Section 13(1)(ia) of the Hindu Marriage Act, 1955 granting divorce for mental cruelty.",
+    "file_path": "text/2025_INSC_978.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_991",
+    "case_name": "Madduri Gangaraju @ Babu Rao v. Madduri Sunanda & Others",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "30 July 2025",
+    "appeal_number": "Criminal Appeal No(s",
+    "scr_citation": "[2025] 7 S.C.R. 2073",
+    "insc_citation": "2025 INSC 991",
+    "bench": [],
+    "candidate_laws": [
+      "Protection of Women from Domestic Violence Act, 2005"
+    ],
+    "acts_and_sections_invoked": {
+      "Code of Criminal Procedure, 1973": [
+        "482"
+      ],
+      "Indian Penal Code, 1860": [
+        "494",
+        "498A"
+      ],
+      "Protection of Women from Domestic Violence Act, 2005": [],
+      "Constitution of India": [
+        "142"
+      ]
+    },
+    "facts_summary": "Subsequent to dissolution of marriage by a decree of divorce that attained finality and an amicable compromise settling all claims, the ex-wife filed fresh criminal proceedings under Sections 494 and 498A IPC and domestic violence claims against her former in-laws.",
+    "legal_issues": [
+      "Whether criminal complaints under Section 498A and bigamy under Section 494 IPC can be maintained by an ex-wife against former in-laws after final decree of divorce and settlement.",
+      "Quashing of post-divorce vexatious criminal and DV proceedings under Section 482 CrPC and Article 142."
+    ],
+    "decision_holding": "Appeals allowed. Criminal proceedings and FIRs against former in-laws quashed under Section 482 CrPC and Article 142.",
+    "legal_principles": "Once marriage is dissolved by a decree of divorce and all matrimonial claims are settled, initiating criminal proceedings under Section 498A IPC or bigamy against former in-laws is a gross abuse of the process of law that must be quashed.",
+    "sub_case_type": "Matrimonial Criminal & DV / Post-Divorce Quashing",
+    "relevance_tier": "RELATED",
+    "relevance_reason": "Quashing of criminal and domestic violence proceedings instituted post-divorce decree, interpreting Section 482 CrPC and Article 142.",
+    "file_path": "text/2025_INSC_991.txt"
+  },
+  {
+    "judgment_id": "2025_INSC_994",
+    "case_name": "M.V. Leelavathi v. Dr. C.R. Swamy @ Dr. C.R. Kumara Swamy",
+    "court": "Supreme Court of India",
+    "year": 2025,
+    "date": "18 August 2025",
+    "appeal_number": "Civil Appeal No(s",
+    "scr_citation": "[2025] 9 S.C.R. 178",
+    "insc_citation": "2025 INSC 994",
+    "bench": [],
+    "candidate_laws": [
+      "Hindu Marriage Act, 1955"
+    ],
+    "acts_and_sections_invoked": {
+      "Hindu Marriage Act, 1955": [
+        "13",
+        "25"
+      ]
+    },
+    "facts_summary": "Family Court granted a decree of divorce to the husband and awarded Rs. 15,00,000/- as permanent alimony to the wife under Section 25 HMA, which was affirmed by the High Court. The wife appealed to the Supreme Court seeking enhancement of permanent alimony pointing to the husband's lucrative medical practice and assets.",
+    "legal_issues": [
+      "Assessment and adequacy of permanent alimony under Section 25 HMA commensurate with husband's high professional status and income as a doctor."
+    ],
+    "decision_holding": "Appeals partly allowed. Decree of divorce affirmed; permanent alimony enhanced from Rs. 15 Lakhs to Rs. 40 Lakhs.",
+    "legal_principles": "Permanent alimony under Section 25 HMA must ensure that the wife is not reduced to penury and can maintain a dignified lifestyle commensurate with the status she enjoyed during marriage. The earning capacity, professional qualifications, and assets of the husband are critical determinants.",
+    "sub_case_type": "Divorce & Permanent Alimony Enhancement (s.25 HMA)",
+    "relevance_tier": "DIRECT",
+    "relevance_reason": "Directly adjudicates permanent alimony assessment and enhancement under Section 25 of the Hindu Marriage Act, 1955.",
+    "file_path": "text/2025_INSC_994.txt"
+  }
+]
