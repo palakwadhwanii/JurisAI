@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { getApiUrl } from '../api/config';
 import HumanReadableLegalCard from './HumanReadableLegalCard';
 import CaseChat from './CaseChat';
-import ObservabilityModal from './ObservabilityModal';
-import LiveGrafanaDashboard from './LiveGrafanaDashboard';
 import { 
   FileText, 
   BookOpen, 
@@ -72,9 +70,6 @@ export default function WorkspaceMainContent({
   const { case_state, agent_outputs, outcome, final_judgment, audit_history, elapsed_seconds, total_iterations } = analysisData;
   const latestAudit = audit_history && audit_history.length > 0 ? audit_history[audit_history.length - 1] : null;
   const isAntiHallucinationPause = outcome === 'INSUFFICIENT_INFORMATION' || outcome === 'OUT_OF_SCOPE' || case_state?.is_valid_case === false;
-
-  const [observabilityModalOpen, setObservabilityModalOpen] = useState(false);
-  const [observabilityModalTab, setObservabilityModalTab] = useState('metrics');
 
   return (
     <main className="workspace-main">
@@ -960,61 +955,12 @@ export default function WorkspaceMainContent({
             <span className="badge-pill badge-gold" style={{ marginBottom: '0.4rem' }}>
               OBSERVABILITY & REASONING TRANSPARENCY
             </span>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
-              <div>
-                <h2 style={{ fontSize: '2rem', marginTop: '0.3rem', marginBottom: '0.4rem', fontWeight: 700 }}>
-                  Observability & Trace Pipeline
-                </h2>
-                <p style={{ fontSize: '15px', color: 'var(--ink-secondary)', maxWidth: '750px', margin: 0 }}>
-                  Real-time agent execution telemetry, RAG vector retrieval latency, Prometheus metrics scraping, and live Grafana dashboards verifying legal reasoning integrity.
-                </p>
-              </div>
-
-              {/* Quick Actions */}
-              <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-                {import.meta.env.VITE_GRAFANA_URL ? (
-                  <a
-                    href={import.meta.env.VITE_GRAFANA_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn-legal-gold"
-                    style={{ textDecoration: 'none', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                  >
-                    <BarChart3 size={14} /> Open Grafana Dashboard <ExternalLink size={12} />
-                  </a>
-                ) : (
-                  <button
-                    onClick={() => {
-                      setObservabilityModalTab('metrics');
-                      setObservabilityModalOpen(true);
-                    }}
-                    className="btn-legal-gold"
-                    style={{ border: 'none', cursor: 'pointer', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                  >
-                    <BarChart3 size={14} /> Live Observability Dashboard <ExternalLink size={12} />
-                  </button>
-                )}
-                <a
-                  href={getApiUrl('/metrics')}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn-legal-secondary"
-                  style={{ textDecoration: 'none', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                >
-                  <Server size={14} /> Raw Metrics (/metrics) <ExternalLink size={12} />
-                </a>
-                <button
-                  onClick={() => {
-                    setObservabilityModalTab('prometheus');
-                    setObservabilityModalOpen(true);
-                  }}
-                  className="btn-legal-secondary"
-                  style={{ border: 'none', cursor: 'pointer', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                >
-                  <Activity size={14} /> Prometheus Targets <ExternalLink size={12} />
-                </button>
-              </div>
-            </div>
+            <h2 style={{ fontSize: '2rem', marginTop: '0.3rem', marginBottom: '0.4rem', fontWeight: 700 }}>
+              Observability & Trace Pipeline
+            </h2>
+            <p style={{ fontSize: '15px', color: 'var(--ink-secondary)', maxWidth: '750px', margin: 0 }}>
+              Real-time agent execution telemetry, RAG vector retrieval latency, and verified legal reasoning integrity across the multi-agent orchestration pipeline.
+            </p>
           </div>
 
           {/* 4 Summary Telemetry Cards */}
@@ -1184,80 +1130,6 @@ export default function WorkspaceMainContent({
               </div>
             </div>
           </div>
-
-          {/* Live Embedded Grafana Dashboard Card */}
-          <div className="legal-card" style={{ marginBottom: '2rem' }}>
-            {(() => {
-              const grafanaUrl = import.meta.env.VITE_GRAFANA_URL || (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') ? 'http://localhost:3000/d/jurisai-observability-dashboard?orgId=1&kiosk=tv' : null);
-
-              return (
-                <>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-                    <div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                        <BarChart3 size={20} color="var(--court-navy)" />
-                        <h3 style={{ fontSize: '1.25rem', color: 'var(--court-navy)', fontWeight: 700, margin: 0 }}>
-                          Live Observability & Telemetry Stream
-                        </h3>
-                        <span className="badge-pill badge-pass" style={{ fontSize: '11px' }}>
-                          PROMETHEUS LIVE
-                        </span>
-                      </div>
-                      <p style={{ fontSize: '13px', color: 'var(--ink-muted)', margin: '4px 0 0 0' }}>
-                        Real-time visualization of multi-agent execution telemetry: API request rates, p95 agent latencies, RAG vector retrieval speed, and audit pass rates.
-                      </p>
-                    </div>
-
-                    <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', flexWrap: 'wrap' }}>
-                      <button
-                        onClick={() => {
-                          setObservabilityModalTab('metrics');
-                          setObservabilityModalOpen(true);
-                        }}
-                        className="btn-legal-gold"
-                        style={{ border: 'none', cursor: 'pointer', fontSize: '12px', padding: '0.45rem 0.75rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                      >
-                        <Activity size={14} /> Observability Center
-                      </button>
-                      <a
-                        href={grafanaUrl || getApiUrl('/metrics')}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="btn-legal-secondary"
-                        style={{ textDecoration: 'none', fontSize: '12px', padding: '0.45rem 0.75rem', display: 'flex', alignItems: 'center', gap: '5px' }}
-                      >
-                        {grafanaUrl ? 'Open Grafana (Port 3000)' : 'Inspect Raw Metrics'} <ExternalLink size={12} />
-                      </a>
-                    </div>
-                  </div>
-
-                  {grafanaUrl ? (
-                    <div style={{
-                      borderRadius: '8px',
-                      overflow: 'hidden',
-                      border: '1.5px solid var(--court-parchment-border)',
-                      backgroundColor: '#FAFAFA',
-                      boxShadow: 'inset 0 1px 3px rgba(0,0,0,0.05)'
-                    }}>
-                      <iframe
-                        src={grafanaUrl}
-                        title="JurisAI Observability Dashboard"
-                        width="100%"
-                        height="650"
-                        style={{
-                          border: 'none',
-                          display: 'block',
-                          backgroundColor: '#FFFFFF'
-                        }}
-                      />
-                    </div>
-                  ) : (
-                    <LiveGrafanaDashboard analysisData={analysisData} />
-                  )}
-                </>
-              );
-            })()}
-          </div>
         </section>
       )}
 
@@ -1279,13 +1151,6 @@ export default function WorkspaceMainContent({
           <CaseChat analysisData={analysisData} />
         </section>
       )}
-
-      <ObservabilityModal
-        isOpen={observabilityModalOpen}
-        initialTab={observabilityModalTab}
-        onClose={() => setObservabilityModalOpen(false)}
-        analysisData={analysisData}
-      />
     </main>
   );
 }
