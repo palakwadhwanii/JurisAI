@@ -24,6 +24,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code and metadata
 COPY backend/ ./backend/
 COPY observability/ ./observability/
+COPY chunks/ ./chunks/
+COPY build_vector_db.py .
 COPY legal_rag_pipeline.py .
 COPY multi_agent_workflow.py .
 COPY vector_query_service.py .
@@ -34,8 +36,9 @@ COPY judgment_metadata.json .
 COPY judgment_base_metadata.json .
 COPY judgment_enriched_metadata.json .
 
-# Create persistent storage directories
-RUN mkdir -p /app/chroma_db /app/logs /app/data
+# Create persistent storage directories and build vector index
+RUN mkdir -p /app/chroma_db /app/logs /app/data && \
+    python build_vector_db.py
 
 # Default environment variables
 ENV HOST=0.0.0.0 \
@@ -50,5 +53,5 @@ EXPOSE 8000
 HEALTHCHECK --interval=20s --timeout=5s --start-period=15s --retries=3 \
     CMD curl -f http://localhost:8000/metrics || exit 1
 
-# Launch FastAPI with uvicorn
-CMD ["python", "-m", "uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Launch FastAPI with uvicorn (using shell interpolation for dynamic Render $PORT)
+CMD ["sh", "-c", "python -m uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

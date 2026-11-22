@@ -11,6 +11,7 @@ import {
   RefreshCw,
   FileText
 } from 'lucide-react';
+import { apiFetch } from '../api/config';
 
 export default function SearchHistoryModal({ 
   isOpen, 
@@ -29,16 +30,9 @@ export default function SearchHistoryModal({
     setLoading(true);
     setError(null);
     try {
-      let res;
-      try {
-        res = await fetch('/api/history', {
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      } catch (err) {
-        res = await fetch('http://127.0.0.1:8000/api/history', {
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      }
+      const res = await apiFetch('/api/history', {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
 
       if (!res.ok) {
         throw new Error('Failed to load search history.');
@@ -63,16 +57,9 @@ export default function SearchHistoryModal({
   const handleRestoreCase = async (historyId) => {
     setRestoringId(historyId);
     try {
-      let res;
-      try {
-        res = await fetch(`/api/history/${historyId}`, {
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      } catch (err) {
-        res = await fetch(`http://127.0.0.1:8000/api/history/${historyId}`, {
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      }
+      const res = await apiFetch(`/api/history/${historyId}`, {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
 
       if (!res.ok) throw new Error('Could not load past analysis data.');
       const data = await res.json();
@@ -92,18 +79,10 @@ export default function SearchHistoryModal({
   const handleDeleteItem = async (historyId, e) => {
     e.stopPropagation();
     try {
-      let res;
-      try {
-        res = await fetch(`/api/history/${historyId}`, {
-          method: 'DELETE',
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      } catch (err) {
-        res = await fetch(`http://127.0.0.1:8000/api/history/${historyId}`, {
-          method: 'DELETE',
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      }
+      const res = await apiFetch(`/api/history/${historyId}`, {
+        method: 'DELETE',
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
       if (res.ok) {
         setHistoryItems((prev) => prev.filter((item) => item.id !== historyId));
       }
@@ -115,18 +94,10 @@ export default function SearchHistoryModal({
   const handleClearAll = async () => {
     if (!window.confirm('Are you sure you want to clear your entire search and case history?')) return;
     try {
-      let res;
-      try {
-        res = await fetch('/api/history', {
-          method: 'DELETE',
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      } catch (err) {
-        res = await fetch('http://127.0.0.1:8000/api/history', {
-          method: 'DELETE',
-          headers: { 'Authorization': `Bearer ${token}` }
-        });
-      }
+      const res = await apiFetch('/api/history', {
+        method: 'DELETE',
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
       if (res.ok) {
         setHistoryItems([]);
       }

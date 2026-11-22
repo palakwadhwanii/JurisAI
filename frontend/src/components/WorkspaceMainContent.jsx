@@ -1,4 +1,5 @@
 import React from 'react';
+import { getApiUrl } from '../api/config';
 import HumanReadableLegalCard from './HumanReadableLegalCard';
 import CaseChat from './CaseChat';
 import { 
@@ -976,7 +977,7 @@ export default function WorkspaceMainContent({
                   <BarChart3 size={14} /> Open Grafana Dashboard (Port 3000) <ExternalLink size={12} />
                 </a>
                 <a
-                  href="http://127.0.0.1:8000/metrics"
+                  href={getApiUrl('/metrics')}
                   target="_blank"
                   rel="noreferrer"
                   className="btn-legal-secondary"

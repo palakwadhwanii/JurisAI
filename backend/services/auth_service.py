@@ -1,3 +1,4 @@
+import os
 import sqlite3
 import hashlib
 import secrets
@@ -6,7 +7,8 @@ from datetime import datetime, timezone, timedelta
 from typing import Optional, Dict, Any, List
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-DB_PATH = Path(BASE_DIR) / "data" / "jurisai_auth.db"
+AUTH_DB_PATH = os.getenv("AUTH_DB_PATH")
+DB_PATH = Path(AUTH_DB_PATH) if AUTH_DB_PATH else Path(BASE_DIR) / "data" / "jurisai_auth.db"
 
 class AuthService:
     """

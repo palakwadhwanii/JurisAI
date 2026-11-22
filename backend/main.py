@@ -58,14 +58,26 @@ def metrics_endpoint():
     """Prometheus metrics scrape endpoint."""
     return Response(content=get_prometheus_metrics(), media_type=CONTENT_TYPE_LATEST)
 
-# Enable CORS for local dev
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Enable CORS with dynamic origin support (allows Vercel frontend, local dev, or custom domains)
+cors_origins_env = os.getenv("CORS_ORIGINS", "")
+if cors_origins_env and cors_origins_env.strip() != "*":
+    cors_origins = [orig.strip() for orig in cors_origins_env.split(",") if orig.strip()]
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=cors_origins,
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+else:
+    # Match all HTTP/HTTPS origins so Vercel deployments & preview URLs work seamlessly
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origin_regex=r"^https?://.*",
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 # Include analysis and auth API routes
 app.include_router(analysis_router)

@@ -11,10 +11,30 @@ CHROMA_PERSIST_DIR = Path(os.getenv("CHROMA_PERSIST_DIR", str(BASE_DIR / "chroma
 class LegalVectorStore:
     def __init__(self, persist_dir: Path = CHROMA_PERSIST_DIR, model_name: str = "BAAI/bge-small-en-v1.5"):
         self.persist_dir = persist_dir
+        self.persist_dir.mkdir(parents=True, exist_ok=True)
         self.client = chromadb.PersistentClient(path=str(persist_dir))
-        self.master_col = self.client.get_collection("legal_corpus")
-        self.statute_col = self.client.get_collection("statute_sections")
-        self.precedent_col = self.client.get_collection("precedent_chunks")
+        try:
+            self.master_col = self.client.get_collection("legal_corpus")
+            self.statute_col = self.client.get_collection("statute_sections")
+            self.precedent_col = self.client.get_collection("precedent_chunks")
+        except Exception:
+            # Auto-build vector store if collections do not exist and chunks are present
+            chunks_path = BASE_DIR / "chunks" / "all_legal_chunks.json"
+            if chunks_path.exists():
+                try:
+                    import build_vector_db
+                    build_vector_db.main()
+                    self.master_col = self.client.get_collection("legal_corpus")
+                    self.statute_col = self.client.get_collection("statute_sections")
+                    self.precedent_col = self.client.get_collection("precedent_chunks")
+                except Exception:
+                    self.master_col = self.client.get_or_create_collection("legal_corpus")
+                    self.statute_col = self.client.get_or_create_collection("statute_sections")
+                    self.precedent_col = self.client.get_or_create_collection("precedent_chunks")
+            else:
+                self.master_col = self.client.get_or_create_collection("legal_corpus")
+                self.statute_col = self.client.get_or_create_collection("statute_sections")
+                self.precedent_col = self.client.get_or_create_collection("precedent_chunks")
         self.embed_model = TextEmbedding(model_name=model_name)
 
     def _get_embedding(self, query: str) -> List[float]:
@@ -23,11 +43,15 @@ class LegalVectorStore:
     def search_master(self, query: str, top_k: int = 5, where: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
         """Dense semantic search across the entire 916-chunk corpus."""
         t_start = time.perf_counter()
+        count = self.master_col.count()
+        if count == 0:
+            return []
+        effective_k = min(top_k, count)
         try:
             q_embed = self._get_embedding(query)
             results = self.master_col.query(
                 query_embeddings=[q_embed],
-                n_results=top_k,
+                n_results=effective_k,
                 where=where
             )
             formatted = self._format_results(results)
@@ -60,11 +84,15 @@ class LegalVectorStore:
     def search_statutes(self, query: str, top_k: int = 5, where: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
         """Dense search focused strictly on statutory law (Law & Constraint Hunter Agents)."""
         t_start = time.perf_counter()
+        count = self.statute_col.count()
+        if count == 0:
+            return []
+        effective_k = min(top_k, count)
         try:
             q_embed = self._get_embedding(query)
             results = self.statute_col.query(
                 query_embeddings=[q_embed],
-                n_results=top_k,
+                n_results=effective_k,
                 where=where
             )
             formatted = self._format_results(results)
@@ -97,6 +125,10 @@ class LegalVectorStore:
     def search_precedents(self, query: str, top_k: int = 5, chunk_type: Optional[str] = None, where: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
         """Dense search focused strictly on judicial precedents (Precedent, Opposition, Evidence, Judge Agents)."""
         t_start = time.perf_counter()
+        count = self.precedent_col.count()
+        if count == 0:
+            return []
+        effective_k = min(top_k, count)
         try:
             q_embed = self._get_embedding(query)
             filter_dict = where or {}
@@ -105,7 +137,7 @@ class LegalVectorStore:
                 
             results = self.precedent_col.query(
                 query_embeddings=[q_embed],
-                n_results=top_k,
+                n_results=effective_k,
                 where=filter_dict if filter_dict else None
             )
             formatted = self._format_results(results)

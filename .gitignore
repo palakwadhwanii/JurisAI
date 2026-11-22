@@ -32,8 +32,11 @@ monitoring/grafana/logs/
 # Generated vector database
 chroma_db/
 
-# Generated chunks
-chunks/
+# Chunk data (keep essential legal chunks for remote builds and indexing)
+chunks/*.tmp
+!chunks/all_legal_chunks.json
+!chunks/judgment_chunks.json
+!chunks/statute_chunks.json
 
 # Temporary files
 tmp/

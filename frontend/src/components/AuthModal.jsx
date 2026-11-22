@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X, Lock, Mail, User, Shield, AlertCircle, ArrowRight, CheckCircle } from 'lucide-react';
+import { apiFetch } from '../api/config';
 
 export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
   const [mode, setMode] = useState('login'); // 'login' | 'register'
@@ -23,21 +24,11 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
       : { username, email, password, full_name: fullName || username };
 
     try {
-      let res;
-      try {
-        res = await fetch(endpoint, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-      } catch (err) {
-        // Fallback direct URL if reverse proxy unavailable
-        res = await fetch(`http://127.0.0.1:8000${endpoint}`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-      }
+      const res = await apiFetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
 
       const data = await res.json();
       if (!res.ok) {

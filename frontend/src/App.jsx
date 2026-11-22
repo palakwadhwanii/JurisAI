@@ -8,6 +8,7 @@ import WorkspaceMainContent from './components/WorkspaceMainContent';
 import PdfReportTemplate from './components/PdfReportTemplate';
 import AuthModal from './components/AuthModal';
 import SearchHistoryModal from './components/SearchHistoryModal';
+import { apiFetch } from './api/config';
 
 export default function App() {
   const [viewMode, setViewMode] = useState('landing'); // 'landing' | 'workspace'
@@ -42,16 +43,9 @@ export default function App() {
     const verifyToken = async () => {
       if (!authToken) return;
       try {
-        let res;
-        try {
-          res = await fetch('/api/auth/me', {
-            headers: { 'Authorization': `Bearer ${authToken}` }
-          });
-        } catch {
-          res = await fetch('http://127.0.0.1:8000/api/auth/me', {
-            headers: { 'Authorization': `Bearer ${authToken}` }
-          });
-        }
+        const res = await apiFetch('/api/auth/me', {
+          headers: { 'Authorization': `Bearer ${authToken}` }
+        });
 
         if (res.ok) {
           const user = await res.json();
@@ -78,7 +72,7 @@ export default function App() {
   const handleSignOut = async () => {
     if (authToken) {
       try {
-        await fetch('/api/auth/logout', {
+        await apiFetch('/api/auth/logout', {
           method: 'POST',
           headers: { 'Authorization': `Bearer ${authToken}` }
         }).catch(() => {});
@@ -130,22 +124,11 @@ export default function App() {
     };
 
     try {
-      let res;
-      try {
-        // First try relative /api/analyze (works with Vite proxy or production mount)
-        res = await fetch('/api/analyze', {
-          method: 'POST',
-          headers,
-          body: JSON.stringify(payload)
-        });
-      } catch (proxyErr) {
-        console.warn('Relative fetch failed, attempting direct 127.0.0.1:8000:', proxyErr);
-        res = await fetch('http://127.0.0.1:8000/api/analyze', {
-          method: 'POST',
-          headers,
-          body: JSON.stringify(payload)
-        });
-      }
+      const res = await apiFetch('/api/analyze', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify(payload)
+      });
 
       if (!res.ok) {
         const errorData = await res.json().catch(() => ({}));
@@ -160,7 +143,7 @@ export default function App() {
       setActiveSection('overview');
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (err) {
-      setErrorMessage(`Analysis failed: ${err.message}. Please verify the backend server on port 8000.`);
+      setErrorMessage(`Analysis failed: ${err.message}. Please verify the backend service.`);
     } finally {
       setLoading(false);
     }

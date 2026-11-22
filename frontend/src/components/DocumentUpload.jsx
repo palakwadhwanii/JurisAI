@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { getApiUrl } from '../api/config';
 
 export default function DocumentUpload({ onDocumentExtracted, uploadedDocs }) {
   const [uploading, setUploading] = useState(false);
@@ -16,7 +17,7 @@ export default function DocumentUpload({ onDocumentExtracted, uploadedDocs }) {
     formData.append('file', file);
 
     try {
-      const res = await fetch('http://127.0.0.1:8000/api/upload-document', {
+      const res = await fetch(getApiUrl('/api/upload-document'), {
         method: 'POST',
         body: formData
       });
