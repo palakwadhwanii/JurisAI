@@ -3,6 +3,7 @@ import { getApiUrl } from '../api/config';
 import HumanReadableLegalCard from './HumanReadableLegalCard';
 import CaseChat from './CaseChat';
 import ObservabilityModal from './ObservabilityModal';
+import LiveGrafanaDashboard from './LiveGrafanaDashboard';
 import { 
   FileText, 
   BookOpen, 
@@ -984,13 +985,13 @@ export default function WorkspaceMainContent({
                 ) : (
                   <button
                     onClick={() => {
-                      setObservabilityModalTab('grafana');
+                      setObservabilityModalTab('metrics');
                       setObservabilityModalOpen(true);
                     }}
                     className="btn-legal-gold"
                     style={{ border: 'none', cursor: 'pointer', fontSize: '12.5px', padding: '0.5rem 0.85rem', display: 'flex', alignItems: 'center', gap: '5px' }}
                   >
-                    <BarChart3 size={14} /> Open Grafana Dashboard (Port 3000) <ExternalLink size={12} />
+                    <BarChart3 size={14} /> Live Observability Dashboard <ExternalLink size={12} />
                   </button>
                 )}
                 <a
@@ -1251,68 +1252,8 @@ export default function WorkspaceMainContent({
                       />
                     </div>
                   ) : (
-                    <div style={{
-                      borderRadius: '8px',
-                      padding: '1.5rem',
-                      border: '1.5px solid var(--court-parchment-border)',
-                      backgroundColor: 'var(--court-parchment-subtle)'
-                    }}>
-                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
-                        <div>
-                          <span style={{ fontWeight: 700, color: 'var(--court-navy)', fontSize: '14px' }}>
-                            ⚡ Cloud Telemetry Active: Prometheus Scrape Stream
-                          </span>
-                          <p style={{ fontSize: '12.5px', color: 'var(--ink-muted)', margin: '2px 0 0 0' }}>
-                            The FastAPI backend is actively capturing request rates, agent execution latencies, and RAG retrieval traces.
-                          </p>
-                        </div>
-                        <a
-                          href={getApiUrl('/metrics')}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="btn-legal-primary"
-                          style={{ textDecoration: 'none', fontSize: '12px', padding: '0.4rem 0.8rem', display: 'flex', alignItems: 'center', gap: '4px' }}
-                        >
-                          View Live /metrics Output <ExternalLink size={12} />
-                        </a>
-                      </div>
-                      <div style={{
-                        background: '#0F172A',
-                        color: '#38BDF8',
-                        padding: '1rem 1.25rem',
-                        borderRadius: '6px',
-                        fontFamily: 'monospace',
-                        fontSize: '12px',
-                        lineHeight: 1.6,
-                        overflowX: 'auto'
-                      }}>
-                        <div># HELP api_requests_total Total HTTP API requests by endpoint and status</div>
-                        <div>api_requests_total&#123;endpoint="/api/analyze",method="POST",status_code="200"&#125; 1</div>
-                        <div># HELP rag_retrieval_duration_seconds Latency of dense ChromaDB retrieval</div>
-                        <div>rag_retrieval_duration_seconds_bucket&#123;collection="legal_corpus",le="0.05"&#125; 1</div>
-                        <div># HELP agent_execution_duration_seconds Execution duration of 8 reasoning agents</div>
-                        <div>agent_execution_duration_seconds&#123;agent_name="CaseManagerAgent"&#125; 0.042</div>
-                      </div>
-                    </div>
+                    <LiveGrafanaDashboard analysisData={analysisData} />
                   )}
-
-                  <div style={{
-                    marginTop: '0.75rem',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    fontSize: '11.5px',
-                    color: 'var(--ink-muted)',
-                    flexWrap: 'wrap',
-                    gap: '0.5rem'
-                  }}>
-                    <div>
-                      Scrape Target: <strong>{getApiUrl('/metrics')}</strong> | Auto-exporting to Prometheus
-                    </div>
-                    <div>
-                      For full Grafana UI locally: run <code>docker compose up grafana prometheus</code>
-                    </div>
-                  </div>
                 </>
               );
             })()}
