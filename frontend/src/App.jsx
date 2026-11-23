@@ -143,6 +143,26 @@ export default function App() {
       const data = await res.json();
       setAnalysisData(data);
       
+      // Persist to local storage history as bulletproof client-side cache
+      try {
+        const localHistory = JSON.parse(localStorage.getItem('jurisai_local_history') || '[]');
+        const summaryText = textToAnalyze.slice(0, 140) + (textToAnalyze.length > 140 ? '...' : '');
+        const newEntry = {
+          id: Date.now(),
+          analysis_id: data.analysis_id || `analysis-${Date.now()}`,
+          query_text: textToAnalyze,
+          case_type: data.case_state?.case_type || 'Legal Case Analysis',
+          outcome: data.outcome || 'PASS',
+          summary: summaryText,
+          created_at: new Date().toISOString(),
+          analysis_data: data
+        };
+        const updatedHistory = [newEntry, ...localHistory.filter(h => h.analysis_id !== newEntry.analysis_id)].slice(0, 50);
+        localStorage.setItem('jurisai_local_history', JSON.stringify(updatedHistory));
+      } catch (e) {
+        console.warn('Could not cache analysis to localStorage:', e);
+      }
+
       // Transition within the same page into the Case Analysis Workspace
       setViewMode('workspace');
       setActiveSection('overview');

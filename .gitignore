@@ -50,6 +50,7 @@ temp/
 *.sqlite
 *.sqlite3
 !chroma_db/chroma.sqlite3
+!data/jurisai_auth.db
 
 # Large datasets
 raw/

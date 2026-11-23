@@ -26,28 +26,51 @@ export default function SearchHistoryModal({
   const [restoringId, setRestoringId] = useState(null);
 
   const fetchHistory = async () => {
-    if (!token) return;
     setLoading(true);
     setError(null);
+    let localItems = [];
     try {
-      const res = await apiFetch('/api/history', {
-        headers: { 'Authorization': `Bearer ${token}` }
-      });
+      localItems = JSON.parse(localStorage.getItem('jurisai_local_history') || '[]');
+    } catch (e) {}
 
-      if (!res.ok) {
-        throw new Error('Failed to load search history.');
+    try {
+      if (token) {
+        const res = await apiFetch('/api/history', {
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
+
+        if (res.ok) {
+          const serverData = await res.json();
+          if (serverData && serverData.length > 0) {
+            // Merge server and local history uniquely by query_text or analysis_id
+            const map = new Map();
+            serverData.forEach(item => map.set(item.analysis_id || item.id, item));
+            localItems.forEach(item => {
+              if (!map.has(item.analysis_id || item.id)) {
+                map.set(item.analysis_id || item.id, item);
+              }
+            });
+            const merged = Array.from(map.values());
+            setHistoryItems(merged);
+            return;
+          }
+        }
       }
-      const data = await res.json();
-      setHistoryItems(data);
+      // If server returns empty or user is not authenticated, show local history
+      setHistoryItems(localItems);
     } catch (err) {
-      setError(err.message);
+      if (localItems.length > 0) {
+        setHistoryItems(localItems);
+      } else {
+        setError(err.message);
+      }
     } finally {
       setLoading(false);
     }
   };
 
   useEffect(() => {
-    if (isOpen && token) {
+    if (isOpen) {
       fetchHistory();
     }
   }, [isOpen, token]);
@@ -57,8 +80,20 @@ export default function SearchHistoryModal({
   const handleRestoreCase = async (historyId) => {
     setRestoringId(historyId);
     try {
+      // 1. Check client-side local cache first for instant restoration
+      try {
+        const localHistory = JSON.parse(localStorage.getItem('jurisai_local_history') || '[]');
+        const localMatch = localHistory.find(h => h.id === historyId || h.analysis_id === historyId);
+        if (localMatch && localMatch.analysis_data) {
+          onSelectCase(localMatch.analysis_data);
+          onClose();
+          return;
+        }
+      } catch (e) {}
+
+      // 2. Otherwise fetch full analysis from server
       const res = await apiFetch(`/api/history/${historyId}`, {
-        headers: { 'Authorization': `Bearer ${token}` }
+        headers: { ...(token ? { 'Authorization': `Bearer ${token}` } : {}) }
       });
 
       if (!res.ok) throw new Error('Could not load past analysis data.');
@@ -79,13 +114,20 @@ export default function SearchHistoryModal({
   const handleDeleteItem = async (historyId, e) => {
     e.stopPropagation();
     try {
-      const res = await apiFetch(`/api/history/${historyId}`, {
-        method: 'DELETE',
-        headers: { 'Authorization': `Bearer ${token}` }
-      });
-      if (res.ok) {
-        setHistoryItems((prev) => prev.filter((item) => item.id !== historyId));
+      // Remove from local cache
+      try {
+        const localHistory = JSON.parse(localStorage.getItem('jurisai_local_history') || '[]');
+        const updated = localHistory.filter(item => item.id !== historyId && item.analysis_id !== historyId);
+        localStorage.setItem('jurisai_local_history', JSON.stringify(updated));
+      } catch (e) {}
+
+      if (token) {
+        await apiFetch(`/api/history/${historyId}`, {
+          method: 'DELETE',
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
       }
+      setHistoryItems((prev) => prev.filter((item) => item.id !== historyId && item.analysis_id !== historyId));
     } catch (err) {
       console.error('Delete error:', err);
     }
@@ -94,13 +136,17 @@ export default function SearchHistoryModal({
   const handleClearAll = async () => {
     if (!window.confirm('Are you sure you want to clear your entire search and case history?')) return;
     try {
-      const res = await apiFetch('/api/history', {
-        method: 'DELETE',
-        headers: { 'Authorization': `Bearer ${token}` }
-      });
-      if (res.ok) {
-        setHistoryItems([]);
+      try {
+        localStorage.removeItem('jurisai_local_history');
+      } catch (e) {}
+
+      if (token) {
+        await apiFetch('/api/history', {
+          method: 'DELETE',
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
       }
+      setHistoryItems([]);
     } catch (err) {
       console.error('Clear error:', err);
     }
